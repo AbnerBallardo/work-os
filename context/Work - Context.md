@@ -1,6 +1,6 @@
 # Work - Context
 
-Version: v1.2
+Version: v1.4
 
 Context owner: Abner Ballardo. This file should be read as context about Abner Ballardo, his decisions, constraints, operating environment, and personal operating system. Any third-party people, organizations, or systems are included only insofar as they shape Abner Ballardo's context.
 
@@ -50,6 +50,7 @@ Covers:
 ### Role Reality
 
 * Formal title remains Acting VP Technology / CIO, but everyday operating scope is the actual VP Technology role.
+* Luis Alfredo is SVP Technology and Transformation for International Banking, sometimes referred to as CIO IB, and also acts as Mexico CIO.
 * Luis Alfredo has stated that he is not looking for another VP Technology; the intended path is for Abner to become the formal Peru CIO after enough visible wins.
 * Sebastian Arcuri behaves as if Abner is the real VP Technology, not as if the organization is waiting for another CIO.
 * The Acting qualifier is not actively emphasized in normal forums, email, or communication.
@@ -99,6 +100,12 @@ Covers:
 * High pressure for visible results
 * Focus on optics and speed
 * Lower tolerance for technical complexity explanations
+* As of June 25, 2026, expected to combine Peru CEO accountability with broader retail accountability across Mexico, the Caribbean, Chile, Peru, Uruguay, and Brazil
+
+**Implication:**
+
+* Local Peru technology transformation may become a reference case for regional retail execution if progress is made visible, business-readable, and tied to reduced complexity.
+* Sebastian's expanded remit increases his exposure to technical debt, architectural constraints, and operating-model weaknesses across markets, not only Peru.
 
 ---
 
@@ -254,7 +261,9 @@ Goal:
 ### 9. Infrastructure Dependency Constraints
 
 * Infrastructure is highly dependent on GTEP, an internal Scotiabank infrastructure company.
+* Giovanni Zamalloa is the head of GTEP in Peru and previously served as Director of Infrastructure.
 * GTEP service quality is poor and creates complaints across multiple countries.
+* GTEP execution issues create delivery drag and can translate into avoidable financial loss.
 * Delivery and Engineering currently carry people who mainly manage the GTEP relationship instead of owning infrastructure capability.
 
 #### Implications

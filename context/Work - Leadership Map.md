@@ -1,6 +1,6 @@
 # Work - Leadership Map
 
-Version: v1.1
+Version: v1.2
 
 Context owner: Abner Ballardo. This file should be read as context about Abner Ballardo, his decisions, constraints, operating environment, and personal operating system. Any third-party people, organizations, or systems are included only insofar as they shape Abner Ballardo's context.
 
@@ -130,7 +130,7 @@ Victor is a reliable operational SRE lead. He should be developed from strong in
 
 ### Architecture
 
-**Lead:** Alfredo Reguis
+**Lead:** Alfredo Regis
 
 **Reporting model:**
 
@@ -201,15 +201,22 @@ Data needs to move earlier into the delivery lifecycle and become a proactive ca
 
 **Current model:** Dependent on GTEP
 
+**Key stakeholder:** Giovanni Zamalloa
+
 **Context:**
 
 * GTEP is an internal Scotiabank company responsible for infrastructure services.
+* Giovanni Zamalloa is the head of GTEP in Peru.
+* Giovanni previously served as Director of Infrastructure.
 * Infrastructure service quality is poor.
 * Many countries have complaints about GTEP service quality.
 * Some people currently located in Delivery and Engineering are mainly managing the GTEP relationship rather than owning infrastructure capability.
 
 **Risks / Sensitivities:**
 
+* GTEP execution is not meeting expectations and creates material execution drag.
+* Execution problems can translate into direct financial leakage or avoidable cost.
+* Giovanni's leadership style is presentation-oriented and must be managed through concrete evidence, ownership, and measurable service outcomes.
 * Infrastructure accountability is diluted when local teams only manage the GTEP relationship.
 * Poor service quality creates execution drag across Delivery and Engineering.
 * Relationship management roles can hide the absence of local infrastructure leadership.

@@ -1,6 +1,6 @@
 # AB-Executive Drafter - Recipient Playbook
 
-Version: v1.2
+Version: v1.3
 Owner: VP Technology / Acting CIO
 Status: Active recipient guidance
 Applies To: AB-Executive Drafter recipient-specific drafting
@@ -73,6 +73,11 @@ If the message needs more detail, recommend an attachment, pre-read, or follow-u
 
 Use Luis Alfredo messages to align on strategic direction, structural change, transformation sequencing, sponsor support,
 or regional / International Banking dependencies.
+
+### Role Context
+
+Luis Alfredo is SVP Technology and Transformation for International Banking, sometimes referred to as CIO IB, and also
+acts as Mexico CIO.
 
 ### Best For
 

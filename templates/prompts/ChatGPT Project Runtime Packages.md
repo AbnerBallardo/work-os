@@ -12,7 +12,7 @@ This file is a source-side template and control artifact.
 
 It does not contain compiled project knowledge.
 
-The generated package must contain the relevant Work OS material needed by the target ChatGPT Project. The ChatGPT Project should not need access to the Work OS repository, folder structure, or listed source files to understand and apply the package.
+The generated package must contain the minimum Work OS material needed by the target ChatGPT Project to understand committee governance and agent runtime boundaries. The ChatGPT Project should not need access to the Work OS repository, folder structure, or listed source files to understand and apply the package.
 
 ---
 
@@ -24,12 +24,11 @@ Canonical Work OS rules remain in:
 |---|---|
 | Repository maintenance rules | `/AGENTS.md` |
 | Repository orientation | `/README.md` |
-| Work operating context and tool boundaries | `/context/` |
-| Compressed Work recall | `/memory/` |
-| Durable decisions and guardrails | `/systems/decisions/` |
 | Committee plans and governance | `/committees/` |
 | Agent runtime behavior and source boundaries | `/agents/` |
 | ChatGPT Project definitions and custom-instruction intent | `/templates/prompts/ChatGPT Project Custom Instructions.md` |
+
+Broad Work context, memory, political context, leadership context, case files, and general decision records remain canonical Work OS material, but they are excluded from the default ChatGPT Project package unless a prompt-specific review explicitly requires them as attachments.
 
 ---
 
@@ -64,9 +63,9 @@ Project Knowledge - <YYYYMMDD-HHMMSSZ>.md
 
 These two files are the Work OS project definition.
 
-Use this package for Work OS maintenance, private Work reasoning, committee planning, source-boundary review, and agent runtime-package upkeep.
+Use this package for committee planning, source-boundary review, and agent runtime-package upkeep.
 
-Refresh it after meaningful changes to Work OS structure, Work context, Work operating stack, Work memory, decision records, committee governance, agent runtime behavior, source boundaries, or project boundaries.
+Refresh it after meaningful changes to Work OS ChatGPT Project scope, committee governance, agent runtime behavior, source boundaries, or project boundaries.
 
 Runtime package rule:
 
@@ -101,7 +100,7 @@ The same timestamp must appear in the generated file header. The timestamp is fr
 
 `Project Instructions - <YYYYMMDD-HHMMSSZ>.md` and `Project Knowledge - <YYYYMMDD-HHMMSSZ>.md` are merged runtime artifacts, not summaries.
 
-Merge means the selected source files, or selected source sections when a full file is intentionally excluded, are carried into the generated artifact materially intact. The build may add headers, separators, traceability, and upload-specific framing, but it must not compress, paraphrase, shorten, or replace the selected source content with a synopsis.
+Merge means selected source excerpts are carried into the generated artifact with enough original wording to preserve rules, boundaries, and operating intent. The build may add headers, separators, traceability, and upload-specific framing. It must not compile full source files for this project.
 
 The source manifest identifies build inputs for refresh and traceability. It is not an upload checklist and must not replace the compiled context.
 
@@ -113,16 +112,16 @@ When refreshing the Work OS ChatGPT Project package:
 
 * Preserve source-of-truth hierarchy.
 * Preserve information-handling and exposure boundaries.
-* Merge selected source files or selected source sections into coherent runtime files.
-* Include all information that materially improves the target project's recurring reasoning quality.
+* Merge only selected source excerpts into coherent runtime files.
+* Include only information that materially improves the target project's recurring reasoning quality for committees and agents.
 * Preserve materially relevant source meaning, relationships, rules, constraints, named committees, agent roles, and decision gates.
-* Do not summarize, paraphrase, compress, or shorten selected source material.
-* If a source file is selected, include its content materially intact unless a specific exclusion is documented.
-* If only part of a source file is selected, include the selected section materially intact and document the exclusion.
+* Compress aggressively outside committee and agent understanding.
+* Do not compile any full source file.
+* If only part of a source file is selected, include the minimum relevant excerpt and document that full-file compilation is excluded.
 * Reorganization is allowed only through ordering, separators, headers, and traceability notes.
-* Exclude source material that does not add value to the target project.
+* Exclude source material that does not add value to committee or agent understanding.
 * Remove temporary, high-churn, operational, draft-specific, or project-specific material unless it is required for the runtime role.
-* Preserve exact wording for selected source content.
+* Preserve exact wording where the source language defines a rule, boundary, or decision gate.
 * Do not introduce new Work OS decisions in generated files.
 * Do not edit generated files directly; refresh them from canonical sources.
 * Mark generated files as non-canonical.
@@ -131,19 +130,19 @@ When refreshing the Work OS ChatGPT Project package:
 
 ## Compilation Scope Types
 
-Use two explicit source-scope types.
+Use one explicit source-scope type for the Work OS ChatGPT Project.
 
 | Scope type | Meaning | Generated artifact behavior |
 |---|---|---|
-| Full file | The whole source file is relevant to the project runtime. | Carry the file materially intact into the generated package. |
-| Selected section | Only a named section is relevant to the project runtime. | Carry only that section materially intact and label it as a selected source section. |
+| Selected excerpt | Only the minimum relevant source material is compiled. | Carry only the excerpt needed for committee and agent understanding; label it as a selected source excerpt. |
 
 Rules:
 
 * Do not list a whole folder when only specific files are compiled.
+* Do not compile a full file into the Work OS ChatGPT Project package.
 * Do not compile every section of a shared source file when only one project section applies.
-* If a selected section depends on shared rules from the same file, include the shared rules as a separate selected section.
-* The generated source scope must show whether a source was compiled as a full file or as a selected section.
+* If a selected excerpt depends on shared rules from the same file, include the shared rule as a separate selected excerpt.
+* The generated source scope must show each source was compiled as a selected excerpt.
 
 ---
 
@@ -151,7 +150,7 @@ Rules:
 
 For the Project Instructions artifact, compile:
 
-Full files:
+Selected excerpts only:
 
 * `/AGENTS.md`
 * `/README.md`
@@ -186,8 +185,8 @@ Use this structure for every generated package:
 * Output filename
 * Runtime package rule
 * Source manifest
-* Merged source files or selected source sections
-* Relevant decision rules
+* Selected source excerpts
+* Relevant committee and agent decision rules
 * Committee, agent, and domain boundaries
 * Refresh triggers
 
@@ -199,9 +198,10 @@ Before finalizing a generated package, verify:
 
 * The package is project-specific.
 * The package is self-contained for upload.
-* The package includes selected source content materially intact, not only references or summaries.
-* The package is structured for model comprehension without reducing selected source content.
+* The package includes only selected source excerpts, not full source files.
+* The package is structured for model comprehension while minimizing source exposure.
 * The package excludes operational or high-churn material.
+* The package excludes broad Work context, memory, political context, leadership context, case files, and validation artifacts unless explicitly required for committee or agent understanding.
 * The package preserves Work OS as the source of truth.
 * The package follows Work OS information-handling and source-boundary rules.
 * The package does not redefine corporate systems of record.

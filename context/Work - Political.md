@@ -1,6 +1,6 @@
 # Work - Political
 
-Version: v2.1
+Version: v2.3
 
 Context owner: Abner Ballardo. This file should be read as context about Abner Ballardo, his decisions, constraints, operating environment, and personal operating system. Any third-party people, organizations, or systems are included only insofar as they shape Abner Ballardo's context.
 
@@ -51,6 +51,7 @@ Covers:
 * Supports transformation
 * More aligned with structural solutions
 * Politically aware
+* Luis Alfredo is SVP Technology and Transformation for International Banking, sometimes referred to as CIO IB, and also acts as Mexico CIO
 
 **Behavior Patterns:**
 
@@ -74,6 +75,7 @@ Covers:
 * High pressure for visible results
 * Focus on speed and optics
 * Low tolerance for complexity
+* As of June 25, 2026, expected to combine Peru CEO accountability with broader retail accountability across Mexico, the Caribbean, Chile, Peru, Uruguay, and Brazil
 
 **Behavior Patterns:**
 
@@ -82,6 +84,7 @@ Covers:
 * Tendency to bypass formal structures
 * Reinterprets outcomes post-facto to validate prior pressure
 * Personalizes accountability when outcomes challenge prior positioning
+* Previously protected retail from deeper technology implications; expanded retail accountability may increase sensitivity to unresolved architecture and technical-debt risks across countries
 
 **Implication:**
 
@@ -89,6 +92,8 @@ Covers:
 * Needs visible progress signals
 * Avoid exposing internal complexity directly
 * Attribution must be proactively managed before and after delivery
+* Peru technology changes should be packaged as evidence of control, transparency, and repeatable simplification, not only as local remediation.
+* Sebastian may value structural technology work more when regional retail exposure makes the cost of technical debt visible beyond Peru.
 
 ---
 
@@ -98,15 +103,31 @@ Covers:
 
 * Outcome-focused
 * Limited visibility into technical constraints
+* Principal local stakeholders include Retail, AML, Business Risk Management, Operations, Audit, Human Resources, and Risk
 
 **Behavior Patterns:**
 
 * Question delays and priorities
 * Expect predictable delivery
+* Protect their functional accountability when failures, delays, or escalations touch their area
+* Vary in their willingness to challenge Sebastian or expose uncomfortable execution truth
 
 **Implication:**
 
 * Must improve transparency and communication
+* Stakeholder handling must separate genuine support from self-protection, political positioning, and post-facto attribution control
+
+#### Principal Local Stakeholders
+
+| Stakeholder | Role | Stable Pattern | Handling Implication |
+|---|---|---|---|
+| Carla Temoche | VP Retail | Joined Scotiabank around three months before Abner. Overloaded and politically influence-oriented; may protect or increase her influence even when evidence points to issues inside her team. | Use evidence-based framing, clarify ownership, and avoid letting Retail pressure collapse root-cause separation. |
+| Karol Cobian | VP AML | Long-tenured. Generally helpful and tries to fix issues, but ultimately protects her own function. | Treat as constructive but still function-protective; align on shared outcomes and make decision boundaries explicit. |
+| Lourdes Cruzado | VP Business Risk Management | Long-tenured. Tries to fix issues with more caution and protects her function. | Use careful pre-alignment, clear risk framing, and documented ownership. |
+| Paola Comitre | VP Operations | Long-tenured. Technology and Operations were under the same VP before Abner's arrival; the functions split with Abner's arrival. Highly careful politically, with strong fear of mistakes and escalations. | Reduce ambiguity, give clear escalation paths, and avoid forcing public uncertainty before facts are controlled. |
+| Jarco Gil | VP Audit | Long-tenured. Politically careful and consistently surfaces evidence of failures. | Keep evidence disciplined, anticipate audit framing, and separate control gaps from execution noise. |
+| Fiorella Ferrero | VP Human Resources | Recently assigned as VP. Slow in process, cautious about challenging Sebastian, and not yet observed as a change agent. | Expect process drag; use precise asks, deadlines, and escalation-ready framing. |
+| Juan Malagon | VP Risk / CRO | One of the most senior C-level leaders. Wants to show strategic seniority. | Frame topics at strategic risk level, respect seniority signals, and anchor asks in enterprise consequences. |
 
 ---
 
@@ -130,6 +151,26 @@ Covers:
 * Leadership moves require both capability assessment and political carrying-capacity assessment
 * Trusted operators may need narrative protection, not just delegation
 * Reset roles should be framed as structural capability upgrades, not personal corrections
+
+### 5. GTEP / Infrastructure Provider
+
+**Key stakeholder:** Giovanni Zamalloa
+
+**Characteristics:**
+
+* Head of GTEP in Peru
+* Former Director of Infrastructure
+* Presentation-oriented leadership style
+
+**Behavior Patterns:**
+
+* GTEP execution is not working at the level required by the transformation
+* Execution failures create delivery drag and avoidable financial loss
+
+**Implication:**
+
+* GTEP management requires concrete evidence, named ownership, measurable service outcomes, and escalation discipline
+* Infrastructure reset should reduce dependence on relationship management and create stronger local capability ownership
 
 ---
 
@@ -307,6 +348,18 @@ Covers:
 * Local resistance can soften when the environment receives stronger stability, visibility, and executive alignment signals.
 * A previously conflict-oriented stakeholder may become more open when the transformation appears controlled instead of experimental.
 * This shift should be treated as a temporary operating window until reinforced by repeated evidence.
+
+---
+
+### 8. Regional Retail Exposure
+
+* Expanded retail accountability creates broader exposure to legacy complexity, architectural debt, operational fragility, and product-history differences across countries.
+* Peru can be used as a controlled evidence base for how transparency, architecture discipline, and operating-model reset reduce executive uncertainty.
+* Communication should emphasize visible benefits, repeatable patterns, and business risk reduction rather than internal technical correction.
+
+**Goal:**
+
+* Convert local technology progress into a useful reference point for Sebastian's wider retail mandate.
 
 ---
 

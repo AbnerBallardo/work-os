@@ -34,7 +34,6 @@ Work OS provides:
 * project instructions,
 * project knowledge,
 * source manifests,
-* Work context and memory boundaries,
 * committee and agent governance references,
 * and runtime-package definitions.
 
@@ -73,7 +72,7 @@ Hard ceiling:
 
 ## Compilation Model
 
-This file is a shared source file. Generated project instructions may compile it as a full file while Work OS has only one ChatGPT Project.
+This file is a shared source file. Generated project instructions must compile selected excerpts only, even while Work OS has only one ChatGPT Project.
 
 If Work OS later adds more ChatGPT Projects, compile only the shared/global rules and the target project section.
 
@@ -100,20 +99,16 @@ Project-specific custom instructions mean:
 
 ## Purpose
 
-Private reasoning environment for Work OS maintenance, Work context review, governance improvement, committee planning, agent runtime-package upkeep, and executive decision-support preparation.
+Private reasoning environment for committee governance, agent runtime-package upkeep, source-boundary review, and executive decision-support preparation.
 
 Use this as the control room for Work OS. It should not become the place where corporate records, active task lists, meeting logs, or raw execution material are stored.
 
 ## Typical Conversations
 
-* Work OS structure review
-* Work context and memory compression
 * Committee planning and governance design
 * Technology Committee routing and artifact review
 * AB-Gatekeeper and AB-Executive Drafter runtime-package maintenance
 * Source-boundary review before M365 exposure
-* Decision-record drafting
-* Private Work judgment support
 * Work-facing narrative compression
 
 ## Runtime Package To Upload
@@ -131,7 +126,7 @@ Optional companion:
 
 ### Project Instructions artifact
 
-Full files:
+Selected excerpts only:
 
 * `/AGENTS.md`
 * `/README.md`
@@ -140,22 +135,10 @@ Full files:
 
 ### Project Knowledge artifact
 
-Full files:
+Selected excerpts only:
 
-* `/context/Work - Context.md`
-* `/context/Work - PARA.md`
-* `/context/Work - Operating Stack.md`
-* `/context/Work - Political.md`
-* `/context/Work - Leadership Map.md`
-* `/memory/Work - Memory.md`
-* `/memory/Incident Communication Reset - Case.md`
-* `/memory/Plin Transaction Errors - Case.md`
-* `/memory/Technology Organization Simplification - Case.md`
-* `/systems/decisions/README.md`
-* `/systems/decisions/Decision Record Template.md`
-* `/systems/decisions/work/2026-05-03 - Single Source Incident Channel.md`
-* `/systems/decisions/work/2026-05-23 - Workforce Reduction Sequencing Guardrails.md`
-* `/systems/decisions/work/2026-05-27 - Work-Facing AI Agent Runtime Packages.md`
+* `/AGENTS.md`
+* `/README.md`
 * `/committees/technology/Technology Committee.md`
 * `/committees/technology/Technology Committee - Operating Runbook.md`
 * `/committees/technology/Technology Committee - Triage Submission Template.md`
@@ -164,17 +147,16 @@ Full files:
 * `/committees/technology/Technology Committee - Decision Log Template.md`
 * `/agents/ab-gatekeeper/AB-Gatekeeper - Agent Instructions.md`
 * `/agents/ab-gatekeeper/AB-Gatekeeper - Project Context Register.md`
-* `/agents/ab-gatekeeper/AB-Gatekeeper - Special Case Rules.md`
 * `/agents/ab-gatekeeper/AB-Gatekeeper - OneDrive Source Package.md`
-* `/agents/ab-gatekeeper/AB-Gatekeeper - Test Scenarios.md`
-* `/agents/ab-gatekeeper/AB-Gatekeeper - Pilot Plan.md`
-* `/agents/ab-gatekeeper/AB-Gatekeeper - Copilot Agent Vision.md`
 * `/agents/ab-executive-drafter/AB-Executive Drafter - Agent Instructions.md`
 * `/agents/ab-executive-drafter/AB-Executive Drafter - Recipient Playbook.md`
 * `/agents/ab-executive-drafter/AB-Executive Drafter - OneDrive Source Package.md`
-* `/agents/ab-executive-drafter/AB-Executive Drafter - Test Scenarios.md`
-* `/agents/ab-executive-drafter/AB-Executive Drafter - Pilot Plan.md`
-* `/agents/ab-executive-drafter/AB-Executive Drafter - Copilot Agent Vision.md`
+
+Excluded from the durable package:
+
+* Full source files.
+* Broad Work context, Work memory, political context, leadership context, and case files.
+* Agent vision, pilot, test, and special-case registry files unless explicitly needed for a prompt-specific review.
 
 ## Custom Instructions
 
@@ -186,7 +168,6 @@ Assume timestamped Project Instructions and timestamped Project Knowledge are al
 Focus on:
 - Decision quality
 - Source-boundary integrity
-- Work context accuracy
 - Governance clarity
 - Committee decision-readiness
 - Agent runtime-package quality
@@ -196,17 +177,10 @@ Focus on:
 Enforce:
 - AGENTS.md
 - README.md
-- Work context files
-- Work operating stack rules
-- Work memory rules
-- Work decision records
 - Technology Committee governance
 - Agent source-package boundaries
 
 Route work:
-- Durable Work context to context/
-- Compressed validated recall to memory/
-- Durable guardrails to systems/decisions/work/
 - Committee plans to committees/<committee>/
 - Technology Committee governance to committees/technology/
 - Agent runtime behavior to agents/<agent>/* - Agent Instructions.md
