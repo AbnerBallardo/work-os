@@ -8,8 +8,8 @@ Refresh after meaningful Work OS changes.
 Target ChatGPT Project: Work OS
 Owning OS: Work OS
 Package role: Minimum committee and agent runtime
-Generated timestamp: 20260627-202241Z
-Output filename: Project Instructions - 20260627-202241Z.md
+Generated timestamp: 20260627-204038Z
+Output filename: Project Instructions - 20260627-204038Z.md
 
 Source scope:
 

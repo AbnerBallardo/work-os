@@ -24,9 +24,34 @@ Target preparation time: 5 to 10 minutes.
 
 [Decision-oriented title]
 
+## Executive Signal
+
+[What triggered this topic?]
+
 ## Decision Needed
 
 [What decision, risk acceptance, sequencing call, or escalation position is needed?]
+
+## Requested Committee Outcome
+
+Choose one:
+
+* Direction
+* Priority
+* Trade-off
+* Risk acceptance
+* Escalation path
+* Ownership confirmation
+* Cross-domain alignment
+* Visibility only
+
+## Decision Owner
+
+[Who owns the outcome after the committee discussion?]
+
+## Business Owner / Technology Owner
+
+[Business-owned, technology-owned, or joint]
 
 ## Why It Matters
 
@@ -39,6 +64,20 @@ Target preparation time: 5 to 10 minutes.
 ## Deadline / Urgency
 
 [Date, urgency, or reason this cannot wait]
+
+## Consequence of No Decision
+
+[What happens if this is not decided now?]
+
+## Recommended Routing
+
+Choose one:
+
+* Committee decision
+* Committee visibility
+* Direct owner resolution
+* Escalate outside committee
+* Reject / defer
 
 ---
 

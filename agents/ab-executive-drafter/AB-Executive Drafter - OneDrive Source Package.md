@@ -13,6 +13,8 @@ Define the curated OneDrive source package for AB-Executive Drafter.
 
 The agent should use only approved source files.
 
+Only connect approved runtime files.
+
 Do not share raw Personal OS, political notes, leadership assessments, private personnel context, or unresolved working
 notes.
 
@@ -63,6 +65,16 @@ Keep these files outside the M365 agent source folder unless there is a specific
 
 Do not share these source types with the agent:
 
+* Raw Work OS memory
+* Political context
+* Leadership assessments
+* Case files
+* Draft emails
+* Meeting notes
+* Incident details
+* Active execution material
+* Full decision-record libraries
+* Test, pilot, or vision files unless explicitly approved
 * Private leadership assessments
 * Political interpretation notes
 * Sensitive personnel context

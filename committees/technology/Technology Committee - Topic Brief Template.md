@@ -40,14 +40,25 @@ When generating the final brief, use the label names below without Markdown head
 
 ### Required Committee Outcome
 
-* Decision required
-* Risk / constraint acceptance
-* Cross-domain trade-off
-* External pressure response
-* Strategic sequencing
-* Escalation positioning
+* Direction
+* Priority
+* Trade-off
+* Risk acceptance
+* Escalation path
+* Ownership confirmation
+* Cross-domain alignment
 
 Information-only topics do not belong in the committee.
+
+---
+
+### Decision Boundary
+
+Technology deciding: [Technology decision, recommendation, or constraint]
+
+Business deciding: [Business-owned decision, if any]
+
+Escalation required: [Local / regional / corporate / vendor / none]
 
 ---
 
@@ -71,7 +82,7 @@ Information-only topics do not belong in the committee.
 
 ### Recommendation
 
-[State the recommended path and reason]
+[State the preferred path clearly and the reason]
 
 ---
 
@@ -85,11 +96,17 @@ Alternative B: [Option]. Benefit: [ ]. Risk: [ ]. Decision implication: [ ].
 
 ### Trade-Offs
 
-Trade-off 1: [ ]. Accept if: [ ]. Do not accept if: [ ].
+Speed: [Accepted impact]
 
-Trade-off 2: [ ]. Accept if: [ ]. Do not accept if: [ ].
+Risk: [Accepted impact]
 
-Trade-off 3: [ ]. Accept if: [ ]. Do not accept if: [ ].
+Cost: [Accepted impact]
+
+Control: [Accepted impact]
+
+Delivery impact: [Accepted impact]
+
+Operational continuity: [Accepted impact]
 
 ---
 
@@ -100,6 +117,12 @@ Risk 1: [ ]. Impact: [ ]. Mitigation / acceptance required: [ ].
 Risk 2: [ ]. Impact: [ ]. Mitigation / acceptance required: [ ].
 
 Risk 3: [ ]. Impact: [ ]. Mitigation / acceptance required: [ ].
+
+---
+
+### Risk Accepted
+
+[What risk remains even if the recommendation is approved?]
 
 ---
 
@@ -130,6 +153,20 @@ Dependencies: [Teams / systems / vendors]
 Capacity impact: [Low / medium / high]
 
 Execution location: [Project / Area / backlog / other]
+
+---
+
+### Execution Linkage
+
+Owner: [Name]
+
+Next action: [Action]
+
+Due date: [Date]
+
+Dependency: [Team / system / vendor]
+
+Forum / system of record: [Forum or system]
 
 ---
 

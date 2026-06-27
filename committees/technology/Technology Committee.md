@@ -36,6 +36,20 @@ The committee should increase decision quality, not meeting activity.
 
 A topic belongs in the committee only when executive judgment is required.
 
+Committee admission rule:
+
+A topic belongs in Technology Committee only when it requires at least one of these outcomes.
+
+| Committee Outcome | Meaning |
+|---|---|
+| Direction | Decide the strategic or architectural path |
+| Priority | Decide sequencing across domains |
+| Trade-off | Decide between speed, risk, cost, capacity, or control |
+| Risk acceptance | Make explicit what risk the organization is accepting |
+| Escalation path | Decide what needs local, regional, business, or corporate escalation |
+| Ownership | Confirm who owns the outcome |
+| Cross-domain alignment | Align Engineering, Architecture, Security, Delivery, Data, SRE, Infrastructure, or business stakeholders |
+
 Include a topic when at least one condition is true:
 
 * Executive-level decision is required
@@ -63,7 +77,35 @@ Exclude:
 
 ---
 
-## 3. Decision Authority
+## 3. Standing Topic Categories
+
+| Category | Why It Belongs |
+|---|---|
+| Technology organization design | Decisions on Engineering, SRE, Infrastructure, director structures, reporting model, and capability ownership |
+| Stability and incident readiness | Monitoring maturity, SRE coverage, incident detection, and operational resilience |
+| Critical vendor / platform risk | Unsupported platforms, material vendor service gaps, and production, security, continuity, or commercial exposure |
+| Architecture direction | Build vs. buy, vendor recommendation, platform modernization, and legacy constraints |
+| Business-owned technology decisions | Topics where Technology has a recommendation but business must decide |
+| Technology finance and performance | Budget, value, licensing, investment justification, productivity, and delivery pressure |
+| Local-regional alignment | Topics requiring coordination with International Banking, Canada, Corporate Security, or regional functions |
+
+---
+
+## 4. Executive Signals
+
+An executive signal is a leadership concern, risk pattern, organizational constraint, business pressure, or material event that may require committee visibility or decision, even before it becomes a formal topic.
+
+| Signal Pattern | Generalized Rule |
+|---|---|
+| Users detect incidents before Technology | Treat as a monitoring maturity and operating model signal, not only an incident defect |
+| Repeated executive pressure on the same topic | Convert into a written decision ask or escalation path |
+| Business expects Technology to push a decision | Clarify whether the decision is technical, business-owned, or jointly owned |
+| Vendor service gap creates production exposure | Route to risk acceptance, remediation ownership, and commercial escalation |
+| Org design debates emerge from headcount ratios | Convert into capability model, accountability, and continuity discussion |
+
+---
+
+## 5. Decision Authority
 
 | Role                   | Responsibility                                                                      |
 |------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +124,7 @@ Exclude:
 
 ---
 
-## 4. Operating Principles
+## 6. Operating Principles
 
 ### 4.1 Structure Before Discussion
 
@@ -96,17 +138,23 @@ Major topics require written pre-read before discussion unless urgent.
 
 Written work must be proportional to the decision.
 
-The default intake artifact is a five-line triage submission posted in the MS Teams channel `Technology Committee - Intake`.
+The default intake artifact is a compact triage submission posted in the MS Teams channel `Technology Committee - Intake`.
 
 A full topic brief is required only after the topic is accepted for committee review.
 
 Triage must clarify:
 
 * Topic
+* Executive signal
 * Required decision
+* Requested committee outcome
+* Decision owner
+* Business owner / Technology owner
 * Why it matters
 * Recommendation
 * Urgency / deadline
+* Consequence of no decision
+* Recommended routing
 
 Full preparation must clarify alternatives, trade-offs, risks accepted, execution implications, and external narrative needs.
 
@@ -158,7 +206,7 @@ Governance depth must match decision risk:
 
 ---
 
-## 5. Operating Flow
+## 7. Operating Flow
 
 ```text
 Execution signal / risk / constraint
@@ -175,7 +223,7 @@ Execution signal / risk / constraint
 
 ---
 
-## 6. Required Artifacts
+## 8. Required Artifacts
 
 | Artifact                                                                                                     | Purpose                                                           |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
@@ -188,7 +236,7 @@ Execution signal / risk / constraint
 
 ---
 
-## 7. Success Measures
+## 9. Success Measures
 
 The committee is working when:
 
@@ -205,7 +253,7 @@ The committee is working when:
 
 ---
 
-## 8. Guiding Principle
+## 10. Guiding Principle
 
 The Technology Committee exists to increase organizational decision quality, not to add another coordination layer.
 

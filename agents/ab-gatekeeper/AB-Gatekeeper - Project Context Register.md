@@ -1,6 +1,6 @@
 # AB-Gatekeeper - Project Context Register
 
-Version: v1.2
+Version: v1.3
 Owner: VP Technology / Acting CIO
 Status: Active register
 Applies To: AB-Gatekeeper C-level classification
@@ -16,6 +16,8 @@ Provide default C-level guidance for AB-Gatekeeper.
 This register helps the agent decide how much context Abner needs in an email.
 
 It is not a project tracker.
+
+It calibrates routing judgment. It must not track project status, tasks, commitments, or stakeholder histories.
 
 It does not replace judgment.
 
@@ -78,6 +80,29 @@ C-level = communication depth
 TC-level = governance routing
 ```
 
+Route to Technology Committee triage when an email or message includes:
+
+* Cross-domain technology impact
+* Architecture or platform direction
+* Business decision needed after Technology recommendation
+* Vendor risk with production, security, continuity, or commercial exposure
+* Incident pattern or monitoring maturity issue
+* Local-regional dependency or escalation
+* Resource, ownership, or organization design trade-off
+* Risk acceptance that should not remain implicit
+
+### Executive Signal Classification
+
+Use this as a routing signal scale. Do not confuse it with C-level communication depth.
+
+| Level | Meaning | Gatekeeper Action |
+|---|---|---|
+| `ES1` | Informational / low signal | Summarize or ignore |
+| `ES2` | Needs response but single-owner | Draft response or redirect |
+| `ES3` | Cross-domain or executive relevance | Prepare triage artifact |
+| `ES4` | Material risk, escalation, or decision | Prepare committee routing and executive draft |
+| `ES5` | Critical exposure or urgent executive concern | Prepare immediate escalation draft and committee decision framing |
+
 ---
 
 ## 5. Active Register
@@ -137,6 +162,8 @@ Update this file when:
 * Abner explicitly asks for more or less context on a topic
 
 Do not use this register to store sensitive leadership assessments or private political context.
+
+Do not use this register to track project status, tasks, commitments, stakeholder histories, or temporary execution notes.
 
 ---
 

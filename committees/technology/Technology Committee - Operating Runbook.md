@@ -27,7 +27,7 @@ The operating system must:
 
 | Stage | Timing | Owner | Output |
 |---|---:|---|---|
-| Triage submission | Previous business day, noon | Topic Owner | Five-line triage posted in MS Teams |
+| Triage submission | Previous business day, noon | Topic Owner | Compact triage posted in MS Teams |
 | Intake gate | Previous business day, EOD | Chair / Delegate | Accepted, rejected, redirected, pre-aligned, or converted to async |
 | Full topic brief | Meeting day, noon | Topic Owner | Completed brief only for accepted TC2 / TC3 topics |
 | Agenda freeze | Meeting day, 2:00 PM | Chair | Final agenda |
@@ -39,6 +39,12 @@ The operating system must:
 Urgent topics may bypass normal timing only when delay increases risk or blocks executive action.
 
 Rule: do not require a full topic brief to decide whether a topic belongs in the committee.
+
+Triage-first rule:
+
+```text
+No topic enters the Technology Committee agenda unless the requested outcome is explicit: decide, align, accept risk, escalate, redirect, or record.
+```
 
 ---
 
@@ -63,13 +69,19 @@ Rules:
 
 ### Stage 1 - Triage Submission
 
-The topic owner submits a maximum five-line triage:
+The topic owner submits a compact triage:
 
 * Topic
+* Executive signal
 * Decision required
+* Requested committee outcome
+* Decision owner
+* Business owner / Technology owner
 * Why it matters
 * Recommendation
 * Deadline / urgency
+* Consequence of no decision
+* Recommended routing
 
 Expected preparation time: 5 to 10 minutes.
 
@@ -130,6 +142,13 @@ Reject or redirect a topic when:
 ---
 
 ## 4. Meeting Structure
+
+| Section | Purpose | Input |
+|---|---|---|
+| Executive signals | Surface material risks, leadership asks, or constraints | Short signal list |
+| Decision topics | Decide accepted topics | Topic briefs |
+| Cross-domain alignment | Clarify dependencies and impacts | Owners and domains |
+| Closing actions | Confirm decision, owner, next action, and due date | Decision log |
 
 ### 4.1 Opening Signals - 5 to 10 min
 
@@ -266,6 +285,12 @@ Rules:
 * External narrative is simplified, aligned, and controlled.
 * Narrative must not create decisions.
 * Narrative must not expose raw internal complexity unless explicitly required.
+
+Escalation rule:
+
+```text
+Escalate only when the committee has identified what decision is needed, who owns it, what trade-off is being made, and what risk is being accepted.
+```
 
 ---
 

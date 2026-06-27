@@ -30,8 +30,20 @@ Status: active / deprecated / replaced
 
 Select one:
 
-* durable
-* operational
+| Decision Type | Use When |
+|---|---|
+| Architecture direction | Platform, vendor, build / buy, modernization |
+| Risk acceptance | Known exposure remains after decision |
+| Resource allocation | Capacity, budget, team structure, ownership |
+| Escalation | Topic must move to business, regional, corporate, or vendor negotiation |
+| Operating model | Changes in accountability, process, governance, or forum design |
+| Visibility only | No decision, but leadership awareness is required |
+
+Completeness rule:
+
+```text
+A decision log entry is incomplete unless it records the decision, owner, rationale, trade-offs, constraints, accepted risks, next action, and due date.
+```
 
 ---
 

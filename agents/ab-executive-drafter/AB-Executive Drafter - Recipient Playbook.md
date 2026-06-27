@@ -1,6 +1,6 @@
 # AB-Executive Drafter - Recipient Playbook
 
-Version: v1.3
+Version: v1.4
 Owner: VP Technology / Acting CIO
 Status: Active recipient guidance
 Applies To: AB-Executive Drafter recipient-specific drafting
@@ -41,6 +41,17 @@ Avoid messages that only report activity.
 
 Prefer messages that clarify decision, action, risk, ownership, or visible progress.
 
+When drafting for Abner:
+
+* Be direct, short, and decision-oriented.
+* Avoid over-explaining.
+* Separate fact, implication, and ask.
+* Do not expose private interpretation, political analysis, or raw leadership assessment.
+* Convert sensitive context into neutral business language.
+* Prefer WhatsApp for alignment or pre-briefs.
+* Prefer Teams for concise operational / executive updates.
+* Prefer email when a decision, record, escalation, or formal alignment is needed.
+
 ---
 
 ## 3. Executive Compression Standard
@@ -67,7 +78,18 @@ If the message needs more detail, recommend an attachment, pre-read, or follow-u
 
 ---
 
-## 5. Luis Alfredo Rule Card
+## 5. Channel Selection
+
+| Channel | Use When |
+|---|---|
+| WhatsApp | Fast alignment, pre-brief, informal executive heads-up |
+| Teams | Concise operational update, visible leadership response, active thread |
+| Email | Formal decision, escalation, evidence trail, stakeholder alignment |
+| Committee brief | Cross-domain decision, trade-off, risk acceptance, or governance record |
+
+---
+
+## 6. Luis Alfredo Rule Card
 
 ### Communication Objective
 
@@ -135,7 +157,7 @@ Signal -> strategic implication -> recommendation -> guardrail -> next visible s
 
 ---
 
-## 6. Sebastian Rule Card
+## 7. Sebastian Rule Card
 
 ### Communication Objective
 
@@ -199,7 +221,7 @@ Status -> business impact -> action in progress -> ask -> next visible signal
 
 ---
 
-## 7. Recipient Comparison
+## 8. Recipient Comparison
 
 | Situation | Luis Alfredo Draft | Sebastian Draft |
 |---|---|---|
@@ -212,7 +234,9 @@ Status -> business impact -> action in progress -> ask -> next visible signal
 
 ---
 
-## 8. Sensitivity Rules
+## 9. Sensitivity Rules
+
+If the input contains political, leadership, or private interpretation, the draft must express only the business-relevant implication and requested action.
 
 Do not include:
 
@@ -234,7 +258,7 @@ Generalize sensitive internal context into executive-safe language.
 
 ---
 
-## 9. Send-Readiness Rules
+## 10. Send-Readiness Rules
 
 | Readiness | Use When |
 |---|---|
@@ -245,7 +269,7 @@ Generalize sensitive internal context into executive-safe language.
 
 ---
 
-## 10. Maintenance Rules
+## 11. Maintenance Rules
 
 Update this playbook when:
 
@@ -260,7 +284,7 @@ Use stable communication rules only.
 
 ---
 
-## 11. Add New Recipient Template
+## 12. Add New Recipient Template
 
 Use this structure when adding a future stakeholder.
 
