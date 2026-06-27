@@ -23,14 +23,14 @@ It defines **how Work context, execution rules, governance artifacts, and agent 
 ```text
 Context -> Judgment -> Execution Control -> Narrative -> Runtime Packages -> Feedback
      |          |             |               |                |
-  Domains   Decisions      Memory         Committee          Agents
+  Context   Decisions      Memory         Committee          Agents
 ```
 
 ### Layers
 
 | Layer | Role | Nature |
 |---|---|---|
-| Domains | Stable Work context, execution model, political landscape, and leadership map | Stable but reviewable |
+| Context | Stable Work context, execution model, political landscape, and leadership map | Stable but reviewable |
 | Memory | Compressed Work recall and validated observations | Curated |
 | Decisions | Durable Work decision records and guardrails | Stable |
 | Committee | Executive forum, intake, templates, and decision-support mechanics | Stable / reusable |
@@ -46,11 +46,11 @@ These files define the system. They are the **sources of truth**:
 | Concept | Source File |
 |---|---|
 | Repository maintenance rules | `/AGENTS.md` |
-| Work role, constraints, and operating context | `/domains/work/Work - Context.md` |
-| Work execution and narrative PARA rules | `/domains/work/Work - PARA.md` |
-| Work political landscape | `/domains/work/Work - Political.md` |
-| Work leadership landscape | `/domains/work/Work - Leadership Map.md` |
-| Compressed Work recall | `/memory/work/Work - Memory.md` |
+| Work role, constraints, and operating context | `/context/Work - Context.md` |
+| Work execution and narrative PARA rules | `/context/Work - PARA.md` |
+| Work political landscape | `/context/Work - Political.md` |
+| Work leadership landscape | `/context/Work - Leadership Map.md` |
+| Compressed Work recall | `/memory/Work - Memory.md` |
 | Work decision records | `/systems/decisions/work/` |
 | Technology Committee charter | `/committee/Technology Committee.md` |
 | Committee mechanics | `/committee/Technology Committee - Operating Runbook.md` |
@@ -140,8 +140,8 @@ Otherwise:
 ## Repository Navigation
 
 ```text
-/domains/work/                 -> Work context, execution rules, political map, and leadership map
-/memory/work/                  -> Compressed Work recall and validated observations
+/context/                      -> Work context, execution rules, political map, and leadership map
+/memory/                       -> Compressed Work recall and validated observations
 /systems/decisions/work/         -> Durable Work decision records
 /committee/                    -> Technology Committee charter, runbook, and templates
 /agents/ab-gatekeeper/         -> Gatekeeper runtime package, references, tests, and pilot material
@@ -219,9 +219,9 @@ Signal -> Interpretation -> Decision -> Execution Control -> Narrative -> Feedba
 
 Canonical control:
 
-* Work context: `/domains/work/Work - Context.md`
-* Work execution model: `/domains/work/Work - PARA.md`
-* Work memory: `/memory/work/Work - Memory.md`
+* Work context: `/context/Work - Context.md`
+* Work execution model: `/context/Work - PARA.md`
+* Work memory: `/memory/Work - Memory.md`
 * Governance: `/committee/Technology Committee.md`
 * Mechanics: `/committee/Technology Committee - Operating Runbook.md`
 * Agent behavior: `/agents/*/* - Agent Instructions.md`

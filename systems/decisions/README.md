@@ -53,7 +53,7 @@ systems/decisions/work/YYYY-MM-DD - Decision Title.md
 | Work OS structure, source boundary, runtime architecture, or governance guardrail | `systems/decisions/work/` |
 | Committee mechanics | Existing committee file first; create a decision record only if the change affects durable governance |
 | Agent runtime behavior | Agent instruction file first; create a decision record only if the change affects source boundaries or reusable architecture |
-| Work memory updates | `memory/work/Work - Memory.md` or a relevant case file |
+| Work memory updates | `memory/Work - Memory.md` or a relevant case file |
 | Temporary routing, task, or project decisions | Do not record unless they become durable governance |
 
 Rule:

@@ -28,8 +28,8 @@ Preserve decision quality, structural integrity, source boundaries, and long-ter
 
 | Area | Main Files | Purpose |
 |---|---|---|
-| Work Domain | `domains/work/` | Private Work context, execution rules, political landscape, and leadership map |
-| Work Memory | `memory/work/` | Compressed recall and validated observations |
+| Work Context | `context/` | Private Work context, execution rules, political landscape, and leadership map |
+| Work Memory | `memory/` | Compressed recall and validated observations |
 | Work Decisions | `systems/decisions/work/` | Durable decision records and guardrails |
 | Technology Committee | `committee/` | Executive decision forum, triage-first governance, decision records, templates |
 | AB-Gatekeeper | `agents/ab-gatekeeper/` | Runtime package, references, tests, pilot plan, and source boundary for emails to Abner |
@@ -64,11 +64,11 @@ Do not copy Personal OS family, personal, or venture context into Work OS unless
 
 | Topic | Source of Truth | Maintenance Rule |
 |---|---|---|
-| Work role and mandate | `domains/work/Work - Context.md` | Keep stable Work realities and constraints here |
-| Work execution model | `domains/work/Work - PARA.md` | Keep Work PARA, narrative, and visibility rules here |
-| Political context | `domains/work/Work - Political.md` | Keep private stakeholder dynamics here; generalize before external use |
-| Leadership context | `domains/work/Work - Leadership Map.md` | Keep private leader-specific context here; generalize before external use |
-| Work memory | `memory/work/Work - Memory.md` | Keep compressed recall and validated observations here |
+| Work role and mandate | `context/Work - Context.md` | Keep stable Work realities and constraints here |
+| Work execution model | `context/Work - PARA.md` | Keep Work PARA, narrative, and visibility rules here |
+| Political context | `context/Work - Political.md` | Keep private stakeholder dynamics here; generalize before external use |
+| Leadership context | `context/Work - Leadership Map.md` | Keep private leader-specific context here; generalize before external use |
+| Work memory | `memory/Work - Memory.md` | Keep compressed recall and validated observations here |
 | Work decision records | `systems/decisions/work/` | Keep durable guardrails and decisions here |
 | Technology Committee charter | `committee/Technology Committee.md` | Keep executive purpose and scope here |
 | Committee mechanics | `committee/Technology Committee - Operating Runbook.md` | Keep cadence, intake, metrics, and failure signals here |
@@ -101,7 +101,7 @@ Do not copy Personal OS family, personal, or venture context into Work OS unless
 
 * Modify existing structures before creating new files.
 * Update companion files in the same pass when behavior changes.
-* If Work context changes, check `domains/work/Work - Context.md`, `domains/work/Work - PARA.md`, and relevant memory or decision records.
+* If Work context changes, check `context/Work - Context.md`, `context/Work - PARA.md`, and relevant memory or decision records.
 * If committee routing changes, check the charter, runbook, triage template, topic brief template, and AB-Gatekeeper instructions.
 * If AB-Gatekeeper special cases change, update `AB-Gatekeeper - Agent Instructions.md`, then mirror the reference registry only if useful.
 * If AB-Executive recipient rules change, update the Recipient Playbook, Agent Instructions, and relevant test scenarios.
