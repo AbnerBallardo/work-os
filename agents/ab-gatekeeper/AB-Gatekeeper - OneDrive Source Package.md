@@ -52,7 +52,7 @@ The Word Paste Mode brief contract is embedded in AB-Gatekeeper - Agent Instruct
 
 Do not add committee templates to the agent source folder unless pilot testing shows that embedded instructions are not enough.
 
-Use [Technology Committee - Topic Brief Template.md](../../committee/Technology%20Committee%20-%20Topic%20Brief%20Template.md) as a validation reference for Word-ready full briefs.
+Use [Technology Committee - Topic Brief Template.md](../../committees/technology/Technology%20Committee%20-%20Topic%20Brief%20Template.md) as a validation reference for Word-ready full briefs.
 
 ---
 
@@ -66,12 +66,12 @@ Keep these files outside the M365 agent source folder unless there is a specific
 | [AB-Gatekeeper - Special Case Rules.md](AB-Gatekeeper%20-%20Special%20Case%20Rules.md) | Private/reference registry; active rules must be embedded in Agent Instructions before deployment |
 | [AB-Gatekeeper - Test Scenarios.md](AB-Gatekeeper%20-%20Test%20Scenarios.md) | Testing / validation only |
 | [AB-Gatekeeper - Pilot Plan.md](AB-Gatekeeper%20-%20Pilot%20Plan.md) | Rollout planning only |
-| [Technology Committee.md](../../committee/Technology%20Committee.md) | Governance reference; not required because routing rules are embedded |
-| [Technology Committee - Operating Runbook.md](../../committee/Technology%20Committee%20-%20Operating%20Runbook.md) | Governance reference; not required because routing rules are embedded |
-| [Technology Committee - Triage Submission Template.md](../../committee/Technology%20Committee%20-%20Triage%20Submission%20Template.md) | Governance reference; not required because triage structure is embedded |
-| [Technology Committee - Topic Brief Template.md](../../committee/Technology%20Committee%20-%20Topic%20Brief%20Template.md) | Governance and validation reference; Word Paste Mode is embedded in agent instructions |
-| [Technology Committee - Agenda Template.md](../../committee/Technology%20Committee%20-%20Agenda%20Template.md) | Governance reference |
-| [Technology Committee - Decision Log Template.md](../../committee/Technology%20Committee%20-%20Decision%20Log%20Template.md) | Governance reference |
+| [Technology Committee.md](../../committees/technology/Technology%20Committee.md) | Governance reference; not required because routing rules are embedded |
+| [Technology Committee - Operating Runbook.md](../../committees/technology/Technology%20Committee%20-%20Operating%20Runbook.md) | Governance reference; not required because routing rules are embedded |
+| [Technology Committee - Triage Submission Template.md](../../committees/technology/Technology%20Committee%20-%20Triage%20Submission%20Template.md) | Governance reference; not required because triage structure is embedded |
+| [Technology Committee - Topic Brief Template.md](../../committees/technology/Technology%20Committee%20-%20Topic%20Brief%20Template.md) | Governance and validation reference; Word Paste Mode is embedded in agent instructions |
+| [Technology Committee - Agenda Template.md](../../committees/technology/Technology%20Committee%20-%20Agenda%20Template.md) | Governance reference |
+| [Technology Committee - Decision Log Template.md](../../committees/technology/Technology%20Committee%20-%20Decision%20Log%20Template.md) | Governance reference |
 | Personal OS master files | Private operator, decision, prompting, and execution-system context |
 | Personal OS `Work - Context.md` | Private source for stable Work-domain realities and truth-vs-narrative boundary |
 | Personal OS `Work - PARA.md` | Private source for execution and narrative-layer rules |

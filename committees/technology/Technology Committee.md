@@ -184,7 +184,7 @@ Execution signal / risk / constraint
 | [Technology Committee - Topic Brief Template.md](Technology%20Committee%20-%20Topic%20Brief%20Template.md)   | Full structure for accepted decision topics                       |
 | [Technology Committee - Agenda Template.md](Technology%20Committee%20-%20Agenda%20Template.md)               | Weekly agenda structure                                           |
 | [Technology Committee - Decision Log Template.md](Technology%20Committee%20-%20Decision%20Log%20Template.md) | Durable decision record standard                                  |
-| [AB-Gatekeeper - Copilot Agent Vision.md](../agents/ab-gatekeeper/AB-Gatekeeper%20-%20Copilot%20Agent%20Vision.md) | Future Microsoft 365 Copilot gatekeeper capability                |
+| [AB-Gatekeeper - Copilot Agent Vision.md](../../agents/ab-gatekeeper/AB-Gatekeeper%20-%20Copilot%20Agent%20Vision.md) | Future Microsoft 365 Copilot gatekeeper capability                |
 
 ---
 

@@ -33,8 +33,10 @@ Context -> Judgment -> Execution Control -> Narrative -> Runtime Packages -> Fee
 | Context | Stable Work context, execution model, political landscape, and leadership map | Stable but reviewable |
 | Memory | Compressed Work recall and validated observations | Curated |
 | Decisions | Durable Work decision records and guardrails | Stable |
-| Committee | Executive forum, intake, templates, and decision-support mechanics | Stable / reusable |
+| Committees | Committee plans, governance, intake, templates, and decision-support mechanics | Stable / reusable |
 | Agents | Runtime instructions, source boundaries, tests, and pilot material | Stable / deployable |
+| Templates | Source-side prompt and runtime-package definitions | Stable / reusable |
+| Build | Generated ChatGPT Project upload artifacts | Generated |
 | Archive | Inactive or superseded Work artifacts | Historical |
 
 ---
@@ -52,14 +54,16 @@ These files define the system. They are the **sources of truth**:
 | Work leadership landscape | `/context/Work - Leadership Map.md` |
 | Compressed Work recall | `/memory/Work - Memory.md` |
 | Work decision records | `/systems/decisions/work/` |
-| Technology Committee charter | `/committee/Technology Committee.md` |
-| Committee mechanics | `/committee/Technology Committee - Operating Runbook.md` |
-| Committee templates | `/committee/Technology Committee - * Template.md` |
+| Technology Committee charter | `/committees/technology/Technology Committee.md` |
+| Committee mechanics | `/committees/technology/Technology Committee - Operating Runbook.md` |
+| Committee templates | `/committees/technology/Technology Committee - * Template.md` |
 | AB-Gatekeeper runtime behavior | `/agents/ab-gatekeeper/AB-Gatekeeper - Agent Instructions.md` |
 | AB-Gatekeeper project calibration | `/agents/ab-gatekeeper/AB-Gatekeeper - Project Context Register.md` |
 | AB-Executive Drafter runtime behavior | `/agents/ab-executive-drafter/AB-Executive Drafter - Agent Instructions.md` |
 | AB-Executive Drafter recipient rules | `/agents/ab-executive-drafter/AB-Executive Drafter - Recipient Playbook.md` |
 | M365 source boundaries | `/agents/*/* - OneDrive Source Package.md` |
+| Work OS ChatGPT Project definitions | `/templates/prompts/ChatGPT Project Custom Instructions.md` |
+| Work OS ChatGPT Project runtime packaging | `/templates/prompts/ChatGPT Project Runtime Packages.md` |
 
 **Rule:**
 
@@ -95,6 +99,7 @@ Contains:
 * Committee operating templates
 * Sanitized agent runtime sources
 * Runtime-package source boundary documents
+* Work OS ChatGPT Project templates and generated upload artifacts
 * Pilot, test, and reference material for maintained agents
 * Compressed Work memory and durable Work decision records
 
@@ -143,9 +148,12 @@ Otherwise:
 /context/                      -> Work context, execution rules, political map, and leadership map
 /memory/                       -> Compressed Work recall and validated observations
 /systems/decisions/work/         -> Durable Work decision records
-/committee/                    -> Technology Committee charter, runbook, and templates
+/committees/                   -> Committee plans and governance materials
+/committees/technology/        -> Technology Committee charter, runbook, and templates
 /agents/ab-gatekeeper/         -> Gatekeeper runtime package, references, tests, and pilot material
 /agents/ab-executive-drafter/  -> Executive drafting runtime package, playbook, tests, and pilot material
+/templates/prompts/            -> ChatGPT Project source-side templates and package rules
+/build/chatgpt-projects/work-os/ -> Generated upload package for the Work OS ChatGPT Project
 /archive/                      -> Inactive or superseded Work artifacts
 /AGENTS.md                     -> Codex maintenance instructions
 /README.md                     -> Repository orientation
@@ -194,6 +202,35 @@ Default runtime source rule:
 Only connect the files listed in the relevant OneDrive Source Package.
 ```
 
+### ChatGPT Project
+
+Use one ChatGPT Project by default:
+
+| Project | Role | Runtime package |
+|---|---|---|
+| Work OS | Private Work OS reasoning, maintenance, and source-boundary review | `/build/chatgpt-projects/work-os/` |
+
+ChatGPT Project uploads are generated runtime artifacts.
+
+They are not:
+
+* canonical source files
+* corporate records
+* M365 agent source packages
+* permanent storage for prompt-specific execution material
+
+Runtime package source rule:
+
+```text
+templates/prompts/ChatGPT Project Runtime Packages.md
+```
+
+Project definition source rule:
+
+```text
+templates/prompts/ChatGPT Project Custom Instructions.md
+```
+
 ---
 
 ## Current Agent Set
@@ -222,8 +259,8 @@ Canonical control:
 * Work context: `/context/Work - Context.md`
 * Work execution model: `/context/Work - PARA.md`
 * Work memory: `/memory/Work - Memory.md`
-* Governance: `/committee/Technology Committee.md`
-* Mechanics: `/committee/Technology Committee - Operating Runbook.md`
+* Governance: `/committees/technology/Technology Committee.md`
+* Mechanics: `/committees/technology/Technology Committee - Operating Runbook.md`
 * Agent behavior: `/agents/*/* - Agent Instructions.md`
 * Runtime boundaries: `/agents/*/* - OneDrive Source Package.md`
 

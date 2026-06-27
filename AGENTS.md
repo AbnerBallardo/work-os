@@ -31,9 +31,12 @@ Preserve decision quality, structural integrity, source boundaries, and long-ter
 | Work Context | `context/` | Private Work context, execution rules, political landscape, and leadership map |
 | Work Memory | `memory/` | Compressed recall and validated observations |
 | Work Decisions | `systems/decisions/work/` | Durable decision records and guardrails |
-| Technology Committee | `committee/` | Executive decision forum, triage-first governance, decision records, templates |
+| Committees | `committees/` | Committee plans and governance materials |
+| Technology Committee | `committees/technology/` | Executive decision forum, triage-first governance, decision records, templates |
 | AB-Gatekeeper | `agents/ab-gatekeeper/` | Runtime package, references, tests, pilot plan, and source boundary for emails to Abner |
 | AB-Executive Drafter | `agents/ab-executive-drafter/` | Runtime package, recipient playbook, references, tests, pilot plan, and source boundary |
+| ChatGPT Project templates | `templates/prompts/` | Source-side Work OS ChatGPT Project definitions and runtime-package rules |
+| ChatGPT Project builds | `build/chatgpt-projects/work-os/` | Generated upload artifacts for the Work OS ChatGPT Project |
 | Archive | `archive/` | Inactive or superseded Work artifacts |
 
 ---
@@ -70,15 +73,17 @@ Do not copy Personal OS family, personal, or venture context into Work OS unless
 | Leadership context | `context/Work - Leadership Map.md` | Keep private leader-specific context here; generalize before external use |
 | Work memory | `memory/Work - Memory.md` | Keep compressed recall and validated observations here |
 | Work decision records | `systems/decisions/work/` | Keep durable guardrails and decisions here |
-| Technology Committee charter | `committee/Technology Committee.md` | Keep executive purpose and scope here |
-| Committee mechanics | `committee/Technology Committee - Operating Runbook.md` | Keep cadence, intake, metrics, and failure signals here |
-| Committee templates | `committee/Technology Committee - * Template.md` | Keep templates aligned with charter and runbook |
+| Technology Committee charter | `committees/technology/Technology Committee.md` | Keep executive purpose and scope here |
+| Committee mechanics | `committees/technology/Technology Committee - Operating Runbook.md` | Keep cadence, intake, metrics, and failure signals here |
+| Committee templates | `committees/technology/Technology Committee - * Template.md` | Keep templates aligned with charter and runbook |
 | AB-Gatekeeper runtime behavior | `agents/ab-gatekeeper/AB-Gatekeeper - Agent Instructions.md` | Active behavior must be embedded here before deployment |
 | AB-Gatekeeper C-level calibration | `agents/ab-gatekeeper/AB-Gatekeeper - Project Context Register.md` | Keep project/domain calibration here; do not turn it into a tracker |
 | AB-Gatekeeper special cases | `agents/ab-gatekeeper/AB-Gatekeeper - Agent Instructions.md` | `AB-Gatekeeper - Special Case Rules.md` is a private/reference registry |
 | AB-Executive runtime behavior | `agents/ab-executive-drafter/AB-Executive Drafter - Agent Instructions.md` | Active behavior must be embedded here before deployment |
 | Recipient-specific drafting | `agents/ab-executive-drafter/AB-Executive Drafter - Recipient Playbook.md` | Keep stable recipient rules here; exclude raw political/personnel notes |
 | M365 source boundaries | `*- OneDrive Source Package.md` | Keep runtime packages minimal and least-privilege |
+| Work OS ChatGPT Project definitions | `templates/prompts/ChatGPT Project Custom Instructions.md` | Keep project role, runtime assumptions, and source scope here |
+| Work OS ChatGPT Project runtime packaging | `templates/prompts/ChatGPT Project Runtime Packages.md` | Keep compilation rules and generated package contract here |
 
 ---
 
@@ -94,6 +99,7 @@ Do not copy Personal OS family, personal, or venture context into Work OS unless
 * Treat vision, pilot, test, source-package, and special-case registry files as reference or validation material unless the source package explicitly changes.
 * If a private insight is needed in a runtime source, generalize it into a safe communication rule.
 * Do not treat generated mirrors or runtime exports as canonical source files.
+* Treat `build/chatgpt-projects/` as generated ChatGPT upload material, not canonical Work OS source.
 
 ---
 
@@ -106,6 +112,7 @@ Do not copy Personal OS family, personal, or venture context into Work OS unless
 * If AB-Gatekeeper special cases change, update `AB-Gatekeeper - Agent Instructions.md`, then mirror the reference registry only if useful.
 * If AB-Executive recipient rules change, update the Recipient Playbook, Agent Instructions, and relevant test scenarios.
 * If runtime source boundaries change, update the corresponding OneDrive Source Package.
+* If ChatGPT Project runtime scope changes, update `templates/prompts/ChatGPT Project Custom Instructions.md`, `templates/prompts/ChatGPT Project Runtime Packages.md`, and refresh `build/chatgpt-projects/work-os/`.
 * Do not promote temporary events, project noise, or one-off stakeholder reactions into durable systems.
 
 ---
