@@ -8,8 +8,8 @@ Refresh after meaningful Work OS changes.
 Target ChatGPT Project: Work OS
 Owning OS: Work OS
 Package role: Primary project runtime
-Generated timestamp: 20260627-165559Z
-Output filename: Project Instructions - 20260627-165559Z.md
+Generated timestamp: 20260627-170758Z
+Output filename: Project Instructions - 20260627-170758Z.md
 
 Source scope:
 
@@ -108,6 +108,7 @@ Do not copy Personal OS family, personal, or venture context into Work OS unless
 |---|---|---|
 | Work role and mandate | `context/Work - Context.md` | Keep stable Work realities and constraints here |
 | Work execution model | `context/Work - PARA.md` | Keep Work PARA, narrative, and visibility rules here |
+| Work operating stack | `context/Work - Operating Stack.md` | Keep corporate tool roles, device constraints, and system boundaries here |
 | Political context | `context/Work - Political.md` | Keep private stakeholder dynamics here; generalize before external use |
 | Leadership context | `context/Work - Leadership Map.md` | Keep private leader-specific context here; generalize before external use |
 | Work memory | `memory/Work - Memory.md` | Keep compressed recall and validated observations here |
@@ -146,7 +147,7 @@ Do not copy Personal OS family, personal, or venture context into Work OS unless
 
 * Modify existing structures before creating new files.
 * Update companion files in the same pass when behavior changes.
-* If Work context changes, check `context/Work - Context.md`, `context/Work - PARA.md`, and relevant memory or decision records.
+* If Work context changes, check `context/Work - Context.md`, `context/Work - PARA.md`, `context/Work - Operating Stack.md`, and relevant memory or decision records.
 * If committee routing changes, check the charter, runbook, triage template, topic brief template, and AB-Gatekeeper instructions.
 * If AB-Gatekeeper special cases change, update `AB-Gatekeeper - Agent Instructions.md`, then mirror the reference registry only if useful.
 * If AB-Executive recipient rules change, update the Recipient Playbook, Agent Instructions, and relevant test scenarios.
@@ -259,6 +260,7 @@ These files define the system. They are the **sources of truth**:
 | Repository maintenance rules | `/AGENTS.md` |
 | Work role, constraints, and operating context | `/context/Work - Context.md` |
 | Work execution and narrative PARA rules | `/context/Work - PARA.md` |
+| Work corporate tool and system boundaries | `/context/Work - Operating Stack.md` |
 | Work political landscape | `/context/Work - Political.md` |
 | Work leadership landscape | `/context/Work - Leadership Map.md` |
 | Compressed Work recall | `/memory/Work - Memory.md` |
@@ -354,7 +356,7 @@ Otherwise:
 ## Repository Navigation
 
 ```text
-/context/                      -> Work context, execution rules, political map, and leadership map
+/context/                      -> Work context, execution rules, operating stack, political map, and leadership map
 /memory/                       -> Compressed Work recall and validated observations
 /systems/decisions/work/         -> Durable Work decision records
 /committees/                   -> Committee plans and governance materials
@@ -467,6 +469,7 @@ Canonical control:
 
 * Work context: `/context/Work - Context.md`
 * Work execution model: `/context/Work - PARA.md`
+* Work operating stack: `/context/Work - Operating Stack.md`
 * Work memory: `/memory/Work - Memory.md`
 * Governance: `/committees/technology/Technology Committee.md`
 * Mechanics: `/committees/technology/Technology Committee - Operating Runbook.md`
@@ -545,7 +548,7 @@ Canonical Work OS rules remain in:
 |---|---|
 | Repository maintenance rules | `/AGENTS.md` |
 | Repository orientation | `/README.md` |
-| Work operating context | `/context/` |
+| Work operating context and tool boundaries | `/context/` |
 | Compressed Work recall | `/memory/` |
 | Durable decisions and guardrails | `/systems/decisions/` |
 | Committee plans and governance | `/committees/` |
@@ -587,7 +590,7 @@ These two files are the Work OS project definition.
 
 Use this package for Work OS maintenance, private Work reasoning, committee planning, source-boundary review, and agent runtime-package upkeep.
 
-Refresh it after meaningful changes to Work OS structure, Work context, Work memory, decision records, committee governance, agent runtime behavior, source boundaries, or project boundaries.
+Refresh it after meaningful changes to Work OS structure, Work context, Work operating stack, Work memory, decision records, committee governance, agent runtime behavior, source boundaries, or project boundaries.
 
 Runtime package rule:
 
@@ -887,6 +890,7 @@ Full files:
 
 * `/context/Work - Context.md`
 * `/context/Work - PARA.md`
+* `/context/Work - Operating Stack.md`
 * `/context/Work - Political.md`
 * `/context/Work - Leadership Map.md`
 * `/memory/Work - Memory.md`
@@ -939,6 +943,7 @@ Enforce:
 - AGENTS.md
 - README.md
 - Work context files
+- Work operating stack rules
 - Work memory rules
 - Work decision records
 - Technology Committee governance

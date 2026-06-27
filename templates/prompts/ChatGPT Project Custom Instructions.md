@@ -144,6 +144,7 @@ Full files:
 
 * `/context/Work - Context.md`
 * `/context/Work - PARA.md`
+* `/context/Work - Operating Stack.md`
 * `/context/Work - Political.md`
 * `/context/Work - Leadership Map.md`
 * `/memory/Work - Memory.md`
@@ -196,6 +197,7 @@ Enforce:
 - AGENTS.md
 - README.md
 - Work context files
+- Work operating stack rules
 - Work memory rules
 - Work decision records
 - Technology Committee governance

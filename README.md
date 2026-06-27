@@ -50,6 +50,7 @@ These files define the system. They are the **sources of truth**:
 | Repository maintenance rules | `/AGENTS.md` |
 | Work role, constraints, and operating context | `/context/Work - Context.md` |
 | Work execution and narrative PARA rules | `/context/Work - PARA.md` |
+| Work corporate tool and system boundaries | `/context/Work - Operating Stack.md` |
 | Work political landscape | `/context/Work - Political.md` |
 | Work leadership landscape | `/context/Work - Leadership Map.md` |
 | Compressed Work recall | `/memory/Work - Memory.md` |
@@ -145,7 +146,7 @@ Otherwise:
 ## Repository Navigation
 
 ```text
-/context/                      -> Work context, execution rules, political map, and leadership map
+/context/                      -> Work context, execution rules, operating stack, political map, and leadership map
 /memory/                       -> Compressed Work recall and validated observations
 /systems/decisions/work/         -> Durable Work decision records
 /committees/                   -> Committee plans and governance materials
@@ -258,6 +259,7 @@ Canonical control:
 
 * Work context: `/context/Work - Context.md`
 * Work execution model: `/context/Work - PARA.md`
+* Work operating stack: `/context/Work - Operating Stack.md`
 * Work memory: `/memory/Work - Memory.md`
 * Governance: `/committees/technology/Technology Committee.md`
 * Mechanics: `/committees/technology/Technology Committee - Operating Runbook.md`
