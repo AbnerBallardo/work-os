@@ -116,6 +116,7 @@ Rule:
 |---|---|---|
 | Microsoft 365 | Corporate productivity and collaboration platform | Corporate system layer |
 | Microsoft Outlook | Corporate email intake and communication | Official Work communication |
+| Outlook Calendar | Work calendar, meeting scheduling, and availability coordination | Corporate scheduling authority |
 | OneDrive | Corporate file collaboration and controlled agent source folders | Corporate file layer |
 | OneNote | Corporate note-taking candidate and Microsoft-native working notes | Corporate note layer |
 | Microsoft Tasks | Attempted task support for email handling | Execution support, not yet defined as primary authority |
@@ -160,6 +161,7 @@ Rule:
 | Information type | System of record | Notes |
 |---|---|---|
 | Official Work email | Microsoft Outlook | Corporate communication authority |
+| Calendar, meetings, and availability | Outlook Calendar | Corporate scheduling authority; administrative support may coordinate but does not create Work OS truth |
 | Email triage signals | Outlook Categories / Microsoft Tasks | Support tools only until workflow is defined |
 | Corporate working notes | OneNote | Preferred Microsoft-native note candidate; workflow not yet defined |
 | Corporate files and team structures | OneDrive | Corporate file collaboration and controlled agent source folders |
@@ -268,6 +270,14 @@ Rule:
 Rule:
 
 * Tool workflows should not be documented here until they are stable enough to guide repeated Work execution.
+
+### 5. Administrative Support Boundary
+
+Rule:
+
+* Executive administrative support may coordinate calendar and meetings inside corporate tools.
+* Work OS may store the durable role and boundary of that support, but should not recreate calendar records, meeting logistics, or short-lived scheduling exchanges.
+* Private Work OS reasoning, political context, leadership assessments, and unreviewed working notes must not be copied into administrative scheduling workflows.
 
 ---
 

@@ -623,6 +623,17 @@ Fix:
 * Push ownership down
 * Clarify decision rights
 * Remove unnecessary involvement
+* Use executive administrative support for scheduling and coordination where decision ownership is not required
+
+### Administrative Coordination Support
+
+Claudia Oquendo is shared with the VP Operations and can support calendar management, meeting scheduling, and administrative coordination.
+
+Rule:
+
+* Administrative support should reduce coordination load and meeting friction.
+* It must not become a hidden project-management layer, private reasoning channel, or substitute for clear ownership.
+* If calendar or scheduling friction repeatedly consumes operator time, convert the issue into an explicit coordination rule, workflow, or Area signal instead of handling it as ad hoc effort.
 
 ---
 

@@ -73,6 +73,17 @@ Covers:
 * Engineering should move under Raul as accountable execution owner.
 * Architecture should be split from the combined Engineering & Architecture scope, with the target model of a dedicated Director of Architecture.
 
+### Executive Support Model
+
+* Claudia Oquendo is a shared executive assistant supporting both Paola Comitre, VP Operations, and Abner.
+* Claudia helps Abner with calendar management, meeting scheduling, and related administrative coordination.
+* Current use of Claudia's support is underdeveloped relative to Abner's operating load.
+* Improving the working model with Claudia is a capacity and coordination improvement, not a substitute for accountable Technology ownership or executive judgment.
+
+Decision rule:
+
+* Use Claudia for calendar, scheduling, and administrative coordination that reduces operator bottleneck without transferring decision ownership or private Work OS reasoning into administrative workflows.
+
 ---
 
 ## Organizational Context
