@@ -1,6 +1,6 @@
 # Work OS
 
-Version: v1.0
+Version: v1.1
 
 ---
 
@@ -22,21 +22,21 @@ It defines **how Work context, execution rules, governance artifacts, and agent 
 
 ```text
 Context -> Judgment -> Execution Control -> Narrative -> Runtime Packages -> Feedback
-     |          |             |               |                |
-  Context   Decisions      Memory         Committee          Agents
+    |          |             |               |                |
+ Context   Decisions      Memory         Committees        Agents
 ```
 
 ### Layers
 
 | Layer | Role | Nature |
 |---|---|---|
-| Context | Stable Work context, execution model, political landscape, and leadership map | Stable but reviewable |
+| Context | Stable Work context, execution model, political landscape, leadership map, and information handling | Stable / reviewable |
 | Memory | Compressed Work recall and validated observations | Curated |
 | Decisions | Durable Work decision records and guardrails | Stable |
 | Committees | Committee plans, governance, intake, templates, and decision-support mechanics | Stable / reusable |
 | Agents | Runtime instructions, source boundaries, tests, and pilot material | Stable / deployable |
 | Templates | Source-side prompt and runtime-package definitions | Stable / reusable |
-| Build | Generated ChatGPT Project upload artifacts | Generated |
+| Build | Generated ChatGPT Project upload artifacts when present | Generated |
 | Archive | Inactive or superseded Work artifacts | Historical |
 
 ---
@@ -85,6 +85,24 @@ Handling rules live in:
 
 ---
 
+## What This File Does
+
+This file exists to:
+
+* Explain how Work OS is structured
+* Define where each type of Work-system material belongs
+* Clarify the Codex, M365 agent, and ChatGPT Project workflow
+* Help navigate the repository
+
+This file does NOT:
+
+* Define canonical Work rules
+* Replace corporate systems of record
+* Store raw Work exports, meeting logs, or short-lived delivery noise
+* Contain unreviewed Work-facing runtime material
+
+---
+
 ## System Boundaries
 
 ### Work OS
@@ -123,6 +141,10 @@ Contain:
 
 Work OS does not replace corporate systems of record.
 
+### Content OS
+
+Contains public-expression governance only. Work OS material may influence public frameworks only after it is generalized and cleared under the information-handling policy.
+
 ---
 
 ## Admission Criteria
@@ -136,25 +158,25 @@ Material belongs in Work OS only if it is:
 
 Otherwise:
 
--> Keep it in the Work execution layer, corporate system of record, or archive/delete it.
+* Keep it in the Work execution layer, corporate system of record, or archive/delete it.
 
 ---
 
 ## Repository Navigation
 
 ```text
-/context/                      -> Work context, execution rules, operating stack, political map, leadership map, and information-handling rules
-/memory/                       -> Compressed Work recall and validated observations
+/context/                        -> Work context, execution rules, operating stack, political map, leadership map, and policy
+/memory/                         -> Compressed Work recall and validated observations
 /systems/decisions/work/         -> Durable Work decision records
-/committees/                   -> Committee plans and governance materials
-/committees/technology/        -> Technology Committee charter, runbook, and templates
-/agents/ab-gatekeeper/         -> Gatekeeper runtime package, references, tests, and pilot material
-/agents/ab-executive-drafter/  -> Executive drafting runtime package, playbook, tests, and pilot material
-/templates/prompts/            -> ChatGPT Project source-side templates and package rules
-/build/chatgpt-projects/work-os/ -> Generated upload package for the Work OS ChatGPT Project
-/archive/                      -> Inactive or superseded Work artifacts
-/AGENTS.md                     -> Codex maintenance instructions
-/README.md                     -> Repository orientation
+/committees/                     -> Committee plans and governance materials
+/committees/technology/          -> Technology Committee charter, runbook, and templates
+/agents/ab-gatekeeper/           -> Gatekeeper runtime package, references, tests, and pilot material
+/agents/ab-executive-drafter/    -> Executive drafting runtime package, playbook, tests, and pilot material
+/templates/prompts/              -> ChatGPT Project source-side templates and package rules
+/build/chatgpt-projects/work-os/ -> Generated upload package when present for the Work OS ChatGPT Project
+/archive/                        -> Inactive or superseded Work artifacts
+/AGENTS.md                       -> Codex maintenance instructions
+/README.md                       -> Repository orientation
 ```
 
 ---
@@ -206,16 +228,16 @@ Use one ChatGPT Project by default:
 
 | Project | Role | Runtime package |
 |---|---|---|
-| Work OS | Private Work OS reasoning, maintenance, and source-boundary review | `/build/chatgpt-projects/work-os/` |
+| Work OS | Private Work OS reasoning, maintenance, and source-boundary review | `/build/chatgpt-projects/work-os/` when present after build |
 
 ChatGPT Project uploads are generated runtime artifacts.
 
 They are not:
 
-* canonical source files
-* corporate records
+* Canonical source files
+* Corporate records
 * M365 agent source packages
-* permanent storage for prompt-specific execution material
+* Permanent storage for prompt-specific execution material
 
 Runtime package source rule:
 
@@ -280,6 +302,21 @@ Change when:
 * Agent runtime source rules change
 * Committee governance materially changes
 
+### Commit Rules
+
+* One coherent system change per commit
+* High signal only
+* Prefer compression over accumulation
+
+Examples:
+
+```bash
+context(work): refine source boundary
+committee(technology): update triage mechanics
+agent(gatekeeper): tighten runtime package scope
+runtime(chatgpt): refresh work-os package
+```
+
 ---
 
 ## AI Usage
@@ -301,8 +338,10 @@ AI tools may not:
 
 ---
 
-## Guiding Principle
+## Guiding Principles
 
 > Work OS owns detailed Work operating context and controlled Work execution support.
->
+
 > Personal OS owns only the operator-level Work overview needed for cross-domain judgment.
+
+> Corporate systems remain the official systems of record.
