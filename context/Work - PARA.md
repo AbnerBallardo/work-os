@@ -1,14 +1,19 @@
 # Work - PARA
 
 Version: v1.1
+Status: Active
+Owner: Abner Ballardo
+System: Work OS
+Classification: Highly Sensitive
+Role: Work-specific execution model
 
-Context owner: Abner Ballardo. This file should be read as context about Abner Ballardo, his decisions, constraints, operating environment, and personal operating system. Any third-party people, organizations, or systems are included only insofar as they shape Abner Ballardo's context.
+Context scope: Abner Ballardo. This file should be read as context about Abner Ballardo, his decisions, constraints, operating environment, and personal operating system. Any third-party people, organizations, or systems are included only insofar as they shape Abner Ballardo's context.
 
 ---
 
 ## Purpose
 
-Define how the execution system (PARA) is applied in the **Work domain**, extending the Master PARA model with domain-specific constraints, structures, and alignment mechanisms.
+Define how the execution system (PARA) is applied in the **Work domain**, extending the Personal OS base PARA model with Work-specific constraints, structures, and alignment mechanisms.
 
 This file ensures:
 
@@ -31,9 +36,9 @@ Applies only to:
 
 ---
 
-## Relationship to Master - PARA
+## Relationship to Personal OS Base PARA
 
-This file inherits all rules from **Master - PARA.md**.
+This file inherits the domain-agnostic execution rules from Personal OS `context/PARA.md`.
 
 It adds only:
 

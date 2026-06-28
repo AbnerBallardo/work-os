@@ -1,8 +1,13 @@
 # Work - Leadership Map
 
 Version: v1.2
+Status: Active
+Owner: Abner Ballardo
+System: Work OS
+Classification: Highly Sensitive
+Role: Private leadership landscape
 
-Context owner: Abner Ballardo. This file should be read as context about Abner Ballardo, his decisions, constraints, operating environment, and personal operating system. Any third-party people, organizations, or systems are included only insofar as they shape Abner Ballardo's context.
+Context scope: Abner Ballardo. This file should be read as context about Abner Ballardo, his decisions, constraints, operating environment, and personal operating system. Any third-party people, organizations, or systems are included only insofar as they shape Abner Ballardo's context.
 
 ## Purpose
 

@@ -1,6 +1,11 @@
 # Information Handling Policy
 
 Version: v1.0
+Status: Active
+Owner: Abner Ballardo
+System: Work OS
+Classification: Highly Sensitive
+Role: Exposure and sensitivity policy
 
 ---
 

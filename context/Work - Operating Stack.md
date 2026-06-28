@@ -1,8 +1,13 @@
 # Work - Operating Stack
 
 Version: v1.0
+Status: Active
+Owner: Abner Ballardo
+System: Work OS
+Classification: Highly Sensitive
+Role: Corporate tool and system boundary model
 
-Context owner: Abner Ballardo. This file should be read as context about Abner Ballardo's Work tooling environment, corporate platform constraints, device access, and system-of-record boundaries. Any referenced products or vendors are included only insofar as they shape Work execution, information flow, and source-boundary decisions.
+Context scope: Abner Ballardo. This file should be read as context about Abner Ballardo's Work tooling environment, corporate platform constraints, device access, and system-of-record boundaries. Any referenced products or vendors are included only insofar as they shape Work execution, information flow, and source-boundary decisions.
 
 ---
 
