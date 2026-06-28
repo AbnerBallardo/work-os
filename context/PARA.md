@@ -1,6 +1,6 @@
 # PARA
 
-Version: v1.1
+Version: v1.2
 Status: Active
 Owner: Abner Ballardo
 System: Work OS
@@ -232,14 +232,29 @@ No accumulation in active space.
 
 ### Role
 
-Narrative PARA is a **controlled Work-facing file structure** used for communication, alignment, reporting, and executive-facing artifacts.
+Narrative PARA is a **controlled Work-facing executive visibility layer** used for selected project narratives, communication, alignment, reporting, and executive-facing artifacts.
 
 It exists to:
 
+* Maintain executive visibility over the small set of projects that materially affect judgment, escalation, delivery confidence, stakeholder alignment, or strategic outcomes
 * Package decisions and execution signals for Work audiences
 * Align direction across teams and stakeholders
 * Preserve controlled communication artifacts
 * Enable escalation without exposing private reasoning
+
+It is not the full IT project inventory.
+
+Current operating range:
+
+| Measure | Rule |
+|---|---|
+| Target active narratives | 10-20 selected projects |
+| Current baseline | 12 active narratives as of 2026-06-28 |
+| Selection basis | Abner-critical visibility, decision leverage, escalation risk, strategic importance, or recurring reconstruction effort |
+
+Rule:
+
+* Narrative PARA is Abner's selected executive visibility layer, not a tracker for all IT projects.
 
 ---
 
@@ -259,16 +274,49 @@ Narrative PARA is not the thinking layer. It is the controlled Work-facing packa
 Rule:
 
 * Private thinking produces decisions and signals; Narrative PARA packages only what is needed for alignment, action, or controlled communication.
+* Corporate systems own official records; Narrative PARA owns selected executive execution narratives; Teams owns live coordination; Work OS owns reusable interpretation, governance rules, and decision patterns.
 
 ---
 
 ### Inputs
 
 * Decisions from private Work judgment
-* Signals from Projects, Areas, and execution systems
+* Signals from selected critical Projects, Areas, and execution systems
 * Emerging risks
 * Cross-team dependencies
 * Organizational tensions
+
+---
+
+### Admission and Removal Rules
+
+A Project enters Narrative PARA only when Abner needs recurring visibility without reconstructing status from fragmented signals.
+
+Admission criteria:
+
+* Executive attention is likely required
+* Delivery confidence, timeline, scope, or dependency risk is material
+* Sponsor, regulator, vendor, architecture, security, or cross-domain alignment matters
+* The Project carries strategic importance beyond routine delivery
+* Fragmented signals would otherwise require repeated manual reconstruction
+
+Do not admit:
+
+* Routine delivery projects
+* Project inventory entries included only because they exist
+* Single-week issues without recurring executive relevance
+* Task-level workstreams inside a larger Project
+
+Removal criteria:
+
+* Executive attention is no longer required
+* The Project has stabilized into routine execution
+* The decision, escalation, or visibility need has closed
+* The narrative no longer changes judgment, alignment, or action
+
+Rule:
+
+* Keep Narrative PARA small enough to preserve executive signal.
 
 ---
 
@@ -314,6 +362,63 @@ Rule:
 
 ---
 
+### Project Narrative Minimum Schema
+
+Every selected Project narrative should make visible:
+
+* Status: Green / Yellow / Red
+* One-sentence rationale
+* Business sponsor
+* Technology owner
+* Agile Facilitator / narrative owner
+* Current phase or milestone
+* Next milestone or visible signal
+* Main risk, blocker, or dependency
+* Decision, acknowledgement, or escalation needed
+* Last update
+
+Acceptance rule:
+
+* A Project narrative is acceptable only if Abner can understand status, ownership, weekly movement, decision need, and next signal in less than five minutes.
+
+---
+
+### Teams Reflection Rule
+
+Microsoft Teams is the live coordination layer. Narrative PARA is the retained execution understanding layer.
+
+Reflect a Teams signal into the Project narrative within one business day when it changes:
+
+* Status color
+* Timeline or milestone
+* Scope
+* Critical dependency
+* Risk or blocker
+* Decision need
+* Executive visibility
+* Architecture, security, vendor, regulator, or cross-domain implication
+
+Rule:
+
+* Teams moves the Project; Narrative PARA explains the Project; Work OS improves the system.
+
+---
+
+### Ownership Model
+
+| Role | Responsibility |
+|---|---|
+| Agile Facilitator | Owns Project narrative quality, update discipline, stakeholder clarity, Teams reflection, weekly delta hygiene, and executive readability |
+| Domain owners | Provide concise dependency, risk, decision, and status input in their domains |
+| Delivery Governance | Reviews narrative quality, standardizes templates, requests corrections, detects repeated quality failures, and improves the model |
+| Abner | Consumes selected narratives, makes or routes decisions, asks direct questions, identifies patterns, and promotes only reusable system learning into Work OS |
+
+Decision rule:
+
+* Agile Facilitators own the narrative; Delivery Governance improves the standard; Abner consumes the narrative and abstracts reusable patterns.
+
+---
+
 ### Executive Incident Response Pattern
 
 Use a compressed response structure under executive pressure:
@@ -334,15 +439,36 @@ Rules:
 
 ### Failure Modes
 
+* Narrative PARA becomes a shadow IT project inventory
 * Narrative replaces execution visibility
 * Over-communication without signal
 * Stakeholder-specific tailoring that distorts reality
 * Re-explaining without structural change
 * Private thinking leaks into controlled Work artifacts
+* Abner compensates for weak narratives by reconstructing status manually
 
 ---
 
-### Promotion Rule
+### Promotion Rules
+
+A Narrative PARA signal may be promoted into Work OS only when it:
+
+* Appears across multiple projects
+* Reveals a governance gap
+* Exposes unclear decision rights
+* Changes a reusable decision rule
+* Affects committee routing or escalation logic
+* Reveals a structural dependency pattern
+* Shows repeated narrative quality failure
+
+Do not promote to Work OS:
+
+* Single-project status
+* Weekly updates
+* Temporary blockers
+* Stakeholder chatter
+* Raw project history
+* Project-specific execution detail
 
 Promote to Personal OS only when:
 

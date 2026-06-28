@@ -1,6 +1,6 @@
 # Operating Stack
 
-Version: v1.0
+Version: v1.1
 Status: Active
 Owner: Abner Ballardo
 System: Work OS
@@ -163,6 +163,7 @@ Rule:
 | Email triage signals | Outlook Categories / Microsoft Tasks | Support tools only until workflow is defined |
 | Corporate working notes | OneNote | Preferred Microsoft-native note candidate; workflow not yet defined |
 | Corporate files and team structures | OneDrive | Corporate file collaboration and controlled agent source folders |
+| Selected executive project narratives | Narrative PARA in the controlled Work file structure | Visibility layer for 10-20 Abner-critical projects; not the full IT project inventory |
 | Work-facing Copilot agent sources | Curated OneDrive folders | Must follow reviewed OneDrive Source Package files |
 | Private Work reasoning | Work OS / private Work context | Not copied raw into corporate tools |
 | Operator-level cross-domain context | Personal OS | Not copied raw into corporate tools |
