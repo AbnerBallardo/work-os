@@ -1,6 +1,6 @@
 # Operating Stack
 
-Version: v1.2
+Version: v1.3
 Status: Active
 Owner: Abner Ballardo
 System: Work OS
@@ -163,7 +163,7 @@ Rule:
 |---|---|---|
 | Official Work email | Microsoft Outlook | Corporate communication authority |
 | Calendar, meetings, and availability | Outlook Calendar | Corporate scheduling authority; administrative support may coordinate but does not create Work OS truth |
-| Email triage signals | Outlook Categories / Microsoft To Do / Tasks | Support tools for signal handling and Abner-owned next actions; not durable truth |
+| Email triage signals | Outlook Categories / Microsoft To Do / Tasks | Minimal intent and optional domain support for signal handling and Abner-owned next actions; not durable truth |
 | Corporate working notes | OneNote | Preferred Microsoft-native note candidate; workflow not yet defined |
 | Corporate files and team structures | OneDrive | Corporate file collaboration and controlled agent source folders |
 | Short-form coordination | Microsoft Teams | Coordination layer; durable decisions must move to the appropriate system of record |
@@ -272,6 +272,8 @@ Rule:
 Rule:
 
 * Outlook is signal intake, not a project tracker, decision log, archive duplicate, or knowledge base.
+* Outlook Categories are operational triage aids. They should stay limited to primary intent and optional domain tags when useful.
+* C-level, executive / stakeholder sensitivity, governance destination, TC tier, and full risk / exposure taxonomy belong in agent assessment, email body metadata, routing logic, or committee triage, not in Outlook Categories.
 * Outlook Calendar is the capacity allocation layer for meetings, preparation, follow-up, and protected executive work.
 * Microsoft To Do / Tasks is for Abner-owned personal commitments only.
 * Microsoft Teams is for fast coordination and short-form alignment, not durable governance.

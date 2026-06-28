@@ -1,8 +1,8 @@
 # Technology Committee - Operating Runbook
 
-Version: v1.1  
-Owner: VP Technology / Acting CIO  
-Applies To: Technology Leadership Team  
+Version: v1.2
+Owner: VP Technology / Acting CIO
+Applies To: Technology Leadership Team
 Parent Charter: [Technology Committee.md](Technology%20Committee.md)
 
 ---
@@ -108,6 +108,12 @@ The full brief must include:
 | TC1 | Domain-level decision | Direct report resolves locally |
 | TC2 | Cross-domain trade-off | Committee decision |
 | TC3 | CEO / International Banking / regulatory exposure | Committee decision plus external narrative protocol |
+
+Rule:
+
+* TC tier is a governance destination and preparation-depth decision.
+* It is not an Outlook Category or a required email subject component.
+* Use email subjects for readable intent and routing; use triage submissions for committee classification.
 
 ### Rejection Rules
 

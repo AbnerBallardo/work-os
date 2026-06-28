@@ -2,7 +2,7 @@
 
 ## Charter
 
-Version: v1.2
+Version: v1.3
 Owner: VP Technology / Acting CIO
 Chair: VP Technology / Acting CIO
 Cadence: Weekly
@@ -203,6 +203,12 @@ Governance depth must match decision risk:
 | TC1 | Domain-level decision | Direct report resolves locally |
 | TC2 | Cross-domain trade-off | Committee decision |
 | TC3 | CEO / International Banking / regulatory exposure | Committee decision plus external narrative protocol |
+
+Rule:
+
+* TC tier is governance routing, not an email category, Outlook category, or subject-line requirement.
+* Use TC tier to decide destination and preparation depth.
+* Keep inbox subjects readable; preserve committee classification in triage, assessment, or body metadata when needed.
 
 ---
 

@@ -1,10 +1,10 @@
 # AB-Gatekeeper - Special Case Rules
 
-Version: v1.1  
-Owner: VP Technology / Acting CIO  
-Status: Active rule registry  
-Applies To: AB-Gatekeeper email preparation and review  
-Runtime Authority: [AB-Gatekeeper - Agent Instructions.md](AB-Gatekeeper%20-%20Agent%20Instructions.md)  
+Version: v1.2
+Owner: VP Technology / Acting CIO
+Status: Active rule registry
+Applies To: AB-Gatekeeper email preparation and review
+Runtime Authority: [AB-Gatekeeper - Agent Instructions.md](AB-Gatekeeper%20-%20Agent%20Instructions.md)
 Design Reference: [AB-Gatekeeper - Copilot Agent Vision.md](AB-Gatekeeper%20-%20Copilot%20Agent%20Vision.md)
 
 ---
@@ -28,7 +28,7 @@ Special-case rules are validation overlays.
 The agent must apply them after:
 
 ```text
-Intent classification -> C-level classification -> Subject taxonomy
+Intent classification -> C-level classification -> secondary facets -> governance routing -> subject taxonomy
 ```
 
 And before:
@@ -50,7 +50,7 @@ If a special case applies, the agent must validate the mandatory fields before p
 | Maximum friction | Ask only for missing mandatory fields, up to three clarification questions |
 | Email ownership | The business / technology requester remains accountable for the request |
 | Security inclusion | When the rule requires Security review, include the Security reviewer in the email |
-| Subject keywords | `ABG`, intent, C-level, TC, and domain tags remain in English |
+| Subject keywords | `ABG`, intent, C-level, and domain tags remain in English |
 | Bilingual support | Body can be Spanish or English according to the language policy |
 | Do-not-send gate | If mandatory controls are missing, recommend not sending until corrected |
 
@@ -71,7 +71,7 @@ Use this structure to add future cases.
 
 Intent:
 C-level:
-Domain / forum tags:
+Domain tags:
 TC routing:
 
 ### Mandatory Inputs
@@ -99,7 +99,7 @@ The agent must not finalize the email if:
 
 ### Subject Example
 
-ABG | [INTENT] | [C-Level] | [Domain/Forum] | [Case] - [Specific ask]
+ABG | [INTENT] | [C-Level] | [Domain] | [Case] - [Specific ask]
 ```
 
 ---
@@ -125,7 +125,7 @@ Common trigger terms:
 |---|---|
 | Intent | `DECISION` |
 | C-level | `C2` by default; use `C3` if the project, risk, or business context is new to Abner |
-| Domain / forum tags | `SEC` plus impacted domain if known |
+| Domain tags | `SEC` plus impacted domain if known |
 | TC routing | `TC1` by default; escalate to `TC2` / `TC3` if cross-domain, regulatory, CEO, International Banking, or material risk acceptance is involved |
 
 ### Mandatory Inputs
@@ -175,7 +175,7 @@ ABG | DECISION | C2 | SEC | TRA-123 - Approve risk assessment for [Project]
 ```
 
 ```text
-ABG | DECISION | C3 | SEC/TC | TRA-456 - Approve risk acceptance for [Platform]
+ABG | DECISION | C3 | SEC/ARCH | TRA-456 - Approve risk acceptance for [Platform]
 ```
 
 ---
@@ -203,7 +203,7 @@ Common trigger terms:
 |---|---|
 | Intent | `DECISION` |
 | C-level | `C2` by default; use `C3` if the exposure, affected platform, or risk context is new to Abner |
-| Domain / forum tags | `SEC` plus `PROD`, `ENG`, `INFRA`, or impacted domain if known |
+| Domain tags | `SEC` plus `PROD`, `ENG`, `INFRA`, or impacted domain if known |
 | TC routing | `TC1` by default; escalate to `TC2` / `TC3` if material risk, regulatory exposure, production criticality, cross-domain conflict, or repeated extension exists |
 
 ### Mandatory Inputs

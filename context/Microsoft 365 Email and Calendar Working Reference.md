@@ -1,6 +1,6 @@
 # Microsoft 365 Email and Calendar Working Reference
 
-Version: v0.1
+Version: v0.2
 Status: Working Reference
 Owner: Abner Ballardo
 System: Work OS
@@ -170,7 +170,7 @@ Remove or revise any rule that:
 
 ## Category Model
 
-Categories encode why a message matters.
+Categories encode the primary operational reason a message matters.
 
 Decision rule:
 
@@ -178,33 +178,70 @@ Decision rule:
 Folders answer where the message lives.
 Categories answer why the message matters.
 Flags answer whether Abner owns a personal next action.
+Agent classification answers how the signal should be interpreted, routed, and drafted.
 ```
 
-Recommended category families:
+Primary workflow:
 
-| Family | Examples |
-|---|---|
-| Executive / Stakeholder | `Sebastian`, `Luis Alfredo`, `IB` |
-| Intent | `DECISION`, `ACTION`, `REVIEW`, `FYI`, `WAITING`, `BLOCKED` |
-| Risk / Exposure | `PROD`, `SEC`, `REG`, `AUDIT`, `VENDOR` |
-| Domain | `ENG`, `ARCH`, `DATA`, `SRE`, `INFRA`, `DELIVERY`, `FIN` |
-| Governance | `Technology Committee`, `RAC`, `Steering`, `Approval` |
+```text
+Intent -> Context Depth -> Routing
+```
+
+Recommended Outlook Categories:
+
+* `DECISION`
+* `ACTION`
+* `REVIEW`
+* `FYI`
+* `RISK`
+* `BLOCKED`
+* `ESCALATION`
+
+Optional Outlook Domain Categories, only if they improve scanning and routing:
+
+* `ENG`
+* `ARCH`
+* `SEC`
+* `SRE`
+* `INFRA`
+* `DATA`
+* `DELIVERY`
+* `FIN`
+* `VENDOR`
+* `PROD`
+* `REG`
+
+Do not create Outlook Categories for:
+
+* C-level
+* Executive / Stakeholder sensitivity
+* Governance
+* TC tier
+* Full Risk / Exposure taxonomy
+
+These belong mostly in AB-Gatekeeper assessment, email body metadata, routing logic, or committee triage.
 
 Rules:
 
 * Use a small and stable category set.
 * Do not use categories as project folders.
 * Do not create temporary categories for short-lived issues.
-* Combine stakeholder categories with intent categories when needed.
-* Use `WAITING` when Abner is waiting for someone else.
+* Intent is the primary category.
+* Domain is optional and visible only when it improves scanning.
+* Do not require humans to manually classify every message across all agent facets.
+* Use flags or Microsoft To Do, not a category, when Abner is waiting for someone else or owns a personal follow-up.
 * Use `BLOCKED` only when execution cannot proceed without intervention.
-* Use `DECISION` only when a choice, approval, or risk acceptance is required.
-* Use `FYI` only when no action is required but awareness matters.
+* Use `ACTION` only when Abner must personally do something.
+* Use `DECISION` only when Abner must choose, approve, reject, or accept risk.
+* Use `REVIEW` only when Abner must validate content or direction before it moves forward.
+* Use `FYI` only when awareness matters and the next visible signal is clear.
+* Use `RISK` when the primary reason to preserve the signal is possible downside.
+* Use `ESCALATION` when senior intervention, narrative control, or authority beyond normal ownership is required.
 
 Decision rule:
 
 ```text
-If a message cannot be categorized by intent, risk, domain, or governance, it probably should be archived or ignored.
+If a message cannot be categorized by intent, it probably should be archived, ignored, delegated, or handled outside the Inbox.
 ```
 
 ---
@@ -278,16 +315,16 @@ Calendar should protect:
 Recommended calendar categories:
 
 ```text
-Executive 1:1
-Decision Forum
-Deep Work
-Operational Control
-Team Leadership
-External / Regional
-Preparation
-Follow-up
 Personal Buffer
+Time Blocking
+Optional
 ```
+
+Calendar-only category rules:
+
+* Use `Time Blocking` for protected work blocks that represent capacity allocation, not a meeting commitment.
+* Use `Optional` for events where attendance is genuinely discretionary and should not be treated as committed capacity.
+* Do not use `Time Blocking` or `Optional` as email categories.
 
 Minimum working structure:
 

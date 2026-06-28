@@ -1,6 +1,6 @@
 # AB-Gatekeeper - Project Context Register
 
-Version: v1.3
+Version: v1.4
 Owner: VP Technology / Acting CIO
 Status: Active register
 Applies To: AB-Gatekeeper C-level classification
@@ -17,7 +17,7 @@ This register helps the agent decide how much context Abner needs in an email.
 
 It is not a project tracker.
 
-It calibrates routing judgment. It must not track project status, tasks, commitments, or stakeholder histories.
+It calibrates context-depth and routing judgment. It must not track project status, tasks, commitments, or stakeholder histories.
 
 It does not replace judgment.
 
@@ -60,6 +60,13 @@ Increase context depth when any trigger applies:
 | Repeated extension / repeated exception | Use at least `C2`; consider `TC2` / `TC3`                      |
 | New topic / first-time request          | Use `C3`                                                       |
 
+Rule:
+
+```text
+Override triggers may be caused by risk / exposure, executive / stakeholder sensitivity, or governance destination.
+They do not create new Outlook Categories.
+```
+
 ---
 
 ## 4. TC Routing Reference
@@ -79,6 +86,10 @@ Rule:
 C-level = communication depth
 TC-level = governance routing
 ```
+
+Domain, risk / exposure, executive / stakeholder sensitivity, and governance destination may explain why a C-level or TC-level changed.
+
+They are inference facets, not project status fields.
 
 Route to Technology Committee triage when an email or message includes:
 
