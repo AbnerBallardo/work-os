@@ -111,11 +111,11 @@ Version: v1.3
 
 ## References
 
-* Work - Context.md
-* Work - Political.md
-* Work - Leadership Map.md
-* Work - PARA.md
-* Plin Transaction Errors - Case.md
+* context/Context.md
+* context/Political.md
+* context/Leadership Map.md
+* context/PARA.md
+* memory/Plin Transaction Errors - Case.md
 * Incident Communication Reset - Case.md
 * Technology Organization Simplification - Case.md
 * 2026-05-23 - Workforce Reduction Sequencing Guardrails.md

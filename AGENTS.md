@@ -69,11 +69,11 @@ Do not copy Personal OS family, personal, venture, or Content OS context into Wo
 
 | Topic | Source of Truth | Maintenance Rule |
 |---|---|---|
-| Work role and mandate | `context/Work - Context.md` | Keep stable Work realities and constraints here |
-| Work execution model | `context/Work - PARA.md` | Keep Work PARA, narrative, and visibility rules here |
-| Work operating stack | `context/Work - Operating Stack.md` | Keep corporate tool roles, device constraints, and system boundaries here |
-| Political context | `context/Work - Political.md` | Keep private stakeholder dynamics here; generalize before external use |
-| Leadership context | `context/Work - Leadership Map.md` | Keep private leader-specific context here; generalize before external use |
+| Work role and mandate | `context/Context.md` | Keep stable Work realities and constraints here |
+| Work execution model | `context/PARA.md` | Keep Work PARA, narrative, and visibility rules here |
+| Work operating stack | `context/Operating Stack.md` | Keep corporate tool roles, device constraints, and system boundaries here |
+| Political context | `context/Political.md` | Keep private stakeholder dynamics here; generalize before external use |
+| Leadership context | `context/Leadership Map.md` | Keep private leader-specific context here; generalize before external use |
 | Information handling | `context/Information Handling Policy.md` | Keep repository sensitivity, exposure, externalization, and AI usage rules here |
 | Work memory | `memory/Work - Memory.md` | Keep compressed recall and validated observations here |
 | Work decision records | `systems/decisions/work/` | Keep durable guardrails and decisions here |
@@ -114,7 +114,7 @@ Do not copy Personal OS family, personal, venture, or Content OS context into Wo
 
 * Modify existing structures before creating new files.
 * Update companion files in the same pass when behavior changes.
-* If Work context changes, check `context/Work - Context.md`, `context/Work - PARA.md`, `context/Work - Operating Stack.md`, `context/Information Handling Policy.md`, and relevant memory or decision records.
+* If Work context changes, check `context/Context.md`, `context/PARA.md`, `context/Operating Stack.md`, `context/Information Handling Policy.md`, and relevant memory or decision records.
 * If committee routing changes, check the charter, runbook, triage template, topic brief template, and AB-Gatekeeper instructions.
 * If AB-Gatekeeper special cases change, update `AB-Gatekeeper - Agent Instructions.md`, then mirror the reference registry only if useful.
 * If AB-Executive recipient rules change, update the Recipient Playbook, Agent Instructions, and relevant test scenarios.

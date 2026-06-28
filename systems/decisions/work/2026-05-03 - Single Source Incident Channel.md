@@ -101,7 +101,7 @@ Reversible
 
 ## Execution Linkage
 
-* PARA reference: Work - PARA.md
+* PARA reference: context/PARA.md
 * Dependencies: SRE operating model, incident severity taxonomy, Teams channel governance, AI-assisted message drafting
 
 ---

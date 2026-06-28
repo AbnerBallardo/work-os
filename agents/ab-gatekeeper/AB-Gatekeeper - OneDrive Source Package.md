@@ -75,10 +75,10 @@ Keep these files outside the M365 agent source folder unless there is a specific
 | [Technology Committee - Agenda Template.md](../../committees/technology/Technology%20Committee%20-%20Agenda%20Template.md) | Governance reference |
 | [Technology Committee - Decision Log Template.md](../../committees/technology/Technology%20Committee%20-%20Decision%20Log%20Template.md) | Governance reference |
 | Personal OS master files | Private operator, decision, prompting, and execution-system context |
-| Personal OS `Work - Context.md` | Private source for stable Work-domain realities and truth-vs-narrative boundary |
-| Personal OS `Work - PARA.md` | Private source for execution and narrative-layer rules |
-| Personal OS `Work - Political.md` | Private stakeholder dynamics; use only to derive safe communication rules |
-| Personal OS `Work - Leadership Map.md` | Private leadership and delegation context; do not expose to the agent |
+| Work OS `context/Context.md` | Private source for stable Work-domain realities and truth-vs-narrative boundary |
+| Work OS `context/PARA.md` | Private source for execution and narrative-layer rules |
+| Work OS `context/Political.md` | Private stakeholder dynamics; use only to derive safe communication rules |
+| Work OS `context/Leadership Map.md` | Private leadership and delegation context; do not expose to the agent |
 | Personal OS `Personal - Context.md` | Private capacity context; use only to avoid adding unnecessary cognitive load |
 
 ---

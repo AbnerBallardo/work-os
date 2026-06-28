@@ -58,8 +58,8 @@ Version: v1.0
 
 ## References
 
-* Work - Memory.md
-* Work - Context.md
-* Work - Political.md
-* Work - Leadership Map.md
-* 2026-05-23 - Workforce Reduction Sequencing Guardrails.md
+* memory/Work - Memory.md
+* context/Context.md
+* context/Political.md
+* context/Leadership Map.md
+* systems/decisions/work/2026-05-23 - Workforce Reduction Sequencing Guardrails.md

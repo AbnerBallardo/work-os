@@ -1,4 +1,4 @@
-# Work - Political
+# Political
 
 Version: v2.3
 Status: Active

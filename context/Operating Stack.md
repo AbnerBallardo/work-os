@@ -1,4 +1,4 @@
-# Work - Operating Stack
+# Operating Stack
 
 Version: v1.0
 Status: Active

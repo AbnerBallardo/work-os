@@ -48,11 +48,11 @@ These files define the system. They are the **sources of truth**:
 | Concept | Source File |
 |---|---|
 | Repository maintenance rules | `/AGENTS.md` |
-| Work role, constraints, and operating context | `/context/Work - Context.md` |
-| Work execution and narrative PARA rules | `/context/Work - PARA.md` |
-| Work corporate tool and system boundaries | `/context/Work - Operating Stack.md` |
-| Work political landscape | `/context/Work - Political.md` |
-| Work leadership landscape | `/context/Work - Leadership Map.md` |
+| Work role, constraints, and operating context | `/context/Context.md` |
+| Work execution and narrative PARA rules | `/context/PARA.md` |
+| Work corporate tool and system boundaries | `/context/Operating Stack.md` |
+| Work political landscape | `/context/Political.md` |
+| Work leadership landscape | `/context/Leadership Map.md` |
 | Information handling and exposure rules | `/context/Information Handling Policy.md` |
 | Compressed Work recall | `/memory/Work - Memory.md` |
 | Work decision records | `/systems/decisions/work/` |
@@ -276,9 +276,9 @@ Signal -> Interpretation -> Decision -> Execution Control -> Narrative -> Feedba
 
 Canonical control:
 
-* Work context: `/context/Work - Context.md`
-* Work execution model: `/context/Work - PARA.md`
-* Work operating stack: `/context/Work - Operating Stack.md`
+* Work context: `/context/Context.md`
+* Work execution model: `/context/PARA.md`
+* Work operating stack: `/context/Operating Stack.md`
 * Information handling: `/context/Information Handling Policy.md`
 * Work memory: `/memory/Work - Memory.md`
 * Governance: `/committees/technology/Technology Committee.md`

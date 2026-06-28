@@ -1,4 +1,4 @@
-# Work - Context
+# Context
 
 Version: v1.4
 Status: Active
@@ -392,7 +392,7 @@ Each must be tracked with:
 
 Detailed leadership context is maintained in:
 
-* Work - Leadership Map.md
+* Leadership Map.md
 
 ---
 

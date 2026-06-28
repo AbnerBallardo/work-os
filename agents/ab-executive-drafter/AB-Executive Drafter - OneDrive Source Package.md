@@ -51,10 +51,10 @@ Keep these files outside the M365 agent source folder unless there is a specific
 | [AB-Executive Drafter - Test Scenarios.md](AB-Executive%20Drafter%20-%20Test%20Scenarios.md) | Testing / validation only |
 | [AB-Executive Drafter - Pilot Plan.md](AB-Executive%20Drafter%20-%20Pilot%20Plan.md) | Rollout planning only |
 | Personal OS master files | Private operator, decision, prompting, and execution-system context |
-| Personal OS `Work - Context.md` | Private source for stable Work-domain realities and truth-vs-narrative boundary |
-| Personal OS `Work - PARA.md` | Private source for execution, narrative-layer, and pruning rules |
-| Personal OS `Work - Political.md` | Private stakeholder dynamics; use only to derive safe communication rules |
-| Personal OS `Work - Leadership Map.md` | Private leadership and delegation context; use only to derive sanitized guidance |
+| Work OS `context/Context.md` | Private source for stable Work-domain realities and truth-vs-narrative boundary |
+| Work OS `context/PARA.md` | Private source for execution, narrative-layer, and pruning rules |
+| Work OS `context/Political.md` | Private stakeholder dynamics; use only to derive safe communication rules |
+| Work OS `context/Leadership Map.md` | Private leadership and delegation context; use only to derive sanitized guidance |
 | Personal OS `Personal - Context.md` | Private capacity context; use only to avoid adding unnecessary cognitive load |
 | Raw stakeholder notes | Private working context |
 | CV or personal profile | Personal reference only |

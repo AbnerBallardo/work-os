@@ -1,4 +1,4 @@
-# Work - PARA
+# PARA
 
 Version: v1.1
 Status: Active

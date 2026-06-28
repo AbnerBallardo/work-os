@@ -50,7 +50,7 @@ Version: v1.0
 
 ## References
 
-* Work - Memory.md
-* Work - Context.md
-* Work - Political.md
-* Work - PARA.md
+* memory/Work - Memory.md
+* context/Context.md
+* context/Political.md
+* context/PARA.md

@@ -35,11 +35,11 @@ Context files should not contain raw corporate exports, meeting logs, short-live
 
 | File | Role | Authority |
 |---|---|---|
-| `Work - Context.md` | Stable Work operating context | Defines role reality, organizational constraints, strategic direction, and operating principles |
-| `Work - PARA.md` | Work-specific execution model | Defines Work execution, narrative PARA, coordination rules, and Work-specific constraints |
-| `Work - Operating Stack.md` | Corporate tool and system boundary model | Defines Work tool roles, official systems of record, AI boundaries, and device constraints |
-| `Work - Political.md` | Private political landscape | Defines stakeholder dynamics, power structures, tactical patterns, and failure signals |
-| `Work - Leadership Map.md` | Private leadership landscape | Defines leadership coverage, delegation implications, reset implications, and role-risk context |
+| `Context.md` | Stable Work operating context | Defines role reality, organizational constraints, strategic direction, and operating principles |
+| `PARA.md` | Work-specific execution model | Defines Work execution, narrative PARA, coordination rules, and Work-specific constraints |
+| `Operating Stack.md` | Corporate tool and system boundary model | Defines Work tool roles, official systems of record, AI boundaries, and device constraints |
+| `Political.md` | Private political landscape | Defines stakeholder dynamics, power structures, tactical patterns, and failure signals |
+| `Leadership Map.md` | Private leadership landscape | Defines leadership coverage, delegation implications, reset implications, and role-risk context |
 | `Information Handling Policy.md` | Exposure and sensitivity policy | Defines repository classification, externalization rules, and runtime exposure boundaries |
 
 ---

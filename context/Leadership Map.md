@@ -1,4 +1,4 @@
-# Work - Leadership Map
+# Leadership Map
 
 Version: v1.2
 Status: Active
