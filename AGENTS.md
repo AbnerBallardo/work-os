@@ -28,7 +28,7 @@ Preserve decision quality, structural integrity, source boundaries, and long-ter
 
 | Area | Main Files | Purpose |
 |---|---|---|
-| Work Context | `context/` | Private Work context, execution rules, political landscape, and leadership map |
+| Work Context | `context/` | Private Work context, execution rules, political landscape, leadership map, and information-handling rules |
 | Work Memory | `memory/` | Compressed recall and validated observations |
 | Work Decisions | `systems/decisions/work/` | Durable decision records and guardrails |
 | Committees | `committees/` | Committee plans and governance materials |
@@ -72,6 +72,7 @@ Do not copy Personal OS family, personal, or venture context into Work OS unless
 | Work operating stack | `context/Work - Operating Stack.md` | Keep corporate tool roles, device constraints, and system boundaries here |
 | Political context | `context/Work - Political.md` | Keep private stakeholder dynamics here; generalize before external use |
 | Leadership context | `context/Work - Leadership Map.md` | Keep private leader-specific context here; generalize before external use |
+| Information handling | `context/Information Handling Policy.md` | Keep repository sensitivity, exposure, externalization, and AI usage rules here |
 | Work memory | `memory/Work - Memory.md` | Keep compressed recall and validated observations here |
 | Work decision records | `systems/decisions/work/` | Keep durable guardrails and decisions here |
 | Technology Committee charter | `committees/technology/Technology Committee.md` | Keep executive purpose and scope here |
@@ -90,6 +91,7 @@ Do not copy Personal OS family, personal, or venture context into Work OS unless
 
 ## Source Boundary Rules
 
+* Apply `context/Information Handling Policy.md` before exposing Work OS content outside private Work OS reasoning.
 * Do not connect private political notes, raw leadership assessments, or unreviewed working notes to M365 agents.
 * For AB-Gatekeeper, connect only:
   * `agents/ab-gatekeeper/AB-Gatekeeper - Agent Instructions.md`
@@ -108,11 +110,12 @@ Do not copy Personal OS family, personal, or venture context into Work OS unless
 
 * Modify existing structures before creating new files.
 * Update companion files in the same pass when behavior changes.
-* If Work context changes, check `context/Work - Context.md`, `context/Work - PARA.md`, `context/Work - Operating Stack.md`, and relevant memory or decision records.
+* If Work context changes, check `context/Work - Context.md`, `context/Work - PARA.md`, `context/Work - Operating Stack.md`, `context/Information Handling Policy.md`, and relevant memory or decision records.
 * If committee routing changes, check the charter, runbook, triage template, topic brief template, and AB-Gatekeeper instructions.
 * If AB-Gatekeeper special cases change, update `AB-Gatekeeper - Agent Instructions.md`, then mirror the reference registry only if useful.
 * If AB-Executive recipient rules change, update the Recipient Playbook, Agent Instructions, and relevant test scenarios.
 * If runtime source boundaries change, update the corresponding OneDrive Source Package.
+* If information-handling or exposure rules change, update `context/Information Handling Policy.md`, README, runtime templates, and `/config/chatgpt-project-builds.json`.
 * If ChatGPT Project runtime scope changes, update `templates/prompts/ChatGPT Project Custom Instructions.md`, `templates/prompts/ChatGPT Project Runtime Packages.md`, and `/config/chatgpt-project-builds.json`; generated `build/chatgpt-projects/work-os/` files are produced after push by GitHub Actions before Drive sync.
 * Do not promote temporary events, project noise, or one-off stakeholder reactions into durable systems.
 
@@ -132,6 +135,7 @@ Before finishing, verify:
 * No broken obvious Markdown links.
 * No unresolved imported citation placeholders from generated artifacts.
 * Runtime source packages still match agent instructions.
+* Information-handling references remain aligned with `context/Information Handling Policy.md`.
 * Private or sensitive context has not been promoted into Work-facing files.
 * Markdown heading structure is coherent: one document title, then section headings.
 

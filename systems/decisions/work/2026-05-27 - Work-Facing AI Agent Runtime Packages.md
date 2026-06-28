@@ -127,7 +127,7 @@ Rule:
 ## Execution Linkage
 
 * PARA reference: Work AI agent deployment and Work OS source packages
-* Dependencies: Work-facing agent instructions, sanitized companion sources, test scenarios, OneDrive source package, M365/Copilot deployment constraints
+* Dependencies: `/context/Information Handling Policy.md`, Work-facing agent instructions, sanitized companion sources, test scenarios, OneDrive source package, M365/Copilot deployment constraints
 
 ---
 

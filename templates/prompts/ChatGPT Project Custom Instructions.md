@@ -191,6 +191,7 @@ Focus on:
 Enforce:
 - AGENTS.md
 - README.md
+- Information Handling Policy
 - Technology Committee governance
 - Agent source-package boundaries
 

@@ -39,6 +39,13 @@
               "scope_label": "Repository orientation"
             },
             {
+              "path": "/context/Information Handling Policy.md",
+              "include": "selected_section",
+              "section_heading": "# Information Handling Policy",
+              "manifest_label": "selected information-handling policy",
+              "scope_label": "Information-handling policy"
+            },
+            {
               "path": "/templates/prompts/ChatGPT Project Runtime Packages.md",
               "include": "selected_section",
               "section_heading": "# ChatGPT Project Runtime Packages",
@@ -75,6 +82,13 @@
               "section_heading": "# Work OS",
               "manifest_label": "selected repository orientation",
               "scope_label": "Repository orientation"
+            },
+            {
+              "path": "/context/Information Handling Policy.md",
+              "include": "selected_section",
+              "section_heading": "# Information Handling Policy",
+              "manifest_label": "selected information-handling policy",
+              "scope_label": "Information-handling policy"
             },
             {
               "path": "/committees/technology/Technology Committee.md",

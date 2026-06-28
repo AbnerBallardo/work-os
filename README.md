@@ -53,6 +53,7 @@ These files define the system. They are the **sources of truth**:
 | Work corporate tool and system boundaries | `/context/Work - Operating Stack.md` |
 | Work political landscape | `/context/Work - Political.md` |
 | Work leadership landscape | `/context/Work - Leadership Map.md` |
+| Information handling and exposure rules | `/context/Information Handling Policy.md` |
 | Compressed Work recall | `/memory/Work - Memory.md` |
 | Work decision records | `/systems/decisions/work/` |
 | Technology Committee charter | `/committees/technology/Technology Committee.md` |
@@ -78,13 +79,9 @@ It is a **navigation and orientation layer**.
 
 This repository is classified as **Highly Sensitive**.
 
-Handling rules:
+Handling rules live in:
 
-* Apply minimum necessary exposure.
-* Preserve sensitive detail only when it materially improves private Work judgment.
-* Generalize sensitive stakeholder context into safe communication rules before use outside private reasoning.
-* Do not connect raw political notes, private leadership assessments, or unreviewed working notes to Work-facing agents.
-* Treat OneDrive and M365 agent uploads as runtime packages, not storage.
+* `/context/Information Handling Policy.md`
 
 ---
 
@@ -146,7 +143,7 @@ Otherwise:
 ## Repository Navigation
 
 ```text
-/context/                      -> Work context, execution rules, operating stack, political map, and leadership map
+/context/                      -> Work context, execution rules, operating stack, political map, leadership map, and information-handling rules
 /memory/                       -> Compressed Work recall and validated observations
 /systems/decisions/work/         -> Durable Work decision records
 /committees/                   -> Committee plans and governance materials
@@ -260,6 +257,7 @@ Canonical control:
 * Work context: `/context/Work - Context.md`
 * Work execution model: `/context/Work - PARA.md`
 * Work operating stack: `/context/Work - Operating Stack.md`
+* Information handling: `/context/Information Handling Policy.md`
 * Work memory: `/memory/Work - Memory.md`
 * Governance: `/committees/technology/Technology Committee.md`
 * Mechanics: `/committees/technology/Technology Committee - Operating Runbook.md`
@@ -277,6 +275,7 @@ Version: vX.Y
 Change when:
 
 * Canonical source boundaries change
+* Information-handling or exposure rules change
 * A new durable Work OS layer is added
 * Agent runtime source rules change
 * Committee governance materially changes

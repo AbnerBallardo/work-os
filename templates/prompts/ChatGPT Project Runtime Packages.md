@@ -24,6 +24,7 @@ Canonical Work OS rules remain in:
 |---|---|
 | Repository maintenance rules | `/AGENTS.md` |
 | Repository orientation | `/README.md` |
+| Information handling and exposure rules | `/context/Information Handling Policy.md` |
 | Committee plans and governance | `/committees/` |
 | Agent runtime behavior and source boundaries | `/agents/` |
 | ChatGPT Project definitions and custom-instruction intent | `/templates/prompts/ChatGPT Project Custom Instructions.md` |
@@ -170,6 +171,7 @@ Selected excerpts only:
 
 * `/AGENTS.md`
 * `/README.md`
+* `/context/Information Handling Policy.md`
 * `/templates/prompts/ChatGPT Project Runtime Packages.md`
 * `/templates/prompts/ChatGPT Project Custom Instructions.md`
 
@@ -216,6 +218,7 @@ Before finalizing a generated package, verify:
 * The package is self-contained for upload.
 * The package includes only selected source excerpts, not full source files.
 * The package is structured for model comprehension while minimizing source exposure.
+* The package includes selected information-handling rules.
 * The package excludes operational or high-churn material.
 * The package excludes broad Work context, memory, political context, leadership context, case files, and validation artifacts unless explicitly required for committee or agent understanding.
 * The package preserves Work OS as the source of truth.
