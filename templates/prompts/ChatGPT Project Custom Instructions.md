@@ -153,6 +153,9 @@ Selected excerpts only:
 
 * `/AGENTS.md`
 * `/README.md`
+* `/context/Information Handling Policy.md`
+* `/context/Operating Stack.md`
+* `/context/Microsoft 365 Email and Calendar Working Reference.md`
 * `/committees/technology/Technology Committee.md`
 * `/committees/technology/Technology Committee - Operating Runbook.md`
 * `/committees/technology/Technology Committee - Triage Submission Template.md`

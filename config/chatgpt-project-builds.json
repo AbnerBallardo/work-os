@@ -91,6 +91,20 @@
               "scope_label": "Information-handling policy"
             },
             {
+              "path": "/context/Operating Stack.md",
+              "include": "selected_section",
+              "section_heading": "# Operating Stack",
+              "manifest_label": "selected operating-stack boundaries",
+              "scope_label": "Operating-stack boundaries"
+            },
+            {
+              "path": "/context/Microsoft 365 Email and Calendar Working Reference.md",
+              "include": "selected_section",
+              "section_heading": "# Microsoft 365 Email and Calendar Working Reference",
+              "manifest_label": "selected Microsoft 365 email and calendar working reference",
+              "scope_label": "Microsoft 365 email and calendar working reference"
+            },
+            {
               "path": "/committees/technology/Technology Committee.md",
               "include": "selected_section",
               "section_heading": "# Technology Committee",
