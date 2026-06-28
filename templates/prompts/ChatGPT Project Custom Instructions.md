@@ -1,6 +1,6 @@
 # ChatGPT Project Custom Instructions
 
-Version: v1.0
+Version: v1.1
 
 ---
 
@@ -53,6 +53,20 @@ Every Work OS ChatGPT Project prompt assumes the project already has the followi
 Prompt-specific working files are not part of the durable project package. If a prompt requires a draft, email, meeting note, source structure, incident artifact, committee brief, agent test output, or operational note, assume that file is attached directly to the conversation using the prompt.
 
 Do not ask the operator to paste or restate project instructions, project knowledge, Work OS context, or known governance context unless the uploaded sources are missing, ambiguous, stale, or internally conflicting. Ask only for the missing prompt-specific attachment when the task cannot proceed without it.
+
+---
+
+## Runtime Build Automation
+
+Work OS ChatGPT Project runtime packages are generated after push by GitHub Actions before the repository syncs to Google Drive.
+
+| Build element | Path |
+|---|---|
+| Generic builder | `/scripts/build_chatgpt_projects.py` |
+| Work OS package config | `/config/chatgpt-project-builds.json` |
+| GitHub Actions workflow | `/.github/workflows/build-chatgpt-projects-and-sync-to-drive.yml` |
+
+Change package scope in the config file, not in generated `build/` artifacts.
 
 ---
 

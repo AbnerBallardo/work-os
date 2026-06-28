@@ -1,6 +1,6 @@
 # ChatGPT Project Runtime Packages
 
-Version: v1.0
+Version: v1.1
 
 ---
 
@@ -50,6 +50,22 @@ Do not store:
 
 Compiled files should be replaceable and refreshed from source.
 
+Build generation is automated:
+
+```text
+push to main -> GitHub Actions -> config-driven build generation -> Google Drive sync
+```
+
+The workflow must generate `build/chatgpt-projects/` files before syncing the repository to Google Drive.
+
+Work OS build details live outside the generic script:
+
+| Build element | Path |
+|---|---|
+| Generic builder | `/scripts/build_chatgpt_projects.py` |
+| Work OS package config | `/config/chatgpt-project-builds.json` |
+| GitHub Actions workflow | `/.github/workflows/build-chatgpt-projects-and-sync-to-drive.yml` |
+
 ---
 
 ## Package Rule
@@ -65,7 +81,7 @@ These two files are the Work OS project definition.
 
 Use this package for committee planning, source-boundary review, and agent runtime-package upkeep.
 
-Refresh it after meaningful changes to Work OS ChatGPT Project scope, committee governance, agent runtime behavior, source boundaries, or project boundaries.
+The package is regenerated after push by GitHub Actions when changes are merged to `main`. Update `/config/chatgpt-project-builds.json` when Work OS ChatGPT Project scope, committee governance, agent runtime behavior, source boundaries, or project boundaries change.
 
 Runtime package rule:
 
@@ -205,7 +221,8 @@ Before finalizing a generated package, verify:
 * The package preserves Work OS as the source of truth.
 * The package follows Work OS information-handling and source-boundary rules.
 * The package does not redefine corporate systems of record.
-* The package can be refreshed from the listed sources.
+* The package can be regenerated from the listed sources.
+* The config-driven builder generates the expected files before the Drive sync step runs.
 * Runtime prompts can assume project sources are uploaded and can rely on direct conversation attachments for prompt-specific working files.
 
 ---

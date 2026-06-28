@@ -113,7 +113,7 @@ Do not copy Personal OS family, personal, or venture context into Work OS unless
 * If AB-Gatekeeper special cases change, update `AB-Gatekeeper - Agent Instructions.md`, then mirror the reference registry only if useful.
 * If AB-Executive recipient rules change, update the Recipient Playbook, Agent Instructions, and relevant test scenarios.
 * If runtime source boundaries change, update the corresponding OneDrive Source Package.
-* If ChatGPT Project runtime scope changes, update `templates/prompts/ChatGPT Project Custom Instructions.md`, `templates/prompts/ChatGPT Project Runtime Packages.md`, and refresh `build/chatgpt-projects/work-os/`.
+* If ChatGPT Project runtime scope changes, update `templates/prompts/ChatGPT Project Custom Instructions.md`, `templates/prompts/ChatGPT Project Runtime Packages.md`, and `/config/chatgpt-project-builds.json`; generated `build/chatgpt-projects/work-os/` files are produced after push by GitHub Actions before Drive sync.
 * Do not promote temporary events, project noise, or one-off stakeholder reactions into durable systems.
 
 ---

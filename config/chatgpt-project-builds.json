@@ -1,0 +1,168 @@
+{
+  "generated_from": "Work OS",
+  "refresh_trigger": "a push-triggered GitHub Actions build before Google Drive sync",
+  "output_root": "build/chatgpt-projects",
+  "clean_output": true,
+  "runtime_rule_lines": [
+    "- This generated file is self-contained for ChatGPT Project upload.",
+    "- The listed source scope is for traceability and refresh only.",
+    "- Do not upload the listed Work OS source files unless a later build request explicitly expands the package.",
+    "- This package is a model-readable compilation, not a summary.",
+    "- Generated build files are runtime artifacts, not canonical source."
+  ],
+  "packages": [
+    {
+      "slug": "work-os",
+      "target_label": "Target ChatGPT Project",
+      "target_name": "Work OS",
+      "owning_os": "Work OS",
+      "package_role": "Primary project runtime",
+      "artifacts": [
+        {
+          "title": "Project Instructions",
+          "base_filename": "Project Instructions",
+          "companion_base_filename": "Project Knowledge",
+          "compiled_heading": "Compiled Instructions",
+          "sources": [
+            {
+              "path": "/AGENTS.md",
+              "include": "selected_section",
+              "section_heading": "# AGENTS.md",
+              "manifest_label": "selected repository maintenance rules",
+              "scope_label": "Repository maintenance rules"
+            },
+            {
+              "path": "/README.md",
+              "include": "selected_section",
+              "section_heading": "# Work OS",
+              "manifest_label": "selected repository orientation",
+              "scope_label": "Repository orientation"
+            },
+            {
+              "path": "/templates/prompts/ChatGPT Project Runtime Packages.md",
+              "include": "selected_section",
+              "section_heading": "# ChatGPT Project Runtime Packages",
+              "manifest_label": "selected runtime-package rules",
+              "scope_label": "Runtime-package rules"
+            },
+            {
+              "path": "/templates/prompts/ChatGPT Project Custom Instructions.md",
+              "include": "selected_section",
+              "root_heading": "# ChatGPT Project Custom Instructions",
+              "include_shared_before_first_h1": true,
+              "section_heading": "# 01 - Work OS",
+              "manifest_label": "selected sections: Shared/global rules; `# 01 - Work OS`",
+              "scope_label": "Shared/global rules"
+            }
+          ]
+        },
+        {
+          "title": "Project Knowledge",
+          "base_filename": "Project Knowledge",
+          "companion_base_filename": "Project Instructions",
+          "compiled_heading": "Compiled Knowledge",
+          "sources": [
+            {
+              "path": "/AGENTS.md",
+              "include": "selected_section",
+              "section_heading": "# AGENTS.md",
+              "manifest_label": "selected repository rules",
+              "scope_label": "Repository rules"
+            },
+            {
+              "path": "/README.md",
+              "include": "selected_section",
+              "section_heading": "# Work OS",
+              "manifest_label": "selected repository orientation",
+              "scope_label": "Repository orientation"
+            },
+            {
+              "path": "/committees/technology/Technology Committee.md",
+              "include": "selected_section",
+              "section_heading": "# Technology Committee",
+              "manifest_label": "selected committee charter and operating rules",
+              "scope_label": "Technology Committee charter"
+            },
+            {
+              "path": "/committees/technology/Technology Committee - Operating Runbook.md",
+              "include": "selected_section",
+              "section_heading": "# Technology Committee - Operating Runbook",
+              "manifest_label": "selected committee runbook",
+              "scope_label": "Technology Committee runbook"
+            },
+            {
+              "path": "/committees/technology/Technology Committee - Triage Submission Template.md",
+              "include": "selected_section",
+              "section_heading": "# Technology Committee - Triage Submission Template",
+              "manifest_label": "selected triage template",
+              "scope_label": "Technology Committee triage template"
+            },
+            {
+              "path": "/committees/technology/Technology Committee - Topic Brief Template.md",
+              "include": "selected_section",
+              "section_heading": "# Technology Committee - Topic Brief Template",
+              "manifest_label": "selected topic brief template",
+              "scope_label": "Technology Committee topic brief template"
+            },
+            {
+              "path": "/committees/technology/Technology Committee - Agenda Template.md",
+              "include": "selected_section",
+              "section_heading": "# Technology Committee - Agenda Template",
+              "manifest_label": "selected agenda template",
+              "scope_label": "Technology Committee agenda template"
+            },
+            {
+              "path": "/committees/technology/Technology Committee - Decision Log Template.md",
+              "include": "selected_section",
+              "section_heading": "# Technology Committee - Decision Log Template",
+              "manifest_label": "selected decision log template",
+              "scope_label": "Technology Committee decision log template"
+            },
+            {
+              "path": "/agents/ab-gatekeeper/AB-Gatekeeper - Agent Instructions.md",
+              "include": "selected_section",
+              "section_heading": "# AB-Gatekeeper - Agent Instructions",
+              "manifest_label": "selected agent instructions",
+              "scope_label": "AB-Gatekeeper instructions"
+            },
+            {
+              "path": "/agents/ab-gatekeeper/AB-Gatekeeper - Project Context Register.md",
+              "include": "selected_section",
+              "section_heading": "# AB-Gatekeeper - Project Context Register",
+              "manifest_label": "selected project context register",
+              "scope_label": "AB-Gatekeeper context register"
+            },
+            {
+              "path": "/agents/ab-gatekeeper/AB-Gatekeeper - OneDrive Source Package.md",
+              "include": "selected_section",
+              "section_heading": "# AB-Gatekeeper - OneDrive Source Package",
+              "manifest_label": "selected source package boundary",
+              "scope_label": "AB-Gatekeeper source package"
+            },
+            {
+              "path": "/agents/ab-executive-drafter/AB-Executive Drafter - Agent Instructions.md",
+              "include": "selected_section",
+              "section_heading": "# AB-Executive Drafter - Agent Instructions",
+              "manifest_label": "selected agent instructions",
+              "scope_label": "AB-Executive Drafter instructions"
+            },
+            {
+              "path": "/agents/ab-executive-drafter/AB-Executive Drafter - Recipient Playbook.md",
+              "include": "selected_section",
+              "section_heading": "# AB-Executive Drafter - Recipient Playbook",
+              "manifest_label": "selected recipient playbook",
+              "scope_label": "AB-Executive Drafter recipient playbook"
+            },
+            {
+              "path": "/agents/ab-executive-drafter/AB-Executive Drafter - OneDrive Source Package.md",
+              "include": "selected_section",
+              "section_heading": "# AB-Executive Drafter - OneDrive Source Package",
+              "manifest_label": "selected source package boundary",
+              "scope_label": "AB-Executive Drafter source package"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
