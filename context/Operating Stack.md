@@ -1,6 +1,6 @@
 # Operating Stack
 
-Version: v1.1
+Version: v1.2
 Status: Active
 Owner: Abner Ballardo
 System: Work OS
@@ -119,7 +119,8 @@ Rule:
 | Outlook Calendar | Work calendar, meeting scheduling, and availability coordination | Corporate scheduling authority |
 | OneDrive | Corporate file collaboration and controlled agent source folders | Corporate file layer |
 | OneNote | Corporate note-taking candidate and Microsoft-native working notes | Corporate note layer |
-| Microsoft Tasks | Attempted task support for email handling | Execution support, not yet defined as primary authority |
+| Microsoft To Do / Tasks | Personal commitment support for Abner-owned next actions | Execution support, not a project tracker or corporate record |
+| Microsoft Teams | Fast coordination, short-form alignment, and working escalation | Coordination layer, not durable decision log |
 | Outlook Categories | Email classification support | Email triage aid, not durable truth |
 
 Rule:
@@ -162,9 +163,10 @@ Rule:
 |---|---|---|
 | Official Work email | Microsoft Outlook | Corporate communication authority |
 | Calendar, meetings, and availability | Outlook Calendar | Corporate scheduling authority; administrative support may coordinate but does not create Work OS truth |
-| Email triage signals | Outlook Categories / Microsoft Tasks | Support tools only until workflow is defined |
+| Email triage signals | Outlook Categories / Microsoft To Do / Tasks | Support tools for signal handling and Abner-owned next actions; not durable truth |
 | Corporate working notes | OneNote | Preferred Microsoft-native note candidate; workflow not yet defined |
 | Corporate files and team structures | OneDrive | Corporate file collaboration and controlled agent source folders |
+| Short-form coordination | Microsoft Teams | Coordination layer; durable decisions must move to the appropriate system of record |
 | Selected executive project narratives | Narrative PARA in the controlled Work file structure | Visibility layer for 10-20 Abner-critical projects; not the full IT project inventory |
 | Work-facing Copilot agent sources | Curated OneDrive folders | Must follow reviewed OneDrive Source Package files |
 | Private Work reasoning | Work OS / private Work context | Not copied raw into corporate tools |
@@ -265,13 +267,28 @@ Rule:
 
 ---
 
-### 4. Workflow Definition Boundary
+### 4. Microsoft 365 Signal Intake Boundary
+
+Rule:
+
+* Outlook is signal intake, not a project tracker, decision log, archive duplicate, or knowledge base.
+* Outlook Calendar is the capacity allocation layer for meetings, preparation, follow-up, and protected executive work.
+* Microsoft To Do / Tasks is for Abner-owned personal commitments only.
+* Microsoft Teams is for fast coordination and short-form alignment, not durable governance.
+* Microsoft Copilot may compress, prepare, summarize, and draft inside the corporate boundary, but its output is not a source of truth until reviewed and promoted into the correct system.
+* Work OS defines the private operating logic and source-boundary rules; it must not mirror Outlook, Calendar, Teams, Tasks, or Copilot outputs.
+
+Detailed Outlook folder, category, rule, calendar, and prompt examples may live in [Microsoft 365 Email and Calendar Working Reference.md](Microsoft%20365%20Email%20and%20Calendar%20Working%20Reference.md).
+
+---
+
+### 5. Workflow Definition Boundary
 
 Rule:
 
 * Tool workflows should not be documented here until they are stable enough to guide repeated Work execution.
 
-### 5. Administrative Support Boundary
+### 6. Administrative Support Boundary
 
 Rule:
 
