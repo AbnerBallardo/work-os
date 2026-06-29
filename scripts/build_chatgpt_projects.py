@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""Build timestamped ChatGPT Project runtime packages from a repo config."""
+"""Build timestamped ChatGPT Project runtime packages.
+
+This is a generic, config-driven builder. Repo-specific package scope,
+source selections, runtime boundaries, and generated-output rules live in
+`config/chatgpt-project-builds.json` and source-side prompt templates.
+
+See `scripts/README.md` for the maintainer contract and validation flow.
+"""
 
 from __future__ import annotations
 
