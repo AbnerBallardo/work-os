@@ -46,7 +46,7 @@ Do not store here:
 * Corporate records
 * Sensitive raw communication
 
-Those belong in the appropriate corporate system, Work execution layer, or prompt-specific attachment.
+Those belong in the appropriate corporate system, Work execution layer, Microsoft 365 working playbook, or prompt-specific attachment.
 
 ---
 
@@ -280,7 +280,7 @@ Rule:
 * Microsoft Copilot may compress, prepare, summarize, and draft inside the corporate boundary, but its output is not a source of truth until reviewed and promoted into the correct system.
 * Work OS defines the private operating logic and source-boundary rules; it must not mirror Outlook, Calendar, Teams, Tasks, or Copilot outputs.
 
-Detailed Outlook folder, category, rule, calendar, and prompt examples may live in [Microsoft 365 Email and Calendar Working Reference.md](Microsoft%20365%20Email%20and%20Calendar%20Working%20Reference.md).
+Detailed Outlook folder, category, rule, calendar, notes, and prompt examples may live in the [Microsoft 365 resources](../resources/microsoft-365/README.md).
 
 ---
 

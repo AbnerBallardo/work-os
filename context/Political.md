@@ -7,7 +7,7 @@ System: Work OS
 Classification: Highly Sensitive
 Role: Private political landscape
 
-Context scope: Abner Ballardo. This file should be read as context about Abner Ballardo, his decisions, constraints, operating environment, and personal operating system. Any third-party people, organizations, or systems are included only insofar as they shape Abner Ballardo's context.
+Context scope: Abner Ballardo. This file should be read as context about Abner Ballardo, his decisions, constraints, operating environment, and private Work OS context. Any third-party people, organizations, or systems are included only insofar as they shape Abner Ballardo's context.
 
 ## Purpose
 
@@ -73,14 +73,14 @@ Covers:
 
 ---
 
-### 2. Local CEO
+### 2. Sebastián Arcuri / Local CEO
 
 **Characteristics:**
 
 * High pressure for visible results
 * Focus on speed and optics
 * Low tolerance for complexity
-* As of June 25, 2026, expected to combine Peru CEO accountability with broader retail accountability across Mexico, the Caribbean, Chile, Peru, Uruguay, and Brazil
+* As of June 25, 2026, expected to combine Peru CEO accountability with broader retail accountability across Mexico, the Caribbean, Chile, Peru, Uruguay, and Brazil.
 
 **Behavior Patterns:**
 
@@ -98,7 +98,7 @@ Covers:
 * Avoid exposing internal complexity directly
 * Attribution must be proactively managed before and after delivery
 * Peru technology changes should be packaged as evidence of control, transparency, and repeatable simplification, not only as local remediation.
-* Sebastian may value structural technology work more when regional retail exposure makes the cost of technical debt visible beyond Peru.
+* Sebastián may value structural technology work more when regional retail exposure makes the cost of technical debt visible beyond Peru.
 
 ---
 
@@ -115,7 +115,7 @@ Covers:
 * Question delays and priorities
 * Expect predictable delivery
 * Protect their functional accountability when failures, delays, or escalations touch their area
-* Vary in their willingness to challenge Sebastian or expose uncomfortable execution truth
+* Vary in their willingness to challenge Sebastián or expose uncomfortable execution truth
 
 **Implication:**
 
@@ -131,7 +131,7 @@ Covers:
 | Lourdes Cruzado | VP Business Risk Management | Long-tenured. Tries to fix issues with more caution and protects her function. | Use careful pre-alignment, clear risk framing, and documented ownership. |
 | Paola Comitre | VP Operations | Long-tenured. Technology and Operations were under the same VP before Abner's arrival; the functions split with Abner's arrival. Highly careful politically, with strong fear of mistakes and escalations. | Reduce ambiguity, give clear escalation paths, and avoid forcing public uncertainty before facts are controlled. |
 | Jarco Gil | VP Audit | Long-tenured. Politically careful and consistently surfaces evidence of failures. | Keep evidence disciplined, anticipate audit framing, and separate control gaps from execution noise. |
-| Fiorella Ferrero | VP Human Resources | Recently assigned as VP. Slow in process, cautious about challenging Sebastian, and not yet observed as a change agent. | Expect process drag; use precise asks, deadlines, and escalation-ready framing. |
+| Fiorella Ferrero | VP Human Resources | Recently assigned as VP. Slow in process, cautious about challenging Sebastián, and not yet observed as a change agent. | Expect process drag; use precise asks, deadlines, and escalation-ready framing. |
 | Juan Malagon | VP Risk / CRO | One of the most senior C-level leaders. Wants to show strategic seniority. | Frame topics at strategic risk level, respect seniority signals, and anchor asks in enterprise consequences. |
 
 ---
@@ -169,8 +169,8 @@ Covers:
 
 **Behavior Patterns:**
 
-* GTEP execution is not working at the level required by the transformation
-* Execution failures create delivery drag and avoidable financial loss
+* Service-quality conversations can drift toward presentation management instead of measurable ownership.
+* Relationship management can obscure whether the operating problem is provider execution, local ownership, or both.
 
 **Implication:**
 
@@ -364,7 +364,7 @@ Covers:
 
 **Goal:**
 
-* Convert local technology progress into a useful reference point for Sebastian's wider retail mandate.
+* Convert local technology progress into a useful reference point for Sebastián's wider retail mandate.
 
 ---
 

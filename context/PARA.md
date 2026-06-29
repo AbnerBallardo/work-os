@@ -7,7 +7,7 @@ System: Work OS
 Classification: Highly Sensitive
 Role: Work-specific execution model
 
-Context scope: Abner Ballardo. This file should be read as context about Abner Ballardo, his decisions, constraints, operating environment, and personal operating system. Any third-party people, organizations, or systems are included only insofar as they shape Abner Ballardo's context.
+Context scope: Abner Ballardo. This file should be read as context about Abner Ballardo, his decisions, constraints, operating environment, and private Work OS context. Any third-party people, organizations, or systems are included only insofar as they shape Abner Ballardo's context.
 
 ---
 
@@ -260,14 +260,14 @@ Rule:
 
 ### Boundary
 
-The main thinking process for Work happens in private PARA and Personal OS-controlled context.
+The main thinking process for Work happens in private Work OS context and bounded private PARA execution material.
 
 Narrative PARA is not the thinking layer. It is the controlled Work-facing packaging layer.
 
 | Layer | Role | Boundary |
 |---|---|---|
-| Private Work thinking / judgment | Diagnose, decide, sequence, and pressure-test execution | Personal OS and private PARA context |
-| Work execution PARA | Track operator-owned projects, areas, resources, and archive | Private Google Drive PARA unless a corporate system is required |
+| Private Work thinking / judgment | Diagnose, decide, sequence, and pressure-test execution | Work OS and bounded private PARA context |
+| Work execution PARA | Track operator-owned projects, areas, resources, and archive | Private Work execution layer unless a corporate system is required |
 | Work Narrative PARA | Package decisions, signals, updates, and escalation artifacts | Controlled Work file structure |
 | Corporate systems | Official communication, records, and collaboration | Corporate tools and retention rules |
 

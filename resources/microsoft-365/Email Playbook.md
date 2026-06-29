@@ -1,41 +1,37 @@
-# Microsoft 365 Email and Calendar Working Reference
+# Email Playbook
 
-Version: v0.2
-Status: Working Reference
+Version: v1.0
+Status: Active
 Owner: Abner Ballardo
 System: Work OS
 Classification: Highly Sensitive
-Role: Implementation guidance for Microsoft 365 signal intake and capacity management
+Role: Microsoft 365 email signal-intake playbook
 
-Canonical source: [Operating Stack.md](Operating%20Stack.md)
-
-This file is not a source of truth for corporate records, Work decisions, or agent runtime source packages. It captures implementation examples that may change as Outlook, Calendar, Microsoft To Do, Teams, and Microsoft 365 Copilot usage matures.
+Canonical boundary source: [Operating Stack.md](../../context/Operating%20Stack.md)
 
 ---
 
 ## Purpose
 
-Provide reusable working guidance for Microsoft 365 email, calendar, tasks, Teams, and Copilot usage.
+Define the working model for Outlook email intake, folders, categories, flags, routing, and email-oriented Microsoft 365 Copilot usage.
 
-The goal is to support:
+This playbook supports:
 
 * Executive signal intake
-* Capacity allocation
-* Personal next-action tracking
 * Delegation and routing
-* Meeting preparation
+* Personal next-action tracking
 * Technology Committee triage
 * Source-boundary discipline
 
 Rule:
 
-* Keep durable tool roles and system boundaries in [Operating Stack.md](Operating%20Stack.md).
-* Keep changing folder names, category labels, rule logic, calendar cadences, and prompt examples here.
-* Do not treat this file as an Outlook mirror, calendar log, task list, project tracker, or corporate record.
+* Keep durable tool roles and system boundaries in [Operating Stack.md](../../context/Operating%20Stack.md).
+* Keep changing folder names, category labels, rule logic, flags, and prompt examples here.
+* Do not treat this file as an Outlook mirror, email archive, task list, project tracker, corporate record, or Work-facing agent source package.
 
 ---
 
-## Microsoft 365 Tool Roles
+## Tool Roles
 
 | Tool | Role | Not For |
 |---|---|---|
@@ -43,7 +39,6 @@ Rule:
 | Outlook Folders | Noise reduction | Encoding durable meaning |
 | Outlook Categories | Signal classification | Long-term truth or project taxonomy |
 | Outlook Flags / Microsoft To Do | Abner-owned personal commitments | Team tasks, project work owned by others |
-| Outlook Calendar | Capacity allocation | Passive meeting accumulation |
 | Microsoft Teams | Fast coordination | Durable decisions or controlled executive records |
 | Microsoft 365 Copilot | Compression, preparation, search, and drafting support | Final judgment, source of truth, private Work OS context storage |
 | Work OS | Private reasoning and source-boundary control | Corporate records or raw Microsoft 365 export storage |
@@ -52,7 +47,6 @@ Decision rule:
 
 ```text
 Email = signal intake
-Calendar = capacity allocation
 Tasks = personal commitments
 Teams = fast coordination
 Copilot = compression and drafting
@@ -69,8 +63,8 @@ The Inbox should contain only messages that may require decision, action, review
 Keep in Inbox when a message is:
 
 * Sent directly to Abner
-* From Sebastian or Luis Alfredo
-* From local CEO, regional, corporate, regulatory, audit, risk, security, or executive stakeholders
+* From Sebastián Arcuri / Local CEO or Luis Alfredo
+* From regional, corporate, regulatory, audit, risk, security, or executive stakeholders
 * A meeting request or material calendar change
 * An approval, risk acceptance, or formal review request
 * A production, security, regulatory, audit, incident, vulnerability, or service degradation signal
@@ -138,8 +132,8 @@ Rule safety order:
 
 Do not automatically move out of Inbox:
 
-* Sebastian or Luis Alfredo
-* Direct manager, local CEO, regional, or International Banking executive senders
+* Sebastián Arcuri / Local CEO or Luis Alfredo
+* Direct manager, regional, or International Banking executive senders
 * Direct-to-Abner messages
 * Approval or risk acceptance requests
 * Security, regulatory, audit, production, incident, or vulnerability signals
@@ -296,59 +290,7 @@ Instead:
 
 ---
 
-## Calendar Model
-
-The calendar is the capacity contract.
-
-Calendar should protect:
-
-* Executive meetings
-* Decision forums
-* Preparation time
-* Deep work
-* Follow-up blocks
-* Recovery / buffer time
-* Weekly review
-* Technology Committee preparation
-* Sebastian / Luis Alfredo preparation
-
-Recommended calendar categories:
-
-```text
-Personal Buffer
-Time Blocking
-Optional
-```
-
-Calendar-only category rules:
-
-* Use `Time Blocking` for protected work blocks that represent capacity allocation, not a meeting commitment.
-* Use `Optional` for events where attendance is genuinely discretionary and should not be treated as committed capacity.
-* Do not use `Time Blocking` or `Optional` as email categories.
-
-Minimum working structure:
-
-| Cadence | Pattern |
-|---|---|
-| Daily | Two email triage windows |
-| Daily | One executive signal scan |
-| Daily | One protected decision or thinking block where possible |
-| Weekly | Calendar and task review |
-| Weekly | Email rules and category cleanup |
-| Weekly | Sebastian / Luis Alfredo preparation |
-| Weekly | Technology Committee preparation and decision-log review |
-
-Meeting admission rule:
-
-```text
-A meeting should exist only when it requires decision, alignment, escalation, commitment, cross-domain coordination, sensitive discussion, high-context preparation, or governance record.
-```
-
-Otherwise prefer Teams, email, async update, document review, or delegated working session.
-
----
-
-## Microsoft 365 Copilot Model
+## Microsoft 365 Copilot Email Model
 
 Microsoft 365 Copilot is a compression, preparation, and drafting layer.
 
@@ -358,12 +300,9 @@ Use it for:
 * Inbox prioritization
 * Email thread summarization
 * Email drafting and coaching
-* Meeting preparation
-* Meeting agenda drafting
-* Calendar and inbox questions
 * Cross-surface catch-up across email, meetings, chats, and files
 * Preparing concise executive replies
-* Preparing Sebastian / Luis Alfredo interactions
+* Preparing Sebastián / Luis Alfredo interactions
 * Preparing Technology Committee intake drafts
 * Summarizing long threads into decision-ready structure
 
@@ -374,7 +313,7 @@ Do not use it to:
 * Create corporate records outside approved systems
 * Store private Work OS context
 * Expose private political or leadership notes
-* Connect broad Work OS sources to work-facing agents
+* Connect broad Work OS sources to Work-facing agents
 * Produce final messages without Abner review when exposure exists
 * Treat generated summaries as source of truth without checking primary messages or documents
 
@@ -406,19 +345,13 @@ Review my emails from the last 24 hours and summarize only items that require my
 Executive sender scan:
 
 ```text
-Show open threads involving Sebastian or Luis Alfredo where I owe a response, decision, review, or follow-up. Separate direct asks from FYI messages.
+Show open threads involving Sebastián or Luis Alfredo where I owe a response, decision, review, or follow-up. Separate direct asks from FYI messages.
 ```
 
 Decision extraction:
 
 ```text
 Summarize this thread into: decision needed, recommendation, alternatives, risks, owner, deadline, and next visible signal.
-```
-
-Meeting preparation:
-
-```text
-Prepare me for this meeting using relevant emails, calendar context, chats, and files I can access. Focus on decisions, open risks, commitments, unresolved dependencies, and likely asks.
 ```
 
 Draft executive reply:
@@ -437,12 +370,6 @@ Long-thread compression:
 
 ```text
 Summarize this thread for executive review. Exclude history unless it changes the decision. Include only current state, decision needed, risk, owner, deadline, and unresolved assumptions.
-```
-
-Calendar cleanup:
-
-```text
-Review my calendar for the next two weeks and identify meetings that may be delegated, shortened, converted to async, or require preparation blocks.
 ```
 
 Waiting-for review:
@@ -465,7 +392,7 @@ Route toward Technology Committee when an email includes:
 * Local-regional dependency
 * Vendor or infrastructure blocker
 * Resource or ownership conflict
-* CEO / International Banking visibility
+* Local CEO / International Banking visibility
 * Repeated escalation pattern
 * Decision that requires durable record
 
@@ -497,12 +424,11 @@ If a private insight is needed for M365 runtime behavior, generalize it into saf
 
 ## Review Trigger
 
-Review this file when:
+Review this playbook when:
 
 * Outlook folders or categories become hard to maintain
 * Rules hide executive signal or create duplicate work
 * Microsoft To Do becomes ineffective as a personal commitment layer
-* Calendar practices stop protecting decision, preparation, or follow-up time
 * Microsoft 365 Copilot behavior changes materially
 * AB-Gatekeeper or AB-Executive Drafter source boundaries change
-* A new M365 agent is proposed
+* A new M365 email agent is proposed

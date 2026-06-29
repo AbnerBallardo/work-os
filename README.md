@@ -34,6 +34,7 @@ Context -> Judgment -> Execution Control -> Narrative -> Runtime Packages -> Fee
 | Memory | Compressed Work recall and validated observations | Curated |
 | Decisions | Durable Work decision records and guardrails | Stable |
 | Committees | Committee plans, governance, intake, templates, and decision-support mechanics | Stable / reusable |
+| Resources | Reusable Work execution playbooks and working guidance | Working / reusable |
 | Agents | Runtime instructions, source boundaries, tests, and pilot material | Stable / deployable |
 | Templates | Source-side prompt and runtime-package definitions | Stable / reusable |
 | Build | Generated ChatGPT Project upload artifacts when present | Generated |
@@ -168,6 +169,7 @@ Otherwise:
 /context/                        -> Work context, execution rules, operating stack, political map, leadership map, and policy
 /memory/                         -> Compressed Work recall and validated observations
 /systems/decisions/work/         -> Durable Work decision records
+/resources/microsoft-365/        -> Microsoft 365 working playbooks
 /committees/                     -> Committee plans and governance materials
 /committees/technology/          -> Technology Committee charter, runbook, and templates
 /agents/ab-gatekeeper/           -> Gatekeeper runtime package, references, tests, and pilot material

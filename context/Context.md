@@ -7,7 +7,7 @@ System: Work OS
 Classification: Highly Sensitive
 Role: Stable Work operating context
 
-Context scope: Abner Ballardo. This file should be read as context about Abner Ballardo, his decisions, constraints, operating environment, and personal operating system. Any third-party people, organizations, or systems are included only insofar as they shape Abner Ballardo's context.
+Context scope: Abner Ballardo. This file should be read as context about Abner Ballardo, his decisions, constraints, operating environment, and private Work OS context. Any third-party people, organizations, or systems are included only insofar as they shape Abner Ballardo's context.
 
 ## Purpose
 
@@ -57,7 +57,7 @@ Covers:
 * Formal title remains Acting VP Technology / CIO, but everyday operating scope is the actual VP Technology role.
 * Luis Alfredo is SVP Technology and Transformation for International Banking, sometimes referred to as CIO IB, and also acts as Mexico CIO.
 * Luis Alfredo has stated that he is not looking for another VP Technology; the intended path is for Abner to become the formal Peru CIO after enough visible wins.
-* Sebastian Arcuri behaves as if Abner is the real VP Technology, not as if the organization is waiting for another CIO.
+* Sebastián Arcuri behaves as if Abner is the real VP Technology, not as if the organization is waiting for another CIO.
 * The Acting qualifier is not actively emphasized in normal forums, email, or communication.
 * Current mandate requires VP-level Technology ownership plus residual Engineering and Architecture transition accountability.
 
@@ -91,7 +91,7 @@ Decision rule:
 ### Structure
 
 * Reports to International Banking leadership
-* Dotted line to local CEO
+* Dotted line to Sebastián Arcuri, Local CEO
 * Core Technology execution runs through Delivery, Engineering, SRE, Architecture, Data, and Security leadership
 * Architecture and Data are regionalized functions with constrained local authority
 
@@ -111,17 +111,17 @@ Decision rule:
 * Supports technology transformation
 * Strong alignment with structural changes
 
-#### Local CEO
+#### Sebastián Arcuri / Local CEO
 
 * High pressure for visible results
 * Focus on optics and speed
 * Lower tolerance for technical complexity explanations
-* As of June 25, 2026, expected to combine Peru CEO accountability with broader retail accountability across Mexico, the Caribbean, Chile, Peru, Uruguay, and Brazil
+* As of June 25, 2026, expected to combine Peru CEO accountability with broader retail accountability across Mexico, the Caribbean, Chile, Peru, Uruguay, and Brazil.
 
 **Implication:**
 
 * Local Peru technology transformation may become a reference case for regional retail execution if progress is made visible, business-readable, and tied to reduced complexity.
-* Sebastian's expanded remit increases his exposure to technical debt, architectural constraints, and operating-model weaknesses across markets, not only Peru.
+* Sebastián's expanded remit increases his exposure to technical debt, architectural constraints, and operating-model weaknesses across markets, not only Peru.
 
 ---
 
@@ -277,16 +277,14 @@ Goal:
 ### 9. Infrastructure Dependency Constraints
 
 * Infrastructure is highly dependent on GTEP, an internal Scotiabank infrastructure company.
-* Giovanni Zamalloa is the head of GTEP in Peru and previously served as Director of Infrastructure.
-* GTEP service quality is poor and creates complaints across multiple countries.
-* GTEP execution issues create delivery drag and can translate into avoidable financial loss.
-* Delivery and Engineering currently carry people who mainly manage the GTEP relationship instead of owning infrastructure capability.
+* GTEP service quality and execution issues create delivery drag across multiple countries.
+* Local infrastructure accountability is diluted when Delivery and Engineering carry relationship-management work instead of infrastructure capability ownership.
 
 #### Implications
 
 * Infrastructure accountability is diluted.
 * Poor service quality becomes an execution constraint for Delivery and Engineering.
-* The Infrastructure Reset requires a dedicated Infrastructure Director and clearer local ownership.
+* The Infrastructure Reset requires clearer local ownership and a dedicated Infrastructure Director.
 
 ---
 
@@ -312,24 +310,27 @@ Goal:
 
 ## Operating Model
 
-### Dual-System Model
+### Source-Boundary Model
 
 ```text
-Internal System (Google Drive)
-→ Truth, decisions, execution control
+Work OS / private Work context
+→ Private judgment, reusable rules, source-boundary control
 
-External System (OneDrive)
-→ Communication, alignment, reporting
+Corporate systems
+→ Official records, collaboration, communication, scheduling
+
+Controlled OneDrive source packages
+→ Reviewed Work-facing agent inputs and communication support
 ```
 
 ---
 
 ### Rules
 
-* All decisions originate internally
-* External system reflects decisions, not defines them
-* No raw thinking in external system
-* M365/Copilot agents are external narrative and execution aids; they reflect decisions and package behavior, but do not create decisions or hold raw Personal OS context
+* Work OS holds private judgment, source-boundary rules, and reusable interpretation.
+* Corporate systems hold official Work records, collaboration, communication, and scheduling.
+* Controlled OneDrive source packages expose only reviewed, minimum-necessary runtime material.
+* M365/Copilot agents are external narrative and execution aids; they reflect decisions and package behavior, but do not create decisions or hold raw Work OS or Personal OS context.
 
 ---
 

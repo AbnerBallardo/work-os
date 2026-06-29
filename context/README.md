@@ -38,7 +38,6 @@ Context files should not contain raw corporate exports, meeting logs, short-live
 | `Context.md` | Stable Work operating context | Defines role reality, organizational constraints, strategic direction, and operating principles |
 | `PARA.md` | Work-specific execution model | Defines Work execution, narrative PARA, coordination rules, and Work-specific constraints |
 | `Operating Stack.md` | Corporate tool and system boundary model | Defines Work tool roles, official systems of record, AI boundaries, and device constraints |
-| `Microsoft 365 Email and Calendar Working Reference.md` | Microsoft 365 implementation guidance | Non-canonical working reference for Outlook folders, categories, rules, calendar patterns, and Copilot prompts |
 | `Political.md` | Private political landscape | Defines stakeholder dynamics, power structures, tactical patterns, and failure signals |
 | `Leadership Map.md` | Private leadership landscape | Defines leadership coverage, delegation implications, reset implications, and role-risk context |
 | `Information Handling Policy.md` | Exposure and sensitivity policy | Defines repository classification, externalization rules, and runtime exposure boundaries |
@@ -49,7 +48,7 @@ Context files should not contain raw corporate exports, meeting logs, short-live
 
 * Keep detailed Work operating truth in Work OS, not Personal OS.
 * Keep official records in corporate systems, not Work OS.
-* Keep detailed Microsoft 365 implementation examples subordinate to `Operating Stack.md`.
+* Keep detailed Microsoft 365 implementation examples in `/resources/microsoft-365/`, subordinate to `Operating Stack.md`.
 * Keep Work-facing runtime behavior in `/agents/` after source-boundary review.
 * Keep committee governance in `/committees/`.
 * Keep durable Work decisions in `/systems/decisions/work/`.

@@ -26,14 +26,14 @@ Canonical Work OS rules remain in:
 | Repository orientation | `/README.md` |
 | Information handling and exposure rules | `/context/Information Handling Policy.md` |
 | Operating-stack boundaries | `/context/Operating Stack.md` |
-| Microsoft 365 email and calendar working reference | `/context/Microsoft 365 Email and Calendar Working Reference.md` |
+| Microsoft 365 working playbooks | `/resources/microsoft-365/` |
 | Committee plans and governance | `/committees/` |
 | Agent runtime behavior and source boundaries | `/agents/` |
 | ChatGPT Project definitions and custom-instruction intent | `/templates/prompts/ChatGPT Project Custom Instructions.md` |
 
 Broad Work context, memory, political context, leadership context, case files, and general decision records remain canonical Work OS material, but they are excluded from the default ChatGPT Project package unless a prompt-specific review explicitly requires them as attachments.
 
-`/context/Microsoft 365 Email and Calendar Working Reference.md` may be compiled into the private Work OS ChatGPT Project knowledge package as working guidance for email, calendar, tasks, Teams, and Copilot usage. It must not be treated as a Work-facing M365 agent source package.
+Microsoft 365 playbooks under `/resources/microsoft-365/` may be compiled into the private Work OS ChatGPT Project knowledge package as working guidance for email, calendar, notes, tasks, Teams, and Copilot usage. They must not be treated as Work-facing M365 agent source packages.
 
 ---
 
@@ -208,7 +208,7 @@ Use this structure for every generated package:
 * Runtime package rule
 * Source manifest
 * Selected source excerpts
-* Operating-stack and Microsoft 365 working-reference boundaries
+* Operating-stack and Microsoft 365 working-playbook boundaries
 * Relevant committee and agent decision rules
 * Committee, agent, and domain boundaries
 * Refresh triggers

@@ -155,7 +155,9 @@ Selected excerpts only:
 * `/README.md`
 * `/context/Information Handling Policy.md`
 * `/context/Operating Stack.md`
-* `/context/Microsoft 365 Email and Calendar Working Reference.md`
+* `/resources/microsoft-365/Email Playbook.md`
+* `/resources/microsoft-365/Calendar Playbook.md`
+* `/resources/microsoft-365/Notes Playbook.md`
 * `/committees/technology/Technology Committee.md`
 * `/committees/technology/Technology Committee - Operating Runbook.md`
 * `/committees/technology/Technology Committee - Triage Submission Template.md`

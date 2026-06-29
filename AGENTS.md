@@ -32,6 +32,7 @@ Preserve decision quality, structural integrity, source boundaries, and long-ter
 | Work context | `context/` | Private Work context, execution rules, political landscape, leadership map, and information-handling rules |
 | Work memory | `memory/` | Compressed recall and validated observations |
 | Work decisions | `systems/decisions/work/` | Durable decision records and guardrails |
+| Work resources | `resources/` | Reusable execution playbooks and working guidance subordinate to context authority |
 | Committees | `committees/` | Committee plans and governance materials |
 | Technology Committee | `committees/technology/` | Executive decision forum, triage-first governance, decision records, and templates |
 | AB-Gatekeeper | `agents/ab-gatekeeper/` | Runtime package, references, tests, pilot plan, and source boundary for emails to Abner |
@@ -75,6 +76,7 @@ Do not copy Personal OS family, personal, venture, or Content OS context into Wo
 | Political context | `context/Political.md` | Keep private stakeholder dynamics here; generalize before external use |
 | Leadership context | `context/Leadership Map.md` | Keep private leader-specific context here; generalize before external use |
 | Information handling | `context/Information Handling Policy.md` | Keep repository sensitivity, exposure, externalization, and AI usage rules here |
+| Microsoft 365 working playbooks | `resources/microsoft-365/` | Keep changing email, calendar, notes, tasks, Teams, and Copilot execution guidance here; subordinate to `context/Operating Stack.md` |
 | Work memory | `memory/Work - Memory.md` | Keep compressed recall and validated observations here |
 | Work decision records | `systems/decisions/work/` | Keep durable guardrails and decisions here |
 | Technology Committee charter | `committees/technology/Technology Committee.md` | Keep executive purpose and scope here |
@@ -119,6 +121,7 @@ Do not copy Personal OS family, personal, venture, or Content OS context into Wo
 * If AB-Gatekeeper special cases change, update `AB-Gatekeeper - Agent Instructions.md`, then mirror the reference registry only if useful.
 * If AB-Executive recipient rules change, update the Recipient Playbook, Agent Instructions, and relevant test scenarios.
 * If runtime source boundaries change, update the corresponding OneDrive Source Package.
+* If Microsoft 365 workflow guidance changes, update `resources/microsoft-365/` and keep `context/Operating Stack.md` limited to durable tool authority and boundaries.
 * If information-handling or exposure rules change, update `context/Information Handling Policy.md`, README, runtime templates, and `/config/chatgpt-project-builds.json`.
 * If ChatGPT Project runtime scope changes, update `templates/prompts/ChatGPT Project Custom Instructions.md`, `templates/prompts/ChatGPT Project Runtime Packages.md`, and `/config/chatgpt-project-builds.json`; generated `build/chatgpt-projects/work-os/` files are produced after push by GitHub Actions before Drive sync.
 * Do not promote temporary events, project noise, or one-off stakeholder reactions into durable systems.

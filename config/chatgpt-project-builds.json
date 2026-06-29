@@ -98,11 +98,25 @@
               "scope_label": "Operating-stack boundaries"
             },
             {
-              "path": "/context/Microsoft 365 Email and Calendar Working Reference.md",
+              "path": "/resources/microsoft-365/Email Playbook.md",
               "include": "selected_section",
-              "section_heading": "# Microsoft 365 Email and Calendar Working Reference",
-              "manifest_label": "selected Microsoft 365 email and calendar working reference",
-              "scope_label": "Microsoft 365 email and calendar working reference"
+              "section_heading": "# Email Playbook",
+              "manifest_label": "selected Microsoft 365 email playbook",
+              "scope_label": "Microsoft 365 email playbook"
+            },
+            {
+              "path": "/resources/microsoft-365/Calendar Playbook.md",
+              "include": "selected_section",
+              "section_heading": "# Calendar Playbook",
+              "manifest_label": "selected Microsoft 365 calendar playbook",
+              "scope_label": "Microsoft 365 calendar playbook"
+            },
+            {
+              "path": "/resources/microsoft-365/Notes Playbook.md",
+              "include": "selected_section",
+              "section_heading": "# Notes Playbook",
+              "manifest_label": "selected Microsoft 365 notes playbook",
+              "scope_label": "Microsoft 365 notes playbook"
             },
             {
               "path": "/committees/technology/Technology Committee.md",
