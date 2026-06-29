@@ -69,9 +69,9 @@ Minimum working structure:
 | Daily | One executive signal scan |
 | Daily | One protected decision or thinking block where possible |
 | Weekly | Calendar and task review |
-| Weekly | Email rules and category cleanup |
 | Weekly | Sebastián / Luis Alfredo preparation |
 | Weekly | Technology Committee preparation and decision-log review |
+| Monthly | Email rules and category cleanup while rules are stable |
 
 Meeting admission rule:
 
@@ -79,7 +79,7 @@ Meeting admission rule:
 A meeting should exist only when it requires decision, alignment, escalation, commitment, cross-domain coordination, sensitive discussion, high-context preparation, or governance record.
 ```
 
-Otherwise prefer Teams, email, async update, document review, or delegated working session.
+Otherwise prefer Teams, email, async update, document review, Jira execution, Microsoft Lists intake, or delegated working session.
 
 ---
 
@@ -96,6 +96,7 @@ Use it for:
 * Preparing Sebastián / Luis Alfredo interactions
 * Preparing Technology Committee intake drafts
 * Calendar cleanup and delegation review
+* Extracting reviewed follow-up actions from meeting context
 
 Do not use it to:
 
@@ -148,6 +149,12 @@ Technology Committee preparation:
 
 ```text
 Review upcoming Technology Committee-related meetings and identify agenda readiness, decision gaps, unresolved owners, and preparation blocks needed before the meeting.
+```
+
+Meeting follow-up extraction:
+
+```text
+Review this meeting context and identify decisions, owners, follow-up actions, due dates, unresolved risks, and the correct destination for each item: Jira, Microsoft To Do, Microsoft Lists, Confluence, Technology Committee decision log, Narrative PARA, or no retained record.
 ```
 
 ---

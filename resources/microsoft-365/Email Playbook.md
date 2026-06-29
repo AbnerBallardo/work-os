@@ -41,6 +41,9 @@ Rule:
 | Outlook Flags / Microsoft To Do | Abner-owned personal commitments | Team tasks, project work owned by others |
 | Microsoft Teams | Fast coordination | Durable decisions or controlled executive records |
 | Microsoft 365 Copilot | Compression, preparation, search, and drafting support | Final judgment, source of truth, private Work OS context storage |
+| Jira | Delivery execution tracking | Personal reminders or executive signal intake |
+| Confluence | Team and delivery documentation | Email archive or decision queue |
+| Microsoft Lists | Structured intake or lightweight governance registers | Delivery backlog or project tracker |
 | Work OS | Private reasoning and source-boundary control | Corporate records or raw Microsoft 365 export storage |
 
 Decision rule:
@@ -93,14 +96,10 @@ Folders reduce active noise. They do not encode durable meaning.
 Recommended small folder set:
 
 ```text
-1-Reference
-2-Executive
-3-Approvals
-4-Risk-Security-Regulatory
-5-Technology Committee
-6-Distribution Lists
-7-Automated Notifications
-8-Vendors
+1-Executive
+2-Governance-Risk
+3-Automated
+4-Vendors
 Archive
 ```
 
@@ -109,6 +108,7 @@ Rules:
 * Keep folder count low.
 * Do not create folders for every project.
 * Do not create folders for every stakeholder.
+* Do not create folders for Jira projects or Confluence spaces.
 * Prefer search over manual filing.
 * Use folders only when they reduce active Inbox noise.
 * Use categories to preserve why a message matters.
@@ -150,7 +150,7 @@ Safe candidates for folder rules:
 * Low-value broadcast communications
 * Notifications duplicated in another official system
 
-Review Outlook rules quarterly and after major Outlook client changes.
+Review Outlook rules monthly while the model is stabilizing, then quarterly after rules stop creating misses or duplicate review.
 
 Remove or revise any rule that:
 
@@ -256,7 +256,7 @@ Flag an email only when Abner must personally:
 Do not flag:
 
 * Team tasks owned by others
-* Project work that belongs in a project tracker
+* Jira-owned project execution work
 * Committee topics that belong in Technology Committee intake
 * Messages kept only for reference
 * Awareness-only messages
@@ -284,8 +284,9 @@ Instead:
 
 * Delegate
 * Reply with owner and deadline
-* Move to project tracker
+* Move delivery work to Jira
 * Route to Technology Committee
+* Capture structured governance follow-up in Microsoft Lists
 * Archive
 
 ---

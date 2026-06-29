@@ -121,7 +121,12 @@ Rule:
 | OneNote | Corporate note-taking candidate and Microsoft-native working notes | Corporate note layer |
 | Microsoft To Do / Tasks | Personal commitment support for Abner-owned next actions | Execution support, not a project tracker or corporate record |
 | Microsoft Teams | Fast coordination, short-form alignment, and working escalation | Coordination layer, not durable decision log |
+| Microsoft Lists | Structured intake and lightweight governance registers when Jira is too heavy and email is too loose | Working register layer, not project execution truth |
+| Microsoft Planner | Optional group/team task board when a usable group already exists | Not core workflow; do not create groups or Teams only to use Planner |
+| Microsoft Loop | Short-lived collaborative agenda, action, and alignment workspace | Temporary working surface, not a system of record |
 | Outlook Categories | Email classification support | Email triage aid, not durable truth |
+| Jira | Delivery execution tracking, backlog, project work, and team-owned execution tasks | Execution system of record |
+| Confluence | Team and delivery documentation | Documentation system of record where teams already use it |
 
 Rule:
 
@@ -165,8 +170,12 @@ Rule:
 | Calendar, meetings, and availability | Outlook Calendar | Corporate scheduling authority; administrative support may coordinate but does not create Work OS truth |
 | Email triage signals | Outlook Categories / Microsoft To Do / Tasks | Minimal intent and optional domain support for signal handling and Abner-owned next actions; not durable truth |
 | Corporate working notes | OneNote | Preferred Microsoft-native note candidate; workflow not yet defined |
-| Corporate files and team structures | OneDrive | Corporate file collaboration and controlled agent source folders |
+| Delivery execution tracking | Jira | Source of truth for project execution, backlog, and team-owned work |
+| Team and delivery documentation | Confluence | Preferred documentation layer where teams already document there; do not force SharePoint duplication |
+| Structured governance intake or lightweight registers | Microsoft Lists | Useful for committee intake, decision follow-up, exceptions, and request queues that do not belong in Jira |
+| Corporate files and controlled agent sources | OneDrive | Corporate file collaboration and controlled agent source folders |
 | Short-form coordination | Microsoft Teams | Coordination layer; durable decisions must move to the appropriate system of record |
+| Temporary collaborative agendas or action drafts | Microsoft Loop | Short-lived co-editing surface only; promote outputs to the correct record system |
 | Selected executive project narratives | Narrative PARA in the controlled Work file structure | Visibility layer for 10-20 Abner-critical projects; not the full IT project inventory |
 | Work-facing Copilot agent sources | Curated OneDrive folders | Must follow reviewed OneDrive Source Package files |
 | Private Work reasoning | Work OS / private Work context | Not copied raw into corporate tools |
@@ -277,10 +286,15 @@ Rule:
 * Outlook Calendar is the capacity allocation layer for meetings, preparation, follow-up, and protected executive work.
 * Microsoft To Do / Tasks is for Abner-owned personal commitments only.
 * Microsoft Teams is for fast coordination and short-form alignment, not durable governance.
+* Jira is the execution tracker for delivery work, team tasks, backlog, and project execution.
+* Confluence is the documentation authority where teams already maintain delivery documentation.
+* Microsoft Lists may support structured intake, decision follow-up, and lightweight governance registers when the work does not belong in Jira.
+* Microsoft Planner is optional only when a usable group or team already exists; do not make it a core workflow dependency.
+* Microsoft Loop may support temporary collaborative agendas, action lists, and alignment notes, but its outputs must be promoted to the correct system.
 * Microsoft Copilot may compress, prepare, summarize, and draft inside the corporate boundary, but its output is not a source of truth until reviewed and promoted into the correct system.
 * Work OS defines the private operating logic and source-boundary rules; it must not mirror Outlook, Calendar, Teams, Tasks, or Copilot outputs.
 
-Detailed Outlook folder, category, rule, calendar, notes, and prompt examples may live in the [Microsoft 365 resources](../resources/microsoft-365/README.md).
+Detailed Outlook folder, category, rule, calendar, tasks, Teams, notes, Lists, Loop, and prompt examples may live in the [Microsoft 365 resources](../resources/microsoft-365/README.md).
 
 ---
 

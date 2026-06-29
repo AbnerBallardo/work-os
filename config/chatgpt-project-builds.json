@@ -112,6 +112,20 @@
               "scope_label": "Microsoft 365 calendar playbook"
             },
             {
+              "path": "/resources/microsoft-365/Tasks Playbook.md",
+              "include": "selected_section",
+              "section_heading": "# Tasks Playbook",
+              "manifest_label": "selected Microsoft 365 tasks playbook",
+              "scope_label": "Microsoft 365 tasks playbook"
+            },
+            {
+              "path": "/resources/microsoft-365/Teams Playbook.md",
+              "include": "selected_section",
+              "section_heading": "# Teams Playbook",
+              "manifest_label": "selected Microsoft 365 Teams playbook",
+              "scope_label": "Microsoft 365 Teams playbook"
+            },
+            {
               "path": "/resources/microsoft-365/Notes Playbook.md",
               "include": "selected_section",
               "section_heading": "# Notes Playbook",
