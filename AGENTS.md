@@ -123,7 +123,7 @@ Do not copy Personal OS family, personal, venture, or Content OS context into Wo
 * If runtime source boundaries change, update the corresponding OneDrive Source Package.
 * If Microsoft 365 workflow guidance changes, update `resources/microsoft-365/` and keep `context/Operating Stack.md` limited to durable tool authority and boundaries.
 * If information-handling or exposure rules change, update `context/Information Handling Policy.md`, README, runtime templates, and `/config/chatgpt-project-builds.json`.
-* If ChatGPT Project runtime scope changes, update `templates/prompts/ChatGPT Project Custom Instructions.md`, `templates/prompts/ChatGPT Project Runtime Packages.md`, and `/config/chatgpt-project-builds.json`; generated `build/chatgpt-projects/work-os/` files are produced from the config-driven builder before Drive sync or manual upload.
+* If ChatGPT Project runtime scope changes, update `templates/prompts/ChatGPT Project Custom Instructions.md`, `templates/prompts/ChatGPT Project Runtime Packages.md`, and `/config/chatgpt-project-builds.json`; generated `build/chatgpt-projects/work-os/` files are produced after push by GitHub Actions before Drive sync.
 * Do not promote temporary events, project noise, or one-off stakeholder reactions into durable systems.
 
 ---

@@ -1,6 +1,6 @@
 {
   "generated_from": "Work OS",
-  "refresh_trigger": "config-driven build generation before Google Drive sync or manual upload",
+  "refresh_trigger": "a push-triggered GitHub Actions build before Google Drive sync",
   "output_root": "build/chatgpt-projects",
   "clean_output": true,
   "runtime_rule_lines": [
