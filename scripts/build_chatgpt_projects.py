@@ -6,6 +6,8 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import re
+import urllib.parse
 from pathlib import Path
 from typing import Any, Optional
 
@@ -89,11 +91,38 @@ def selected_section_content(source: dict[str, Any]) -> str:
     section = content[section_start:section_end].rstrip()
 
     if not include_shared:
-        return section + "\n"
+        return normalize_local_markdown_links(section, path) + "\n"
 
     first_heading = content.index(headings[0])
     shared = content[:first_heading].rstrip()
-    return f"{shared}\n\n---\n\n{section}\n"
+    merged = f"{shared}\n\n---\n\n{section}"
+    return normalize_local_markdown_links(merged, path) + "\n"
+
+
+def normalize_local_markdown_links(content: str, source_path: str) -> str:
+    """Convert local Markdown links in generated excerpts into source-path notes."""
+
+    source_file = repo_path(source_path)
+
+    def replace(match: re.Match[str]) -> str:
+        label = match.group("label")
+        target = match.group("target")
+        target_without_anchor = target.split("#", 1)[0]
+        if (
+            not target_without_anchor
+            or re.match(r"^[a-z][a-z0-9+.-]*:", target_without_anchor)
+            or target_without_anchor.startswith("mailto:")
+        ):
+            return match.group(0)
+
+        decoded = urllib.parse.unquote(target_without_anchor)
+        if decoded.startswith("/"):
+            normalized = decoded
+        else:
+            normalized = display_path((source_file.parent / decoded).resolve())
+        return f"{label} (`{normalized}`)"
+
+    return re.sub(r"(?<!!)\[(?P<label>[^\]]+)\]\((?P<target>[^)]+)\)", replace, content)
 
 
 def source_manifest_entries(sources: list[dict[str, Any]]) -> list[str]:

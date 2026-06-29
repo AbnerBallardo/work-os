@@ -58,13 +58,12 @@ Do not ask the operator to paste or restate project instructions, project knowle
 
 ## Runtime Build Automation
 
-Work OS ChatGPT Project runtime packages are generated after push by GitHub Actions before the repository syncs to Google Drive.
+Work OS ChatGPT Project runtime packages are generated from the config-driven builder before any Google Drive sync or manual upload.
 
 | Build element | Path |
 |---|---|
 | Generic builder | `/scripts/build_chatgpt_projects.py` |
 | Work OS package config | `/config/chatgpt-project-builds.json` |
-| GitHub Actions workflow | `/.github/workflows/build-chatgpt-projects-and-sync-to-drive.yml` |
 
 Change package scope in the config file, not in generated `build/` artifacts.
 
@@ -144,6 +143,7 @@ Selected excerpts only:
 
 * `/AGENTS.md`
 * `/README.md`
+* `/context/Information Handling Policy.md`
 * `/templates/prompts/ChatGPT Project Runtime Packages.md`
 * `/templates/prompts/ChatGPT Project Custom Instructions.md`
 
@@ -157,6 +157,8 @@ Selected excerpts only:
 * `/context/Operating Stack.md`
 * `/resources/microsoft-365/Email Playbook.md`
 * `/resources/microsoft-365/Calendar Playbook.md`
+* `/resources/microsoft-365/Tasks Playbook.md`
+* `/resources/microsoft-365/Teams Playbook.md`
 * `/resources/microsoft-365/Notes Playbook.md`
 * `/committees/technology/Technology Committee.md`
 * `/committees/technology/Technology Committee - Operating Runbook.md`

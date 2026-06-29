@@ -55,13 +55,13 @@ Do not store:
 
 Compiled files should be replaceable and refreshed from source.
 
-Build generation is automated:
+Build generation is config-driven:
 
 ```text
-push to main -> GitHub Actions -> config-driven build generation -> Google Drive sync
+Work OS source files -> config-driven build generation -> Google Drive sync or manual upload
 ```
 
-The workflow must generate `build/chatgpt-projects/` files before syncing the repository to Google Drive.
+The build step must generate `build/chatgpt-projects/` files before syncing or uploading runtime packages.
 
 Work OS build details live outside the generic script:
 
@@ -69,7 +69,6 @@ Work OS build details live outside the generic script:
 |---|---|
 | Generic builder | `/scripts/build_chatgpt_projects.py` |
 | Work OS package config | `/config/chatgpt-project-builds.json` |
-| GitHub Actions workflow | `/.github/workflows/build-chatgpt-projects-and-sync-to-drive.yml` |
 
 ---
 
@@ -86,7 +85,7 @@ These two files are the Work OS project definition.
 
 Use this package for committee planning, source-boundary review, and agent runtime-package upkeep.
 
-The package is regenerated after push by GitHub Actions when changes are merged to `main`. Update `/config/chatgpt-project-builds.json` when Work OS ChatGPT Project scope, committee governance, agent runtime behavior, source boundaries, or project boundaries change.
+The package is regenerated from `/config/chatgpt-project-builds.json` before Google Drive sync or manual upload. Update `/config/chatgpt-project-builds.json` when Work OS ChatGPT Project scope, committee governance, agent runtime behavior, source boundaries, or project boundaries change.
 
 Runtime package rule:
 
@@ -230,7 +229,7 @@ Before finalizing a generated package, verify:
 * The package follows Work OS information-handling and source-boundary rules.
 * The package does not redefine corporate systems of record.
 * The package can be regenerated from the listed sources.
-* The config-driven builder generates the expected files before the Drive sync step runs.
+* The config-driven builder generates the expected files before Drive sync or manual upload.
 * Runtime prompts can assume project sources are uploaded and can rely on direct conversation attachments for prompt-specific working files.
 
 ---
