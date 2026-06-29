@@ -68,6 +68,78 @@
           "base_filename": "Project Knowledge",
           "companion_base_filename": "Project Instructions",
           "compiled_heading": "Compiled Knowledge",
+          "daily_operating_index": [
+            {
+              "prompt_type": "Email triage",
+              "expected_attachment": "Email thread, mailbox summary, or Copilot email result",
+              "use_rules": [
+                "Email Playbook",
+                "AB-Gatekeeper"
+              ]
+            },
+            {
+              "prompt_type": "Executive draft",
+              "expected_attachment": "Source note, email, meeting context, or draft",
+              "use_rules": [
+                "AB-Executive Drafter",
+                "Recipient Playbook"
+              ]
+            },
+            {
+              "prompt_type": "Meeting prep",
+              "expected_attachment": "Calendar event, agenda, notes, emails, or relevant files",
+              "use_rules": [
+                "Calendar Playbook",
+                "Notes Playbook",
+                "Technology Committee rules when applicable"
+              ]
+            },
+            {
+              "prompt_type": "Task cleanup",
+              "expected_attachment": "Microsoft To Do list, flagged-email list, or commitment summary",
+              "use_rules": [
+                "Tasks Playbook",
+                "Email Playbook",
+                "Operating Stack boundaries"
+              ]
+            },
+            {
+              "prompt_type": "Teams follow-up",
+              "expected_attachment": "Teams thread, meeting recap, or follow-up notes",
+              "use_rules": [
+                "Teams Playbook",
+                "Tasks Playbook",
+                "Notes Playbook"
+              ]
+            },
+            {
+              "prompt_type": "Committee routing",
+              "expected_attachment": "Topic description, triage note, brief, or decision artifact",
+              "use_rules": [
+                "Technology Committee charter",
+                "Operating Runbook",
+                "Committee templates"
+              ]
+            },
+            {
+              "prompt_type": "Agent package maintenance",
+              "expected_attachment": "Proposed instruction, playbook, source-package, test, or pilot change",
+              "use_rules": [
+                "AB-Gatekeeper instructions",
+                "AB-Executive Drafter instructions",
+                "OneDrive Source Package rules"
+              ]
+            },
+            {
+              "prompt_type": "Source-boundary review",
+              "expected_attachment": "Proposed upload list, source package, exported artifact, or exposure question",
+              "use_rules": [
+                "Information Handling Policy",
+                "Operating Stack",
+                "OneDrive Source Package rules"
+              ]
+            }
+          ],
           "sources": [
             {
               "path": "/AGENTS.md",

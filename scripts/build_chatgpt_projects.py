@@ -214,6 +214,41 @@ def source_manifest(artifact: dict[str, Any]) -> str:
     return "\n".join(lines) + "\n"
 
 
+def markdown_table_cell(value: Any) -> str:
+    if isinstance(value, list):
+        text = "; ".join(str(item) for item in value)
+    else:
+        text = str(value)
+    return text.replace("|", "\\|").replace("\n", " ")
+
+
+def daily_operating_index(artifact: dict[str, Any]) -> str:
+    entries = artifact.get("daily_operating_index", [])
+    if not entries:
+        return ""
+
+    lines = [
+        "## Daily Operating Index",
+        "",
+        "| Prompt type | Expected attachment | Use these rules |",
+        "|---|---|---|",
+    ]
+    for entry in entries:
+        lines.append(
+            "| "
+            + " | ".join(
+                [
+                    markdown_table_cell(entry["prompt_type"]),
+                    markdown_table_cell(entry["expected_attachment"]),
+                    markdown_table_cell(entry["use_rules"]),
+                ]
+            )
+            + " |"
+        )
+    lines.append("")
+    return "\n".join(lines) + "\n"
+
+
 def merged_sources(sources: list[dict[str, Any]]) -> str:
     chunks: list[str] = []
     for source in sources:
@@ -271,6 +306,7 @@ def build_artifact(config: dict[str, Any], package: dict[str, Any], artifact: di
         + runtime_rule(config, package, artifact, companion)
         + compilation_scope(artifact)
         + source_manifest(artifact)
+        + daily_operating_index(artifact)
         + f"## {artifact.get('compiled_heading', 'Compiled Context')}\n\n"
         + merged_sources(artifact["sources"])
     )

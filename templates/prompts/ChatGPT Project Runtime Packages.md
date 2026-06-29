@@ -207,6 +207,7 @@ Use this structure for every generated package:
 * Output filename
 * Runtime package rule
 * Source manifest
+* Daily Operating Index for recurring prompt routing
 * Selected source excerpts
 * Operating-stack and Microsoft 365 working-playbook boundaries
 * Relevant committee and agent decision rules

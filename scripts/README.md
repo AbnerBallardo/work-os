@@ -39,6 +39,7 @@ The builder reads a JSON config with:
 | `runtime_rule_lines` | Default runtime rules inserted into generated artifacts |
 | `packages` | Runtime packages to generate |
 | `artifacts` | Files generated for each package |
+| `daily_operating_index` | Optional artifact-level prompt routing table generated before compiled source content |
 | `sources` | Source files or selected source sections compiled into an artifact |
 
 Source paths are repository-relative and must start with `/`.
@@ -66,6 +67,7 @@ Each generated file includes:
 * runtime package rule,
 * compilation scope,
 * source manifest,
+* optional daily operating index,
 * compiled source content.
 
 When companion artifacts are configured, both files use the same timestamp and reference each other by generated filename.
