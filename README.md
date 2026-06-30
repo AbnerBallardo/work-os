@@ -1,6 +1,6 @@
 # Work OS
 
-Version: v1.1
+Version: v1.2
 
 ---
 
@@ -106,45 +106,12 @@ This file does NOT:
 
 ## System Boundaries
 
-### Work OS
-
-Contains:
-
-* Private Work operating context
-* Work execution and narrative rules
-* Work governance artifacts
-* Committee operating templates
-* Sanitized agent runtime sources
-* Runtime-package source boundary documents
-* Work OS ChatGPT Project templates and generated upload artifacts
-* Pilot, test, and reference material for maintained agents
-* Compressed Work memory and durable Work decision records
-
-### Personal OS
-
-Contains only:
-
-* Operator-level Work overview
-* Cross-domain Work implications
-* Stable Work principles that affect Personal OS decisions
-* Repository and source-boundary references
-
-Personal OS does not store detailed Work political context, leadership maps, operational cases, Work agent packages, or Work governance artifacts.
-
-### Corporate Systems
-
-Contain:
-
-* Official Work records
-* Corporate communication
-* Team collaboration artifacts
-* Retention-governed documents
-
-Work OS does not replace corporate systems of record.
-
-### Content OS
-
-Contains public-expression governance only. Work OS material may influence public frameworks only after it is generalized and cleared under the information-handling policy.
+| System | Owns | Does Not Own |
+|---|---|---|
+| Work OS | Detailed private Work context, execution rules, governance, memory, decision records, committee artifacts, agent runtime sources, and runtime-package boundaries | Official corporate records or raw execution logs |
+| Personal OS | Operator-level Work overview, cross-domain implications, stable principles, and repository/source-boundary references | Detailed Work politics, leadership maps, operational cases, Work agent packages, or Work governance |
+| Corporate systems | Official Work records, communication, collaboration, and retention-governed documents | Private Work OS reasoning |
+| Content OS | Public-expression governance after generalization and exposure review | Work context storage |
 
 ---
 
@@ -276,17 +243,12 @@ Hard rule:
 Signal -> Interpretation -> Decision -> Execution Control -> Narrative -> Feedback -> Source Update
 ```
 
-Canonical control:
+Canonical control lives in the [Canonical Sources](#canonical-sources) table.
 
-* Work context: `/context/Context.md`
-* Work execution model: `/context/PARA.md`
-* Work operating stack: `/context/Operating Stack.md`
-* Information handling: `/context/Information Handling Policy.md`
-* Work memory: `/memory/Work - Memory.md`
-* Governance: `/committees/technology/Technology Committee.md`
-* Mechanics: `/committees/technology/Technology Committee - Operating Runbook.md`
-* Agent behavior: `/agents/*/* - Agent Instructions.md`
-* Runtime boundaries: `/agents/*/* - OneDrive Source Package.md`
+Rule:
+
+* Update canonical source files first.
+* Treat generated runtime packages, chat outputs, and prompt-specific attachments as working artifacts until promoted after review.
 
 ---
 

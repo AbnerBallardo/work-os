@@ -1,6 +1,6 @@
 # ChatGPT Project Custom Instructions
 
-Version: v1.1
+Version: v1.2
 
 ---
 
@@ -33,7 +33,6 @@ Work OS provides:
 
 * project instructions,
 * project knowledge,
-* source manifests,
 * committee and agent governance references,
 * and runtime-package definitions.
 
@@ -99,12 +98,12 @@ Shared/global rules mean:
 * Hard ceiling
 * Compilation Model
 
-Project-specific custom instructions mean:
+Project-specific rules mean:
 
 * Purpose
 * Typical Conversations
 * Runtime Package To Upload
-* Compilation Scope
+* Scope Authority
 * Custom Instructions
 
 ---
@@ -136,45 +135,22 @@ Optional companion:
 
 * Personal OS-generated operator-context supplement, only when cross-domain operator context is required.
 
-## Compilation Scope
+## Scope Authority
 
-### Project Instructions artifact
+Do not maintain a parallel source list in this file.
 
-Selected excerpts only:
+| Scope question | Authority |
+|---|---|
+| Build input list and excerpt labels | `/config/chatgpt-project-builds.json` |
+| Runtime-package contract and exclusions | `/templates/prompts/ChatGPT Project Runtime Packages.md` |
+| Project role and custom-instruction intent | This file |
 
-* `/AGENTS.md`
-* `/README.md`
-* `/context/Information Handling Policy.md`
-* `/templates/prompts/ChatGPT Project Runtime Packages.md`
-* `/templates/prompts/ChatGPT Project Custom Instructions.md`
+Default package intent:
 
-### Project Knowledge artifact
+* Project Instructions: repository behavior, information handling, runtime-package rules, and Work OS custom-instruction intent.
+* Project Knowledge: operating boundaries, Microsoft 365 playbooks, Technology Committee governance, and approved agent/source-package rules.
 
-Selected excerpts only:
-
-* `/AGENTS.md`
-* `/README.md`
-* `/context/Information Handling Policy.md`
-* `/context/Operating Stack.md`
-* `/resources/microsoft-365/Email Playbook.md`
-* `/resources/microsoft-365/Calendar Playbook.md`
-* `/resources/microsoft-365/Tasks Playbook.md`
-* `/resources/microsoft-365/Teams Playbook.md`
-* `/resources/microsoft-365/Notes Playbook.md`
-* `/committees/technology/Technology Committee.md`
-* `/committees/technology/Technology Committee - Operating Runbook.md`
-* `/committees/technology/Technology Committee - Triage Submission Template.md`
-* `/committees/technology/Technology Committee - Topic Brief Template.md`
-* `/committees/technology/Technology Committee - Agenda Template.md`
-* `/committees/technology/Technology Committee - Decision Log Template.md`
-* `/agents/ab-gatekeeper/AB-Gatekeeper - Agent Instructions.md`
-* `/agents/ab-gatekeeper/AB-Gatekeeper - Project Context Register.md`
-* `/agents/ab-gatekeeper/AB-Gatekeeper - OneDrive Source Package.md`
-* `/agents/ab-executive-drafter/AB-Executive Drafter - Agent Instructions.md`
-* `/agents/ab-executive-drafter/AB-Executive Drafter - Recipient Playbook.md`
-* `/agents/ab-executive-drafter/AB-Executive Drafter - OneDrive Source Package.md`
-
-Excluded from the durable package:
+Excluded by default:
 
 * Full source files.
 * Broad Work context, Work memory, political context, leadership context, and case files.

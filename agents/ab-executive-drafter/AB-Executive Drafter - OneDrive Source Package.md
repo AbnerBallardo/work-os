@@ -1,6 +1,6 @@
 # AB-Executive Drafter - OneDrive Source Package
 
-Version: v1.3
+Version: v1.4
 Owner: VP Technology / Acting CIO
 Status: Ready for minimal work-stack sharing
 Applies To: Files shared with the M365 Copilot Agent
@@ -11,12 +11,9 @@ Applies To: Files shared with the M365 Copilot Agent
 
 Define the curated OneDrive source package for AB-Executive Drafter.
 
-The agent should use only approved source files.
+Only the required runtime files below should be connected to the agent.
 
-Only connect approved runtime files.
-
-Do not share raw Personal OS, political notes, leadership assessments, private personnel context, or unresolved working
-notes.
+Do not share raw Personal OS, political notes, leadership assessments, private personnel context, or unresolved working notes.
 
 ---
 
@@ -50,12 +47,11 @@ Keep these files outside the M365 agent source folder unless there is a specific
 | [AB-Executive Drafter - Copilot Agent Vision.md](AB-Executive%20Drafter%20-%20Copilot%20Agent%20Vision.md) | Strategy / roadmap reference only |
 | [AB-Executive Drafter - Test Scenarios.md](AB-Executive%20Drafter%20-%20Test%20Scenarios.md) | Testing / validation only |
 | [AB-Executive Drafter - Pilot Plan.md](AB-Executive%20Drafter%20-%20Pilot%20Plan.md) | Rollout planning only |
-| Personal OS master files | Private operator, decision, prompting, and execution-system context |
+| Personal OS operator or capacity context | Private cross-domain context; use only through a reviewed, sanitized extract |
 | Work OS `context/Context.md` | Private source for stable Work-domain realities and truth-vs-narrative boundary |
 | Work OS `context/PARA.md` | Private source for execution, narrative-layer, and pruning rules |
 | Work OS `context/Political.md` | Private stakeholder dynamics; use only to derive safe communication rules |
 | Work OS `context/Leadership Map.md` | Private leadership and delegation context; use only to derive sanitized guidance |
-| Personal OS `Personal - Context.md` | Private capacity context; use only to avoid adding unnecessary cognitive load |
 | Raw stakeholder notes | Private working context |
 | CV or personal profile | Personal reference only |
 
@@ -65,22 +61,12 @@ Keep these files outside the M365 agent source folder unless there is a specific
 
 Do not share these source types with the agent:
 
-* Raw Work OS memory
-* Political context
-* Leadership assessments
-* Case files
-* Draft emails
-* Meeting notes
-* Incident details
-* Active execution material
+* Raw Work OS memory, broad context, or case files
+* Political, leadership, stakeholder, personnel, or raw strategic interpretation
+* Private Personal OS files or operator/capacity context
+* Draft emails, meeting notes, incident details, active execution material, or informal notes
 * Full decision-record libraries
 * Test, pilot, or vision files unless explicitly approved
-* Private leadership assessments
-* Political interpretation notes
-* Sensitive personnel context
-* Raw strategic thinking
-* Personal OS files not intended for team consumption
-* Informal notes not reviewed for team use
 * Documents with unresolved contradictory instructions
 
 ---
