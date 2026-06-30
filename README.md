@@ -65,6 +65,7 @@ These files define the system. They are the **sources of truth**:
 | AB-Executive Drafter runtime behavior | `/agents/ab-executive-drafter/AB-Executive Drafter - Agent Instructions.md` |
 | AB-Executive Drafter recipient rules | `/agents/ab-executive-drafter/AB-Executive Drafter - Recipient Playbook.md` |
 | M365 source boundaries | `/agents/*/* - OneDrive Source Package.md` |
+| Reusable Work OS prompt templates | `/templates/prompts/Core Prompt Templates.md` |
 | Work OS ChatGPT Project definitions | `/templates/prompts/ChatGPT Project Custom Instructions.md` |
 | Work OS ChatGPT Project runtime packaging | `/templates/prompts/ChatGPT Project Runtime Packages.md` |
 
@@ -141,7 +142,7 @@ Otherwise:
 /committees/technology/          -> Technology Committee charter, runbook, and templates
 /agents/ab-gatekeeper/           -> Gatekeeper runtime package, references, tests, and pilot material
 /agents/ab-executive-drafter/    -> Executive drafting runtime package, playbook, tests, and pilot material
-/templates/prompts/              -> ChatGPT Project source-side templates and package rules
+/templates/prompts/              -> Reusable prompt templates, ChatGPT Project definitions, and package rules
 /build/chatgpt-projects/work-os/ -> Generated upload package when present for the Work OS ChatGPT Project
 /archive/                        -> Inactive or superseded Work artifacts
 /AGENTS.md                       -> Codex maintenance instructions

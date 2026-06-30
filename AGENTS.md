@@ -37,7 +37,7 @@ Preserve decision quality, structural integrity, source boundaries, and long-ter
 | Technology Committee | `committees/technology/` | Executive decision forum, triage-first governance, decision records, and templates |
 | AB-Gatekeeper | `agents/ab-gatekeeper/` | Runtime package, references, tests, pilot plan, and source boundary for emails to Abner |
 | AB-Executive Drafter | `agents/ab-executive-drafter/` | Runtime package, recipient playbook, references, tests, pilot plan, and source boundary |
-| ChatGPT Project templates | `templates/prompts/` | Source-side Work OS ChatGPT Project definitions and runtime-package rules |
+| Prompt templates | `templates/prompts/` | Reusable Work OS prompt templates, ChatGPT Project definitions, and runtime-package rules |
 | ChatGPT Project builds | `build/chatgpt-projects/work-os/` | Generated upload artifacts when present |
 | Archive | `archive/` | Inactive or superseded Work artifacts |
 | Repository guide | `README.md` | Orientation only |
@@ -88,6 +88,7 @@ Do not copy Personal OS family, personal, venture, or Content OS context into Wo
 | AB-Executive runtime behavior | `agents/ab-executive-drafter/AB-Executive Drafter - Agent Instructions.md` | Active behavior must be embedded here before deployment |
 | Recipient-specific drafting | `agents/ab-executive-drafter/AB-Executive Drafter - Recipient Playbook.md` | Keep stable recipient rules here; exclude raw political/personnel notes |
 | M365 source boundaries | `*- OneDrive Source Package.md` | Keep runtime packages minimal and least-privilege |
+| Reusable Work OS prompt templates | `templates/prompts/Core Prompt Templates.md` | Keep stable prompt patterns here; exclude temporary execution prompts and high-churn examples |
 | Work OS ChatGPT Project definitions | `templates/prompts/ChatGPT Project Custom Instructions.md` | Keep project role, runtime assumptions, and source scope here |
 | Work OS ChatGPT Project runtime packaging | `templates/prompts/ChatGPT Project Runtime Packages.md` | Keep compilation rules and generated package contract here |
 | Generated packages | `build/chatgpt-projects/` | Treat as generated upload artifacts, not canonical source |
