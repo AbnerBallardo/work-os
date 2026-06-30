@@ -1,6 +1,6 @@
 # ChatGPT Project Custom Instructions
 
-Version: v1.2
+Version: v1.3
 
 ---
 
@@ -42,6 +42,40 @@ Personal OS must not define Work OS project instructions, detailed Work context,
 
 ---
 
+## Runtime Package Rules
+
+Use generated runtime packages as the default ChatGPT Project upload from Work OS.
+
+Runtime-package authority:
+
+```text
+/templates/prompts/ChatGPT Project Runtime Packages.md
+```
+
+Build-scope authority:
+
+```text
+/config/chatgpt-project-builds.json
+```
+
+Rules:
+
+* Use Work OS source files as build inputs only; do not upload raw Work OS source files by default.
+* Include the smallest source set that makes the project useful for recurring Work OS reasoning, committee governance, and agent package maintenance.
+* Preserve source meaning materially intact in generated packages; do not replace selected source content with summaries.
+* Apply `/context/Information Handling Policy.md` before externalizing content.
+* Treat ChatGPT outputs as drafts until promoted back into Work OS, a corporate system, or a controlled runtime package after review.
+
+Runtime build rule:
+
+```text
+Work OS source files -> project-specific runtime build -> ChatGPT Project upload
+```
+
+Runtime builds are generated, self-contained upload artifacts, not sources of truth.
+
+---
+
 ## Runtime Context Assumption
 
 Every Work OS ChatGPT Project prompt assumes the project already has the following uploaded in the ChatGPT Project sources section:
@@ -69,6 +103,60 @@ Change package scope in the config file, not in generated `build/` artifacts.
 
 ---
 
+## Project Admission Rules
+
+Create or keep a Work OS ChatGPT Project only when:
+
+* Context compounds over time.
+* Persistent context improves Work OS reasoning quality.
+* The project supports recurring repository maintenance, source-boundary review, committee governance, or agent runtime-package upkeep.
+* The uploaded source context has relatively low volatility.
+
+Avoid permanent Work OS ChatGPT Projects for:
+
+* One-off meetings
+* Temporary committees
+* Incidents
+* Stakeholders
+* Pilots
+* Short-lived initiatives
+* Active task lists
+* Corporate records
+
+Rule:
+
+```text
+If the context is temporary, operational, or high-churn, use prompt-specific attachments or the correct corporate system instead of creating a permanent ChatGPT Project.
+```
+
+---
+
+## Temporary Project Rule
+
+Temporary ChatGPT Projects should remain exceptional for Work OS.
+
+Use a temporary project only when:
+
+* The work requires repeated reasoning over a bounded period.
+* The context is too large or iterative for prompt-specific attachments.
+* Source-boundary and information-handling risk has been reviewed.
+* There is a clear close, archive, or deletion point.
+
+Lifecycle:
+
+```text
+Active -> Complete -> Archive/Delete
+```
+
+Rules:
+
+* Persistent projects accumulate reusable context.
+* Temporary projects expire.
+* Temporary project outputs must be routed to Work OS, corporate systems, or archive only when they become durable.
+* Do not preserve temporary ChatGPT Projects out of convenience.
+
+---
+
 ## Current Work OS Project Set
 
 | Project | Role | Runtime package |
@@ -93,7 +181,11 @@ Shared/global rules mean:
 
 * Purpose
 * Ownership Rule
+* Runtime Package Rules
 * Runtime Context Assumption
+* Runtime Build Automation
+* Project Admission Rules
+* Temporary Project Rule
 * Current Work OS Project Set
 * Hard ceiling
 * Compilation Model
@@ -133,7 +225,13 @@ Default:
 
 Optional companion:
 
-* Personal OS-generated operator-context supplement, only when cross-domain operator context is required.
+* Personal OS-generated `Personal OS Context - <YYYYMMDD-HHMMSSZ>.md`, only when cross-domain operator context is required.
+
+Companion boundary:
+
+* The Personal OS companion is operator context only.
+* It must not define Work OS project behavior, source scope, committee governance, agent runtime behavior, source manifests, or execution logic.
+* If companion context conflicts with Work OS source files, Work OS governs Work-specific behavior.
 
 ## Scope Authority
 
